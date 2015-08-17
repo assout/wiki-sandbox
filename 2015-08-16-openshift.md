@@ -15,3 +15,4 @@ categories: []
 		rhc ssh $app
 * ログtail
 		rhc tail -a myapp
+
