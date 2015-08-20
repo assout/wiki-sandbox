@@ -21,3 +21,12 @@ categories: []
 * [+]	制約
 > plus constraints	実装要求、インターフェイス要求、物理要求	プロジェクト上の制約に反しているもの
 
+# Notes
+* [Validation と Verification の違い：Garbage In Garbage Out](http://g1g0.com/2013/08/1811/)
+> 言い換えると、
+> Validationは、ソフトウェアが要求仕様を正しく反映しているか否か、要求された機能や性能を満たしているか否かを確認する。
+> Verificationは、正しいかどうかを検証することで、あるモジュールがある入力に対して正しい出力を生成するか否か、ということである。
+> 
+> Validationを行って、妥当であればvalidといい、妥当でなければinvalidという。
+> Verificationを行なって、正しければcorrectといい、正しくなければincorrectという。
+

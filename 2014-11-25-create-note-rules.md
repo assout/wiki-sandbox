@@ -67,4 +67,5 @@ categories: []
 * 原則 vim - memolist でとる。
 
 # references
-[hoge](./2014-10-30-document-format-rules.md)
+<./2014-10-30-document-format-rules.md>
+
