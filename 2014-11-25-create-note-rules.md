@@ -63,7 +63,7 @@ categories: []
 
 ## study note
 * ノートは「ナカバヤシ スイング・ロジカルノート」か、コーネルメソッドのやつがよさそう。
--> 結局campus が一番良さそう。-> マスが大きければRHODIAでも良いが。 -> フォルムがよいのでRHODIAにしてる
+-> 結局campus が一番良さそう。-> マスが大きければRHODIAでも良いが。
 
 ## pc memo
 * 原則 vim - memolist でとる。
