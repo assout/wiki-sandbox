@@ -2,4 +2,7 @@ language: ruby
 install:
     - gem install mdl
 script:
-  - mdl -r "~MD007,~MD010,~MD013,-MD024,~MD033" .
+  - echo "rules '~MD007,~MD010,~MD013,-MD024,~MD033'" > ~/.mdlrc
+  - ignores="2014-09-09-eclipse.md, 2015-01-25-fedora.md, 2015-01-25-fedora.md, 2015-01-27-markdown.md"
+  - for file in $(ls | egrep "*.md") ; do if [ -z "$(echo "${ignores}" | egrep "${file}")" ] ; then mdl ${file}; fi; done
+
