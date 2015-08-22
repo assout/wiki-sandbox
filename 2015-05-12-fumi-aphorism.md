@@ -1,9 +1,10 @@
-Title: fumi-aphorism
-==========
+# Title: fumi-aphorism
+
 date: 2015-05-12 22:54
 tags: []
 categories: []
-- - -
+
+---
 これからの時代の考え方
 
 * 成城石井品質のソースコード

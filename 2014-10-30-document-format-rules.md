@@ -1,10 +1,12 @@
-Title: document format rules
-==========
+# Title: document format rules
+
 date: 2014-10-30 14:49
 tags: []
 categories: []
-- - -
-# 構成
+
+---
+## 構成
+
 * 言葉の定義
 * 基本設計
 	* 機能追加の目的
@@ -15,12 +17,14 @@ categories: []
 	* -> 細かい条件など
 * 画面レイアウト設計
 
-# フォーマット
+## フォーマット
+
 * 説明資料は基本 PPT で作る
 	* -> Excelは印刷に不向き
 	* -> アウトラインレベルは text で markdown で書く
 
-# Excel で作る場合
+## Excel で作る場合
+
 アウトラインがわかりやすいように以下の構成とする
 markdown と互換性を持たせとく(途中で切り替えたりしやすいように)
 
@@ -29,6 +33,7 @@ B列 ## 節番号
 
 章題、節第、項題は下線を引く
 
-# references
+## references
+
 <./2014-11-25-create-note-rules.md>
 

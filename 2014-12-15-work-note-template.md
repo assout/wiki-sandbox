@@ -1,16 +1,20 @@
-Title: work note template
-==========
+# Title: work note template
+
 date: 2014-12-15 13:56
 tags: []
 categories: []
-- - -
-# about this
+
+---
+## about this
+
 作業メモの書き方、テンプレートをまとめる。
 
-# notes
+## notes
+
 * vimrcに登録した現在時刻コマンドを作業の区切りで実行していく。
 
-# format,example
+## format,example
+
 	# about this
 	目的はB票111の調査、対策完了まで。
 
@@ -35,7 +39,7 @@ categories: []
 
 	## 有識者へ確認
 	まず(sato)へ確認。
-	-> 以下内容を確認できた。  
+	-> 以下内容を確認できた。
 	* そもそも既存バグ。
 	* マニュアルXXにそれっぽいことが書いてあった。
 

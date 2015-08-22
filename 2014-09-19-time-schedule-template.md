@@ -1,9 +1,10 @@
-Title: time-schedule-template
-==========
+# Title: time-schedule-template
+
 date: 2014-09-19 14:01
 tags: []
 categories: []
-- - -
+
+---
 
 * 2030-2100 : ユースケース、画面遷移図再確認(たぶん軽い修正も)
 * -2200     : 釣り人画面イメージ作成 -> 項目表示とイベントの動作イメージとか。

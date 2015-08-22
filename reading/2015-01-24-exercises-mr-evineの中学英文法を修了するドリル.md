@@ -1,16 +1,21 @@
-Title: exercises Mr Evineの中学英文法を修了するドリル
-==========
+# Title: exercises Mr Evineの中学英文法を修了するドリル
+
 date: 2015-01-24 19:25
 tags: []
 categories: []
-- - -
-# prelude
+
+---
+
+## prelude
+
 * <./2015-01-24-reading-mr-evineの中学英文法を修了するドリル.md>
 * -> 正否
 * => まとめて○
 
-# Lesson.01 - 英語の語順 SV文型
-## 1st
+## Lesson.01 - 英語の語順 SV文型
+
+### 1st
+
 * 1 -> ok.
 	* (1) V
 	* (2) M
@@ -37,20 +42,24 @@ categories: []
 	* (b) you run fast.
 	* (c) I come here tonight.
 
-# Lesson.02 - 英語の語順 SVC文型
-## 1st @2015-02-27 23:18:52
-### L.01
+## Lesson.02 - 英語の語順 SVC文型
+
+### 1st @2015-02-27 23:18:52
+
+#### L.01
+
 * 1 -> ok.
 	* (1) S=We, V=volunteer
 	* (2) S=I, V=come
 	* (3) S=You and I, V=relax
-* 2 -> 
+* 2 ->
 	* (1) You are ski here in winter.
 	-> ng, You ski here in winter.
 	* (2) You and I are cook in the kitchen every day.
 	-> ng, You and I cook in the kitchen every day.
 
-### L.02
+#### L.02
+
 * 1
 	* (1) x -> ok.
 	* (2) o -> ok.
@@ -74,16 +83,20 @@ categories: []
 	* い
 	* あ
 
-# Lesson.03 - 英語の語順 SVO文型
-## 1st @2015-03-01 15:52:28
-### L.02
+## Lesson.03 - 英語の語順 SVO文型
+
+### 1st @2015-03-01 15:52:28
+
+#### L.02
+
 1. : あ、う、え -> ok.
 2. : -> ok.
 	1. We swim in a pool today.
 	2. You and I look strange.
 	3. You stay in the classroom.
 
-### L.03
+#### L.03
+
 1. : -> ok.
 	1. x
 	2. o
@@ -108,9 +121,12 @@ categories: []
 	1. I study English in the evening.
 	2. I enjoy a Japanese festival in summer.
 
-# Lesson.04 - 形容詞と副詞
-## 1st @2015-03-01 17:45:46 ->  @18:14:22
-### L.03
+## Lesson.04 - 形容詞と副詞
+
+### 1st @2015-03-01 17:45:46 ->  @18:14:22
+
+#### L.03
+
 1. : -> ok.
 	1. sv
 	2. svo
@@ -121,7 +137,8 @@ categories: []
 	1. You play tennis after school.
 	2. I watch a movie on Sunday.
 
-### L.04
+#### L.04
+
 1. : -> ok.
 	0. 形容詞 , 副詞
 	1. bad    , never
@@ -146,10 +163,12 @@ categories: []
 	2. You sometimes speak English well.
 	3. My brother has a little money.
 
-# Lesson.05 - SVOO文型
+## Lesson.05 - SVOO文型
 
-## 1st @2015-03-01 18:27:57 -> @19:00:48
-### L.04
+### 1st @2015-03-01 18:27:57 -> @19:00:48
+
+#### L.04
+
 1. : -> ok.
 	1. あ
 	2. い
@@ -161,7 +180,8 @@ categories: []
 	2. I want a luxury car very much.
 	3. You have many interesting books.
 
-### L.05
+#### L.05
+
 1. : b, c, e -> ok.
 2. : -> ok.
 	1. You cook an omelet for me.
@@ -176,9 +196,12 @@ categories: []
 	5. I often send a letter to you.
 	6. I make dinner for you.
 
-# Lesson.06 - SVOC文型
-## 1st @2015-03-12 20:32:10
-### L.05
+## Lesson.06 - SVOC文型
+
+### 1st @2015-03-12 20:32:10
+
+#### L.05
+
 1. : -> ok.
 	1. I give you a vacation.
 	2. I buy some onions for you.
@@ -191,7 +214,8 @@ categories: []
 	4. SV
 	5. SVOO
 
-### L.06
+#### L.06
+
 1. : -> ok.
 	1. b
 	2. a
@@ -227,14 +251,19 @@ categories: []
 		* O1. me
 		* O2. the address
 
-# Communication Stage 1
-## 1st
+## Communication Stage 1
+
+### 1st
+
 * They look happy.
 * I like music too.
 
-# Lesson.7 - 主語と動詞
-## 1st @21:03:35
-### L.06
+## Lesson.7 - 主語と動詞
+
+### 1st @21:03:35
+
+#### L.06
+
 1. : -> ok.
 	1. He gets you a key. : SVOO
 	2. She finds you kind. : SVOC
@@ -249,7 +278,8 @@ categories: []
 	3. b
 	4. c
 
-### L.07
+#### L.07
+
 1. あ、え、お、か -> ng.(あえか)
 2. :
 	1. It's raining today. -> ng. : It is rainy today.
@@ -265,9 +295,12 @@ categories: []
 	2. He is from New Zealand.
 	3. You wash the car in the morning.
 
-# Lesson.08 - 名詞と代名詞
-## 1st. @2015-03-12 21:49:09
-### L.07
+## Lesson.08 - 名詞と代名詞
+
+### 1st. @2015-03-12 21:49:09
+
+#### L.07
+
 1. : -> ok.
 	1. あ : are
 	2. あ : watches
@@ -282,7 +315,8 @@ categories: []
 	3. She is always very rude.       -> ok.
 	4. He climbs the mountain.        -> ok.
 
-### L.08
+#### L.08
+
 1. : -> ok.
 	1. They sometimes play soccer after school.
 	2. She has a dog. Its name is Ponta.
@@ -306,9 +340,12 @@ categories: []
 	5. children
 	6. boxes
 
-# Lesson.09 - 否定文と疑問文
-## 1st. @2015-03-12 22:22:54
-### L.08
+## Lesson.09 - 否定文と疑問文
+
+### 1st. @2015-03-12 22:22:54
+
+#### L.08
+
 1. : -> ok.
 	1. They give their uniforms to her brothers.
 	2. That is his father's car.
@@ -322,7 +359,8 @@ categories: []
 	2. The eyes have blue.    -> ng. : Its eyes are blue.
 4. Those pictures have its title. -> ng. : Those pictures have their titles.
 
-### L.09
+#### L.09
+
 1. : -> ok.
 	1. Mr.Black doesn't support his family.
 	2. Are you Ms.Nakayama?
@@ -340,9 +378,12 @@ categories: []
 	1. Study music every night. -> ok.
 	2. Don't crazy about him. -> ng. : Don't be crazy about him.
 
-# Lesson.10 - 過去形
-## 1st. @2015-03-12 22:51:18
-### L.09
+## Lesson.10 - 過去形
+
+### 1st. @2015-03-12 22:51:18
+
+#### L.09
+
 1. :
 	1. : -> ok/ng. (He)
 		* Naoya doesn't study history.
@@ -360,7 +401,8 @@ categories: []
 	4. She collects you luggage.
 	5. He doesn't tell any stories to me.
 
-### L.10
+#### L.10
+
 1. : -> ok.
 	1. Your brother studied English in my room.
 	2. Was this stick long or short?
@@ -376,9 +418,12 @@ categories: []
 	2. He didn't see her then.
 	3. Was it rain last night? -> ng. : Did it rain last night?
 
-# Lesson.11 - 冠詞と名詞
-## 1st. @2015-03-12 23:30:17
-### L.10
+## Lesson.11 - 冠詞と名詞
+
+### 1st. @2015-03-12 23:30:17
+
+#### L.10
+
 1. :
 	1. Did he call her last Sunday?            -> o
 	2. It was rainy in Tokyo yesterday.        -> x : It didn't rain in Tokyo yesterday.
@@ -392,7 +437,8 @@ categories: []
 	3. You and I played the guitar well last week.
 	4. Did he drive a car at last?
 
-### L.11
+#### L.11
+
 1. :
 	1. I don't have a rabbit.    -> o
 	2. I want milk.              -> o
@@ -410,9 +456,12 @@ categories: []
 	4. She doesn't play the piano. -> o
 	5. We had a dinner in his house. -> x : We had dinner in his house.
 
-# Lesson.12 - 進行形
-## 1st.
-### L.11
+## Lesson.12 - 進行形
+
+### 1st.
+
+#### L.11
+
 1. : -> o
 	1. b
 	2. a
@@ -428,7 +477,8 @@ categories: []
 	1. They study Japanese four hours a day.
 	2. The sun also rises.
 
-### L.12
+#### L.12
+
 1. : -> o
 	1. Some countries are producing new stars.
 	2. Was he collecting maps and stamps?
@@ -445,15 +495,20 @@ categories: []
 	4. having
 	5. studying
 
-# Communication Stage 2
-## 1st.
+## Communication Stage 2
+
+### 1st.
+
 1. Did you study Japanese in Canada? -> o
 2. Do you speak Japanese? -> o
 3. No I don't. -> o
 
-# Lesson.13 - 未来の表現
-## 1st.
-### L.12
+## Lesson.13 - 未来の表現
+
+### 1st.
+
+#### L.12
+
 1. : 
 	1. Bob is watching a movie. -> x : Bob isn't watching a movie.
 	2. Was This fax machine working last night? -> ox : this is 小文字
@@ -469,7 +524,8 @@ categories: []
 	2. Your father wasn't working yesterday.
 	3. Is Hiroko cooking fish in the kitchen now?
 
-### L.13
+#### L.13
+
 1. : -> o
 	1. His cousin isn't going to build a house.
 	2. She will offer some advice.
@@ -485,9 +541,12 @@ categories: []
 	3. a -> o
 	4. a -> x
 
-# Lesson.14 - 助動詞
-## 1st.
-### L.13
+## Lesson.14 - 助動詞
+
+### 1st.
+
+#### L.13
+
 1. :
 	1. He isn't going to start a new sport in July. -> o
 	2. It won't snow tomorrow. -> o
@@ -500,7 +559,8 @@ categories: []
 	1. I won't buy a house.        -> x : He won't buy a house.
 	2. I'm going to watch a movie. -> o
 
-### L.14
+#### L.14
+
 1. :
 	1. He should get up early.             -> o
 	2. I must get home at about 4 o'clock. -> o
@@ -515,9 +575,12 @@ categories: []
 	5. ?                                                           -> x : I would like to have dinner with you.
 3. あ -> x : う
 
-# Lesson.15 - 疑問詞を使った疑問文
-## 1st.
-### L.14
+## Lesson.15 - 疑問詞を使った疑問文
+
+### 1st.
+
+#### L.14
+
 1. :
 	1. c -> o
 	2. b -> o
@@ -534,7 +597,8 @@ categories: []
 	2. is should -> x: must, be : He must be home now.
 	3. will -> x : can : She can make a mistake.
 
-### L.15
+#### L.15
+
 1. : -> o
 	1. b
 	2. e
@@ -553,5 +617,5 @@ categories: []
 	1. When is it rain a lot?           -> x : When does it rain a lot?
 	2. How many did my mom have record? -> x : How many records did your mom have?
 
-# Lesson.16 - 前置詞と名詞
+## Lesson.16 - 前置詞と名詞
 
