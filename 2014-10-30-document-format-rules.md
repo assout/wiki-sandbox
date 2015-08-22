@@ -30,5 +30,5 @@ B列 ## 節番号
 章題、節第、項題は下線を引く
 
 # references
-[](./2014-11-25-create-note-rules.md)
+<./2014-11-25-create-note-rules.md>
 

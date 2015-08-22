@@ -4,6 +4,9 @@ date: 2014-12-18 15:45
 tags: []
 categories: []
 - - -
+# Prelude
+* Software testingについては <./2015-08-17-software-testing.md>
+
 # commit comment
 ## references
 * [Gitのコミットメッセージの書き方 - Qiita](http://qiita.com/itosho/items/9565c6ad2ffc24c09364)
