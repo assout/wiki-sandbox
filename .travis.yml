@@ -2,4 +2,4 @@ language: ruby
 install:
     - gem install mdl
 script:
-    - mdl .
+  - mdl -r "~MD007,~MD010,~MD013,-MD024,~MD033" .
