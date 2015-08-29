@@ -6,7 +6,7 @@ categories: []
 
 ---
 
-## about this
+## About this
 
 ノート、メモの作成ルール。
 対象は以下3種類。
@@ -15,9 +15,9 @@ categories: []
 * study note : 学習ノート
 * pc memo : pcでの作業メモ
 
-## rules
+## Rules
 
-### common
+### Common
 
 * 紙と電子で記号の意味とか分けない。
 * 句読点はつける。箇条書きの場合でもつけるが、簡単な名詞句のみの場合つけなくても良い。
@@ -65,7 +65,7 @@ categories: []
 		* など
 		* または
 
-### work note
+### Work note
 
 * ノートは、RHODIA のリングタイプのB5のが使いやすい
 * ノートの構成は、「メインペイン」と「サブペイン」とする
@@ -73,17 +73,17 @@ categories: []
 * サブペインは「メモ欄」or「タイムトラック欄」 -> どっちにするか保留中
 * メモは無理して漢字つかわない。ひらがなのほうが早い
 
-### study note
+### Study note
 
 * ノートは「ナカバヤシ スイング・ロジカルノート」か、コーネルメソッドのやつがよさそう。
 	-> 結局campus が一番良さそう。-> マスが大きければRHODIAでも良いが。
 
-### pc memo
+### Pc memo
 
 * 原則 vim - memolist でとる。
 * 見出しは大文字始まり
 
-## references
+## References
 
-<./2014-10-30-document-format-rules.md>
+<2014-10-30-document-format-rules.md>
 

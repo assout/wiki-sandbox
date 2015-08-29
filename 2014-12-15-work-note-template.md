@@ -5,17 +5,17 @@ tags: []
 categories: []
 
 ---
-## about this
+## About this
 
 作業メモの書き方、テンプレートをまとめる。
 
-## notes
+## Notes
 
 * vimrcに登録した現在時刻コマンドを作業の区切りで実行していく。
 
-## format,example
+## Format,example
 
-	# about this
+	# About this
 	目的はB票111の調査、対策完了まで。
 
 	* period : 10/10 定時
@@ -24,7 +24,7 @@ categories: []
 		* 有識者へヒアリング : 2h
 		* バグ対策 : 1h
 
-	# work notes
+	# Work notes
 	## ググる
 	まずgoogleで「aaa 事象」などで検索。
 	-> 該当なし
@@ -49,11 +49,11 @@ categories: []
 		-> 再度コミットしてもらう。
 		TODO XXXに修正を再コミットしてもらう
 
-	# memo
+	# Memo
 	自社業務として勤怠入力作業を実施 [2014-12-15 14:34:51]
 	-> 完了 [2014-12-15 15:34:59]
 
-	# summary
+	# Summary
 	* 作業完了したが以下課題有り
 		* XXXのときNulpoが発生
 		* XXXのときばぐる

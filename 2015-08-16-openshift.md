@@ -13,7 +13,7 @@ categories: []
 	cd management
 	git remote add github git@github.com:assout/collection-management.git
 
-## command
+## Command
 
 * sshログイン
 		rhc ssh $app

@@ -7,21 +7,21 @@ categories: []
 ---
 ## Prelude
 
-* Software testingについては <./2015-08-17-software-testing.md>
+* Software testingについては <2015-08-17-software-testing.md>
 
-## commit comment
+## Commit comment
 
 * [Gitのコミットメッセージの書き方 - Qiita](http://qiita.com/itosho/items/9565c6ad2ffc24c09364)
 * [Subversion - コミットメッセージの作法 - Qiita](http://qiita.com/suin/items/b3619ddaa176fef519cb)
 * [vcs - オレオレコミットメッセージの生煮え書き方 - Qiita](http://qiita.com/yshr04hrk/items/39e54334b98f43544f22)
 
-### format
+### Format
 
 1行目 : 変更内容の要約（タイトル、概要）
 2行目 : 空行
 3行目以降 : 変更した理由（内容、詳細）
 
-### types
+### Types
 
 簡易版
 
@@ -49,9 +49,9 @@ categories: []
 
 * change/modify : ざっくりすぎて意味無い。
 
-## naming
+## Naming
 
-### references
+### References
 
 * [関数名によく使われる英単語（動詞）の意味とニュアンス](http://php-archive.net/php/words-in-function-names/)
 * [正しいコーディングが身につくエンジニア英語の手引き 〜文法とクラス／メソッド、命名規則〜](http://www.find-job.net/startup/ehce]nglish-for-engineers-naming-conventions)

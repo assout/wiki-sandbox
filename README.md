@@ -1,7 +1,7 @@
-# memolist [![Build Status](https://travis-ci.org/assout/memolist.svg?branch=master)](https://travis-ci.org/assout/memolist)
+# Memolist [![Build Status](https://travis-ci.org/assout/memolist.svg?branch=master)](https://travis-ci.org/assout/memolist)
 
 memolist
 
-## references
+## References
 
 <https://github.com/glidenote/memolist.vim>

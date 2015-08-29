@@ -5,14 +5,14 @@ tags: []
 categories: []
 
 ---
-## about this
+## About this
 
 * 「うっかり」してやってしまったミスを記録。再発防止。
 * 「やっちゃった」と思ったらまずこれを見る。
 	* -> 2回目以降だったら。。。戒める。。。
 	* -> はじめてだったら新規に記載する。
 
-## careless list
+## Careless list
 
 * 正しい言葉を使っていない
 	* e.g. Java のデフォルトスコープを「package private」とドキュメントに記載。しかし言語仕様上の表現は「package-private」。
