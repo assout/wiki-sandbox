@@ -2,12 +2,10 @@
 
 memolist
 
-## How to setup
+## How to install
 
 ```
-cd ./Dropbox/
-git clone git@github.com:assout/dotfiles.git
-./dotfiles/setup.sh
+curl -L https://raw.githubusercontent.com/assout/memolist/master/install.sh | bash
 ```
 
 ## References
