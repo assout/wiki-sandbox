@@ -3,5 +3,6 @@ install:
     - gem install mdl
 script:
   - cp .mdlrc ~
+  - cp .mdlrc.style.rb ~
   - mdl *.md
 

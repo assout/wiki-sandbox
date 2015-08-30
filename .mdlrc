@@ -1,4 +1,1 @@
-# TODO MD007は無効化したくないがハードタブだとエラーになってしまうっぽい
-rules "~MD007", "~MD010", "~MD013", "~MD024", "~MD029", "~MD033"
-
-# test
+style ".mdlrc.style.rb"
