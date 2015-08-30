@@ -121,8 +121,6 @@ categories: []
 
 #### 検査
 
-
-
 * is～       : オブジェクトが特定の型、状態であるか調べて true/false を返す。
 * has～      : オブジェクトが特定のプロパティを持っているかを調べて true/false を返す。権限、属性の所有を確認する。
 * contains   : 配列に特定の値が含まれているかを調べて true/false を返す。
@@ -192,5 +190,5 @@ categories: []
 
 ## Refs
 
-* [雑把の UI アーキテクチャー史(MVCからMVVMへ) | プログラマーズ雑記帳](http://yohshiy.blog.fc2.com/blog-entry-215.html)
+* [雑把の UI アーキテクチャー史(MVCからMVVMへ) プログラマーズ雑記帳](http://yohshiy.blog.fc2.com/blog-entry-215.html)
 * [- 技術文書_タイトル](http://objectclub.jp/technicaldoc/)
