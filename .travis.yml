@@ -2,7 +2,6 @@ language: ruby
 install:
     - gem install mdl
 script:
-  - cp .mdlrc ~
-  - cp .mdlrc.style.rb ~
+  - cp .mdlrc .mdlrc.style.rb ~
   - mdl *.md
 
