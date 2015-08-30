@@ -2,6 +2,6 @@ language: ruby
 install:
     - gem install mdl
 script:
-  - echo "rules '~MD007','~MD010','~MD013','~MD024','~MD033'" > ~/.mdlrc
+  # - echo "rules '~MD007','~MD010','~MD013','~MD024','~MD033'" > ~/.mdlrc
   - mdl *.md
 
