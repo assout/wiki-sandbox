@@ -2,6 +2,14 @@
 
 memolist
 
+## How to setup
+
+```
+cd ./Dropbox/
+git clone git@github.com:assout/dotfiles.git
+./dotfiles/setup.sh
+```
+
 ## References
 
 <https://github.com/glidenote/memolist.vim>
