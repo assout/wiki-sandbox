@@ -1,4 +1,5 @@
 #!/bin/bash
+
 mkdir -p ~/Dropbox/
 cd ~/Dropbox
 git clone git@github.com:assout/memolist.git
