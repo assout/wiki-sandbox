@@ -188,6 +188,25 @@ categories: []
 * 一時的結合（Temporal coupling）
 	> あるメソッドが別のメソッドに依存すること（例えば、executeしないとerrorが取得できない）。
 
+## Design Pattern
+
+ref. [Text 2 Mind Map - Design Pattern](http://www.text2mindmap.com/w2dArcX)
+
+```
+Design Pattern
+	GOF
+		生成に関するパターン
+			Abstract Factory - 関連する一連のインスタンスを状況に応じて適切に生成する方法を提供する
+			Builder
+			Factory Method
+		構造に関するパターン
+			...
+		振る舞いに関するパターン
+			...
+	マルチスレッドプログラミングに関するパターン
+		...
+```
+
 ## Refs
 
 * [雑把の UI アーキテクチャー史(MVCからMVVMへ) プログラマーズ雑記帳](http://yohshiy.blog.fc2.com/blog-entry-215.html)
