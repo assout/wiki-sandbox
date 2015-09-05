@@ -9,54 +9,9 @@ categories: []
 
 * Software testingについては <2015-08-17-software-testing.md>
 
-## Commit comment
+## Design - 設計
 
-* [Gitのコミットメッセージの書き方 - Qiita](http://qiita.com/itosho/items/9565c6ad2ffc24c09364)
-* [Subversion - コミットメッセージの作法 - Qiita](http://qiita.com/suin/items/b3619ddaa176fef519cb)
-* [vcs - オレオレコミットメッセージの生煮え書き方 - Qiita](http://qiita.com/yshr04hrk/items/39e54334b98f43544f22)
-
-### Format
-
-1行目 : 変更内容の要約（タイトル、概要）
-2行目 : 空行
-3行目以降 : 変更した理由（内容、詳細）
-
-### Types
-
-簡易版
-
-* add            : 新規（ファイル）機能追加
-* fix            : バグ修正
-* major changes  : 大きな変更
-* minor changes  : 小さな変更
-* modify(change) : 機能修正（バグではない）
-* remove         : 削除（ファイル）
-
-詳細版
-
-* add     : 新規（ファイル）機能追加
-* change  : 仕様変更
-* clean   : 整理（リファクタリング等）
-* disable : 無効化（コメントアウト等）
-* fix     : バグ修正
-* hotfix  : クリティカルなバグ修正
-* modify  : 機能修正（バグではない）
-* remove  : 削除（ファイル）
-* revert  : 変更取り消し
-* upgrade : バージョンアップ
-
-使っちゃいけない単語
-
-* change/modify : ざっくりすぎて意味無い。
-
-## Naming
-
-### References
-
-* [関数名によく使われる英単語（動詞）の意味とニュアンス](http://php-archive.net/php/words-in-function-names/)
-* [正しいコーディングが身につくエンジニア英語の手引き 〜文法とクラス／メソッド、命名規則〜](http://www.find-job.net/startup/ehce]nglish-for-engineers-naming-conventions)
-* [メソッドに名前を付けるときは英語の品詞に気をつけよう](http://qiita.com/jnchito/items/459d58ba652bf4763820)
-* [モデルやメソッドに名前を付けるときは英語の品詞に気をつけよう](http://qiita.com/jnchito/items/459d58ba652bf4763820?utm_content=buffer31738&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+### Naming - 名前付け
 
 #### 追加
 
@@ -139,9 +94,16 @@ categories: []
 * open       : ソケットなどの通信、ストリームへの接続。
 * close      : ソケットなどの通信、ストリームの終了・切断。
 
-## 凝集度、結合度
+#### Refs.
 
-### 凝集度
+* [関数名によく使われる英単語（動詞）の意味とニュアンス](http://php-archive.net/php/words-in-function-names/)
+* [正しいコーディングが身につくエンジニア英語の手引き 〜文法とクラス／メソッド、命名規則〜](http://www.find-job.net/startup/ehce]nglish-for-engineers-naming-conventions)
+* [メソッドに名前を付けるときは英語の品詞に気をつけよう](http://qiita.com/jnchito/items/459d58ba652bf4763820)
+* [モデルやメソッドに名前を付けるときは英語の品詞に気をつけよう](http://qiita.com/jnchito/items/459d58ba652bf4763820?utm_content=buffer31738&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+
+### 凝集度、結合度
+
+#### 凝集度
 
 * 偶発的凝集（Coincidental Cohesion）「最悪」
 	> 適当（無作為）に集められたものがモジュールとなっている。モジュール内の各部分には特に関連性はない（例えば、よく使われる関数を集めたモジュールなど）。
@@ -160,9 +122,9 @@ categories: []
 
 >凝集度は必ずしも上記の順に高いとか低いと言えるものではない。Larry Constantine やエドワード・ヨードンや他の人々の研究によると、上記の最初の2つは他の凝集よりも劣っており、通信的凝集以下の3つはそれ以外よりも優れている。いずれにしても7番目の機能的凝集が最も優れているとされる。
 
-### 結合度
+#### 結合度
 
-#### 手続き型プログラミング
+##### 手続き型プログラミング
 
 * 内容結合（Content coupling）「高」
 	> 病理学的結合とも呼ばれ、あるモジュールが別のモジュールの内部動作によって変化したり依存したりする(例えば別のモジュールの内部データを直接参照する)。したがって、第2のモジュールは、データを生成する方法（場所、種類、タイミング）を変更すると、依存モジュールを変更することにつながる。
@@ -181,14 +143,14 @@ categories: []
 * 無結合（No coupling）
 	> モジュールが相互に全く通信を行わない。
 
-#### オブジェクト指向プログラミング
+##### オブジェクト指向プログラミング
 
 * サブクラス結合（Subclass Coupling）
 	> 子クラスとその親クラスとの間の関係で、子クラスは、その親クラスに依存しているが、親クラスが子クラスを知らない状態。子クラスが親クラスに依存しすぎると、親クラスを修正するのが難しくなる。
 * 一時的結合（Temporal coupling）
 	> あるメソッドが別のメソッドに依存すること（例えば、executeしないとerrorが取得できない）。
 
-## Design Pattern
+### Design Pattern
 
 ref. [Text 2 Mind Map - Design Pattern](http://www.text2mindmap.com/w2dArcX)
 
@@ -206,6 +168,55 @@ Design Pattern
 	マルチスレッドプログラミングに関するパターン
 		...
 ```
+
+## Implementation - 実装
+
+### Commit comment
+
+* [Gitのコミットメッセージの書き方 - Qiita](http://qiita.com/itosho/items/9565c6ad2ffc24c09364)
+* [Subversion - コミットメッセージの作法 - Qiita](http://qiita.com/suin/items/b3619ddaa176fef519cb)
+* [vcs - オレオレコミットメッセージの生煮え書き方 - Qiita](http://qiita.com/yshr04hrk/items/39e54334b98f43544f22)
+
+#### Format
+
+1行目 : 変更内容の要約（タイトル、概要）
+2行目 : 空行
+3行目以降 : 変更した理由（内容、詳細）
+
+#### Words
+
+簡易版
+
+* add            : 新規（ファイル）機能追加
+* fix            : バグ修正
+* major changes  : 大きな変更
+* minor changes  : 小さな変更
+* modify(change) : 機能修正（バグではない）
+* remove         : 削除（ファイル）
+
+詳細版
+
+* add     : 新規（ファイル）機能追加
+* change  : 仕様変更
+* clean   : 整理（リファクタリング等）
+* disable : 無効化（コメントアウト等）
+* fix     : バグ修正
+* hotfix  : クリティカルなバグ修正
+* modify  : 機能修正（バグではない）
+* remove  : 削除（ファイル）
+* revert  : 変更取り消し
+* upgrade : バージョンアップ
+
+使っちゃいけない単語
+
+* change/modify : ざっくりすぎて意味無い
+
+## OOP - オブジェクト指向プログラミング
+
+CRCカード(Class Responsibility Collaborator)
+> クラス (class) は同じようなオブジェクトの集合であり、責務 (responsibility) はクラスが知っている、あるいは行う事柄であり、協調クラス (collaborator) はクラスが責務を果たすために相互作用する他のクラスです
+
+ref. [CRC(Class Responsibility Collaborator)モデルの概要](https://www.ogis-ri.co.jp/otc/swec/process/am-res/am/artifacts/crcModel.html)
 
 ## Refs
 
