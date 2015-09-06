@@ -212,6 +212,18 @@ Design Pattern
 
 * change/modify : ざっくりすぎて意味無い
 
+#### 7 rules
+
+1. subjectとbodyは1行あけましょう
+2. subjectは50文字以内にしましょう
+3. subjectの1文字目は大文字にしましょう
+4. subjectにperiodは不要です
+5. subjectは命令形にしましょう
+6. bodyは1行あたり72文字以内にしましょう
+7. howよりwhatやwhyをbodyに記述しましょう
+
+ref. [Gitコミットメッセージの7大原則 - rochefort&#39;s blog](http://rochefort.hatenablog.com/entry/2015/09/05/090000)
+
 ## OOP - オブジェクト指向プログラミング
 
 CRCカード(Class Responsibility Collaborator)
