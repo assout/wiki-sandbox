@@ -44,6 +44,10 @@ refs. [【Office2010】ファイルを開くとき「このWebサーバーへの
 	* フォント
 		* すべて大文字 : unchecked!
 
+## Tips
+
+* pptxファイルをShift+右クリックで「保護されたビューで開く」ができる
+
 ## Refs
 
 * [PowerPointのアウトライン関連ショートカットキー一覧 :PowerPoint(パワーポイント)の使い方](http://www.relief.jp/itnote/archives/014559.php)
