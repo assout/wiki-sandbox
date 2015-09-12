@@ -15,6 +15,8 @@ Me
 			[Readable Code]
 			[Clean Code]
 			[Code Complete]
+		Data structures, Algorithm
+			[珠玉のプログラミング]
 		OOP
 			[オブジェクト指向入門]
 			[アジャイルソフトウェア開発の奥義 第2版]
@@ -31,5 +33,5 @@ Me
 	English
 		TOEIC
 		Grammar
-			Mr. Evine の中学英文法を修了するドリル
+			[Mr. Evine の中学英文法を修了するドリル]
 ```
