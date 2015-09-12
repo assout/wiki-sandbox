@@ -2,8 +2,9 @@ language: ruby
 sudo: false
 
 install:
-    - gem install mdl
-script:
+  - gem install mdl
+before_script:
   - cp .mdlrc .mdlrc.style.rb ~
+script:
   - mdl *.md
 
