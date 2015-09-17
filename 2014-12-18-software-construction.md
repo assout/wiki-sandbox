@@ -231,6 +231,16 @@ CRCカード(Class Responsibility Collaborator)
 
 ref. [CRC(Class Responsibility Collaborator)モデルの概要](https://www.ogis-ri.co.jp/otc/swec/process/am-res/am/artifacts/crcModel.html)
 
+## Concurrent Programing - 並行プログラミング
+
+並行(concurrent)と並列(parallel)の違い
+
+* 並列(parallel) - 処理能力向上のため「新に同時進行的な処理」
+* 並行(concurrent) - 論理的に同時進行的な処理。「疑似並列」
+	* e.g. 複数スレッドコンテキストスイッチしながら同時に処理してるように見える など
+
+ref. [parallel と concurrent、並列と並行の違い - 本当は怖い情報科学](http://freak-da.hatenablog.com/entry/20100915/p1)
+
 ## Refs
 
 * [雑把の UI アーキテクチャー史(MVCからMVVMへ) プログラマーズ雑記帳](http://yohshiy.blog.fc2.com/blog-entry-215.html)
