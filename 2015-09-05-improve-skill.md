@@ -20,6 +20,8 @@ Me
 		OOP
 			[オブジェクト指向入門]
 			[アジャイルソフトウェア開発の奥義 第2版]
+			デザインパターン
+				[- 主に言語とシステム開発に関して](http://d.hatena.ne.jp/language_and_engineering/touch/20120331/p1)
 		Java
 			[Effective Java]
 		Web
