@@ -1,0 +1,445 @@
+# Title: Linux
+
+Date: 2014-09-09 13:34
+Tags: []
+categories: []
+
+---
+
+TODO Refactoring structure
+
+## Bash
+
+### Idiom, Notes
+
+* 標準[エラー]出力
+	* 標準エラー出力をリダイレクト :
+			command 2> /dev/null
+		* [UNIXの部屋 コマンド検索:リダイレクト (*BSD/Linux)](http://x68000.q-e-d.net/~68user/unix/pickup?%A5%EA%A5%C0%A5%A4%A5%EC%A5%AF%A5%C8)
+	* 標準出力とエラー出力両方をリダイレクト :
+			command > /dev/null 2>&1
+	* 標準出力とエラー出力両方を別コマンドに渡す :
+			command 2>&1 | less
+	* 標準エラー出力のみを別コマンドに渡す :
+			command 2>&1 1>/dev/null | less
+	* 標準出力と標準エラー出力を別ファイルにリダイレクト :
+			command 1> file1 2> file2
+	* echoの出力を標準エラーに出力 :
+			echo "msg" >&2
+* for文ワンライナー :
+		for name in $(ls) ; do echo ${name} done
+		for i in `seq 1 10` ; do echo $i; done
+* while文ワンライナー(無限ループとか) :
+		while true ; do ls ; sleep 2; done
+* 元いたディレクトリに戻る :
+		cd -
+* エイリアスを一時的に無効にする
+		コマンドの先頭にバックスラッシュをつける
+		\cd
+* ビルトインコマンドリスト表示
+		help
+* bashのプロセス置換機能 - [bashのプロセス置換機能を活用して、シェル作業やスクリプト書きを効率化する - 双六工場日誌](http://sechiro.hatenablog.com/entry/2013/08/15/bash%E3%81%AE%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9%E7%BD%AE%E6%8F%9B%E6%A9%9F%E8%83%BD%E3%82%92%E6%B4%BB%E7%94%A8%E3%81%97%E3%81%A6%E3%80%81%E3%82%B7%E3%82%A7%E3%83%AB%E4%BD%9C%E6%A5%AD%E3%82%84%E3%82%B9)
+	* 出力対象としてプロセス置換を使う
+		* スクリプト出力のすべてをログに取る
+				exec 1> >(tee -a stdout.log)
+	* 入力対象としてプロセス置換を使う
+		* コマンド結果をdiff [一時ファイルを作成せずに、コマンドの実行結果のdiffを取る (bashのProcess Substitutionで) - うまいぼうぶろぐ](http://hogem.hatenablog.com/entry/20090530/1243612485)
+				diff <(grep -v "exclude" inputfile) <(sed -e 's/a/b/' inputfile)
+* 連番作成
+		for i in {1..10} ; do echo $i ; done
+
+### 特殊変数
+
+* reference : [bash - 特殊変数 - あんみのの備忘録](http://d.hatena.ne.jp/anmino/20090802/1249206149)
+* list :
+		$0   	 スクリプトの名前
+		$1-9 	 スクリプトに指定された引数の値(数値は引数の位置)
+		$#   	 スクリプトに指定された引数の数
+		$*   	 スクリプトに指定された引数全部 "$*"の場合は "$1 $2..."
+		$@   	 スクリプトに指定された引数全部 "$@"の場合は "$1" "$2" ...
+		$?   	 直前のコマンドの終了ステータス
+		$$   	 カレントシェルのプロセスID
+		$!   	 直前のバックグランドジョブのプロセスID
+		$-   	 カレントシェルの動作オプション
+
+## Commands
+
+### Grep
+
+	grep PATTERN target_directory
+
+* 再帰的にgrep :
+		grep -r PATTERN target_directory
+* 複数条件指定
+		grep -e pattern1 -e pattern2
+		grep -e pattern1 | grep pattern2
+* file名のみを表示 :
+		grep -l
+* マッチ部分のみを表示 :
+		grep -o
+* バイナリを除外 :
+		grep -I
+* Perl Regexオプション使う
+	* 改行を含む検索
+			grep -P 'bbb[\s\S]*?ddd' test.txt
+		* 改行を含む検索でマッチした部分のみ表示
+				grep -oP 'bbb[\s\S]*?ddd' test.txt
+	* 肯定否定先読み戻り読み ref. [正規表現（肯定先読み、否定先読み、肯定戻り読み、否定戻り読み） - satosystemsの日記](http://d.hatena.ne.jp/satosystems/20100519/1274237784)
+		* 肯定先読み - (?=regex)
+				`# "Windows 2000" の "Windows" には一致するが、"Windows 3.1" の "Windows" には一致しない。`
+				Windows (?=95|98|NT|2000)
+				`#@ static ネストクラスを保持するJUnitテストクラスを検索`
+				grep -lroP "public class .+Test[\s\S]*?(?=static class)" . --include="*Test.java"
+				grep -lroP "public\s(final\s)?class\s.+Test[\s\S]*?(?=static\s(final\s)?class)" . --include="*Test. java" | v -
+		* 否定先読み - (?!regex)
+				"Windows (?!95|98|NT|2000)" は、"Windows 3.1" の "Windows" には一致するが、"Windows 2000" の "Windows" には一致しない。
+		* 肯定戻り読み - (?<=regex)
+				"(?<=Ubuntu|Debian GNU) Linux" は、"Ubuntu Linux" の "Linux" には一致するが、"Vine Linux" の "Linux" には一致しない。
+		* 否定戻り読み - (?<!regex)
+				"(?<!Ubuntu|Debian GNU) Linux" は、"Vine Linux" の "Linux" には一致するが、"Ubuntu Linux" の "Linux" には一致しない。
+
+### Sed
+
+* 標準出力せず直接ファイルを置換する(GNU sed限定)
+		sed -i "s/うっおとしい/うっとおしい/g" kujo.csv
+* 後方参照を使う
+		sed -e 's/h\(og\)e/\1/g'
+		sed -e 's/hoge/\0_bk/g'
+		cat config.xml  | sed -e 's?/threads>?\0\n\t\t<limit>10</limit>?g'
+	* <http://bi.biopapyrus.net/linux/sed.html>
+* 改行を含めて置換する
+		sed -e 's/hoge/hoge\nhage/g'
+* 末尾一文字を削除する
+		echo hogehoge | sed -e 's/.$//'
+* 指定した行番号の行のみ置換
+		sed -e '3s/date/Date/g'
+
+### (De)Compression commands
+
+* 7z - 7-zip操作
+		7z x filename.7z
+* zip/unzip - zip圧縮・解凍 :
+	* 圧縮
+			zip -r foo.zip bar
+	* 解凍
+			unzip archive.zip
+			unzip -d 解凍先 archive.zip
+		* 内容確認
+			unzip -l file
+		* 特定のファイルのみ解凍
+			unzip file.zip [files ...]
+* pigz - マルチコアで圧縮
+	* 圧縮
+			pigz hoge
+	* 解凍
+			pigz -d hoge
+* tar.gz (tar + gzip) - 圧縮・解凍 :
+	* tar.gz 解凍 :
+			tar zxvf filename
+	* tar.gz 圧縮 :
+			tar zcvf archive.zip filename
+* tar.bz2 (tar + bzip2) - 圧縮・解凍 :
+	* tar.bz2 解凍 :
+			tar jxf filename
+
+### Useful commands
+
+* chown - 再帰的に所有者変更 :
+		chown user:group dir -R
+* cut - 文字列を切り出す :
+	* 先頭から3文字カット
+			cut -c 3 hoge.txt
+	* 末尾文字をカット
+			echo hoge | head -c-3
+* du - ディレクトリサイズ表示 :
+		du -h --max-depth=1
+	* 一階層のみ :
+			-s
+* find - 検索:
+		find パス -name "name"
+	* 除く
+			find -name "hoge" -prune
+	* ファイルの最終更新日が3日より前のファイルを検索する
+			find . -mtime +3
+	* ファイルの最終更新日時が3分より前のファイルを検索する
+			find . -mmin +3
+	* パスのマッチする対象を検索
+			find -path "./sr*sc"
+* gpasswd - グループ操作
+	* ユーザを追加
+			gpasswd -a guest7 testgrp
+	* ユーザを削除
+			gpasswd -d guest7 testgrp
+* less, tail - ファイル内容を監視
+		less +F file
+		tail -f file
+		※less の場合、監視中にCtrl + c でファイル全体を参照できる。そこからF入力で監視再開できる。便利。
+* ln - (シンボリック)リンクを貼る
+		* シンボリックリンク
+				ln -s source [dest]
+* ls - ファイルリスト表示
+	* タイムスタンプ順にソート :
+			ls -t
+	* 逆順 :
+			ls -r
+* lsof - プロセスが使用しているファイルを調べる ref. [lsofの使い方 - プロセスが使用中のファイルを調べる - うまいぼうぶろぐ](http://hogem.hatenablog.com/entry/20070223/1172221315)
+	* プロセスID指定
+			lsof -p 12345
+			※バッククォート使うとこんな感じ
+			lsof -p `pgrep -n java`
+* man - マニュアル閲覧
+	* 関連キーワードを検索
+			man -k hoge
+* netstat - リッスンしているポートの確認 :
+		netstat -tanp | grep LISTEN
+* nkf - 文字コード変換 ref. [文字コード変換コマンドの nkfの使い方と実例をまとめました。 - それマグで！](http://takuya-1st.hatenablog.jp/entry/20100511/1273585953)
+	* 文字コード確認
+			nkf -g filename
+	* UTF8に変換
+			nkf -w filename
+	* SJISに変換
+			nkf -s filename
+	* UTF8に変換し上書き
+			nkf -Lu --oc=UTF-8-BOM --overwrite *.java *.java
+	* caution
+		* msysgitのだとnkf32.exe,nkfwin32.exeが入ってて後者はうまく動かなかった
+* nohup - ログアウトしてもバックグラウンドジョブを継続する
+		nohup ./hoge.sh &
+* pgrep - プロセスをgrep
+		pgrep -f fooProc
+	* プロセス名も表示
+			pgrep -fl fooProc
+* pkill - プロセスをkill
+		pkill -f fooProc
+	* シグナル指定
+			pkill -9 -f fooProc
+* rsync - ファイル・ディレクトリを同期する
+			rsync -ra hogeFile fooHost:/fugaDir/
+	* 特定ディレクトリを除外
+			rsync -ra --exclude 'hoge' fugaFile fooHost:/piyoDir/
+* sar - システム情報取得(ファイルから) :
+		sar -f /var/log/sa/sa18
+* sort - ソートする
+	* 数値としてソート
+			sort -n
+	* カラムを指定してソート
+			sort -k 2 #2カラム目以降のキーでソート
+			sort -k 2,2 #2カラム目のみでソート
+		* 複数カラムを指定
+				sort -k 2,2 -k 4,4
+* ulimit - コマンドに割り当てる資源を制限する :
+	* すべての値を表示する
+			ulimit -a
+	* ファイル・ディスクリプタの数を最大N個に制限する
+			ulimit -n 1024
+	* ユーザー1人が起動できるプロセス数を最大N個に制限する
+			ulimit -u 1024
+	* 永続的に変更する
+			/etc/security/limits.conf
+			@group soft nofile 4096
+			@group hard nofile 4096
+* usermod - ユーザ情報変更
+	* グループに追加
+			usermod -g group user
+* xargs - 引数を標準入力から与える :
+		find パス -name "name" | xargs rm
+
+### Seldom used commands
+
+* bc - 複雑な計算する(電卓として使う) :
+		bc
+* cal - カレンダを表示する :
+		cal [options...]
+* install - ファイルをコピーし、その属性を設定する :
+		install [options] [-s] [--strip] source dest
+	* [Man page of INSTALL](http://linuxjm.sourceforge.jp/html/gnumaniak/man1/install.1.html)
+* nl - 行番号を付けてファイルを出力する :
+		nl [options...]
+* rename - ファイル名の一括変更(リネーム・一括置換) :
+		rename from to file...
+* tee - 標準出力に加えファイルにも出力する
+		ls | tee foo.log
+		* ファイルに追記
+				ls | tee -a foo.log
+		* 標準エラー出力も対象
+				ls 2>&1 | tee foo.log
+* time - コマンドの時間計測やリソース使用量を表示する :
+		time [options] command [arguments ...]
+* tr - 文字の置換・変換をする
+		cat ./src.txt | tr '>' '\n' > ./dst.txt
+* w - ログインしている人とその人がやっていることを表示する :
+		w
+* yes - kill されるまで文字列を繰り返して出力する :
+		yes [string...]
+
+### Complex commands
+
+* 複数jarの中から特定クラスを探す :
+		unzip -l '*.zip' | grep foo.class
+* 複数ファイルから文字列を一括置換
+		find ./path/to/file -type f | xargs sed -i "s/hoge/hage/g"
+		find -name "config.xml" | xargs sed -i -e 's?<dispatch>?\0\n\t\t<limit>10</limit>?g'
+* grep結果件数を表示
+		grep foo bar | wc -l
+* grep結果を一括置換
+		grep -l 'hoge' ./foo* | xargs sed -i -e 's/hoge/hage/g'
+	* <http://qiita.com/kkyouhei/items/b4ff839a2f36ba194df3>
+* grep結果表示を置換
+		grep 'hoge' ./foo* | sed -e 's/hoge/hage/g'
+	* <http://itpro.nikkeibp.co.jp/article/COLUMN/20060228/231161/>
+* grep結果の大文字小文字を変換
+		egrep "# [a-z]" *.md | sed -e 's/\(#\+ \)\(.\)/\1\U\2/'
+		egrep -l "# [a-z]" *.md | xargs sed -i -e 's/\(#\+ \)\(.\)/\1\U\2/'
+* mv した先に cd (前のコマンドの引数を指定)
+		mv foo.file barDir/
+		cd $_
+		※↓も
+		cd !$
+* lsでディレクトリのみ表示
+		find . -maxdepth 1 -type d
+		ls -l | grep ^d
+		ls -F | grep .*/$
+* find結果などのファイル名のみ取得する
+		find . -name '*.deb' | xargs -n1 basename
+* find結果などのディレクトリ名のみ取得する
+		find . -name '*.deb' | xargs -n1 dirname
+* ヒアドキュメント結果をリダイレクト
+		cat << EOS >> /tmp/hoge 2>&1
+* 複数ファイルの拡張子を一括変更(renameコマンド使わない場合)
+		for filename in *.dmp; do mv $fliename ${filename%.dmp}.sql; done
+* プロセスの起動時間を確認する
+		ps -eo lstart,pid,args | grep hoge
+* スクリプトファイルの場所を取得する
+		* 実行されたシェルの場所(sourceコマンドなどで呼ばれた場合、呼び元が取得される)
+				script_dir=$(cd "$(dirname "$0")"; pwd)
+		* 常に実行シェルの場所(sourceコマンドなどで呼ばれた場合、呼び先が取得される)
+				here="$(cd "$(dirname "${BASH_SOURCE:-$0}")"; pwd)"
+* 4ファイル以上間のdiffを取る(3ファイルはdiff3コマンドが使えそう) TODO もっといいやり方ないか
+		for i in `find -name operation.sh` ; do echo $i; diff $(find -name operation.sh | head -1) $i ; done
+* プロセスが存在しているかどうかで処理を分ける
+		if kill -0 $PID; then
+			echo "exists"
+		else
+			echo "not exists"
+		fi
+
+## Key-shortcuts
+
+* refs:
+	* [shell のショートカットキー適当にまとめてみた。 Lonely Mobiler](http://loumo.jp/wp/archive/20120305090532/)
+* 行頭へ移動:
+		ctrl+a
+* 行末へ移動:
+		ctrl+e
+* 一文字後に移動:
+		ctrl+f
+* 一文字前に移動:
+		ctrl+b
+* ヒストリー(戻る) :
+		ctrl+p
+* ヒストリー(進む) :
+		ctrl+n
+* 一文字削除（Backspace) :
+		ctrl+h
+* 一文字削除（Delete) :
+		ctrl+d
+* 一単語削除:
+		ctrl+w
+* 行頭まで削除:
+		ctrl+u
+* 行末まで削除:
+		ctrl+k
+* 貼り付け
+		ctrl+y
+* クリア:
+		ctrl+l
+* Enter:
+		ctrl+j
+		ctrl+m
+		ctrl+o -> これは使わない。 vim で history back 。
+* Tab(補完):
+		ctrl+i
+
+## Tips
+
+* ssh鍵認証を設定する <http://www.tooyama.org/ssh-key.html>
+	* client
+			cd ~/.ssh
+			ssh-keygen -t rsa
+			Enter passphrase: <Enter>
+			ls ~/.ssh
+			-> id_rsa:秘密鍵, id_rsa.pub:公開鍵
+	* server
+			cd ~/.ssh
+			ssh client "cat ~/.ssh/id_rsa.pub" >> authorized_keys
+* lessで色付き表示をする
+		ls --color="always" | less -R
+* 複数ファイルの改行コードを置換する
+	* CRLF -> LF
+			dos2unix TEST.TXT
+			nkf --windows --overwrite TEST.TXT
+	* LF -> CRLF
+			unix2dos TEST.TXT
+			nkf --unix --overwrite TEST.TXT
+* sshログインして指定のディレクトリに移動
+		ssh -t user@host "cd hoge; bash"
+
+## Tools
+
+### Systemd
+
+* システムブート時のサービスの起動設定
+		systemctl enable/disable [Unit名(e.g. docker)]
+* 起動
+		systemctl start [Unit名(e.g. docker)]
+
+### Syntax check tools
+
+* ShellCheck
+* checkbashisms
+* bashate
+
+#### bashate
+
+	bashate -i E002,E003
+
+### Perl ※linux関係ない
+
+* LTSV parser
+		cat accesslog | perl -F'\t' -nale '%h=map{split/:/,$_,2}@F;print"$h{time}\t$h{ua}"'
+	ref. [LTSVログをパースする最強のワンライナー集&middot;DQNEO起業日記](http://dqn.sakusakutto.jp/2014/02/ltsv_parser_oneliner.html)
+
+* 最短一致にする場合には数量子の後ろに ? を付けます。
+		s/a+?/1/;
+
+### Python ※linux関係ない
+
+* pip update
+		sudo pip install pycrypto
+
+### tmux
+
+* すべてのセッションを終了させる
+		tmux kill-server
+
+Keys(dotfilesでカスタマイズ済み)
+
+* prefix
+		Ctrl-s
+* ペイン横分割
+		[prefix]s
+* ペイン縦分割
+		[prefix]v
+* ペイン移動
+		[prefix]h,j,k,l
+* ペイン最大化・最小化トグル
+		[prefix]t
+* すべてのセッションを終了させる
+		[prefix]q
+
+### Byobu
+
+#### Settings
+
+F9 - Change escape sequence : `ctrl-s`
+

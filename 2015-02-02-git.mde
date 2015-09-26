@@ -1,0 +1,177 @@
+# Title: Git
+
+Date: 2015-02-02 22:13
+Tags: []
+categories: []
+
+---
+
+## Basic
+
+* commit - コミットする
+	* 簡易コメントでコミット
+			git commit -m "commit reason"
+			git commit -m "commit reason" -m "seconds reason"
+	* 作業ツリーの変更をすべてコミットする
+			git commit -a
+	* ファイルを指定してコミット
+			git commit somefile
+	* コミット内容を訂正
+			git commit -m "コメント" -a
+			修正しステージング
+			git commit --amend -a
+	* コミットコメントを修正(amend)
+			git commit --amend -m "修正後コメント"
+	* 詳細(diff)を表示してコミット
+			git commit -v
+
+* diff - 差分を見る
+	* 作業ツリーとステージングエリア間
+			git diff
+	* ステージングエリアとリポジトリ間
+			git diff --cached
+	* 作業ツリーとリポジトリ間
+			git diff HEAD
+	* バージョン間の差分を見る
+			git diff <revision>
+			git diff HEAD^
+
+* branch,checkout - ブランチを操作する
+	* 別の名前に変更する
+			git branch -m master mymaster
+	* ブランチ作成とチェックアウトを同時にする
+			git checkout branch -b alternate master
+
+* merge - マージする
+	* マージには三種類ある
+		* 直接マージ(定番)
+				git checkout master
+				git merge alternate
+		* 圧縮コミット(squash)
+				git checkout master
+				git merge --squash alternate
+				git commit -m "reson"
+		* チェリーピック(つまみ食い)
+	* 競合を解消する
+			git merge alternate
+			git mergetool
+			git commit
+			※簡単ならmergetool使わなくても良い
+			※commitメッセージは勝手に入れてくれる
+
+* log - コミットログを見る
+		* 特定のリビジョンから始まるログを見る
+				git logg <revision>
+
+* show - コミットログと変更点を確認
+		git show HEAD
+
+* blame - 誰のコミットか確認する
+	* 行番号を指定
+			git blame -L 12,13 somefile
+
+* revert - コミットを取り消す(訂正をコミットする)
+		git revert HEAD
+	* 複数取り消し、まとめてコミットする
+			git revert -n HEAD
+			git revert -n <rev>
+			git revert -n <rev>
+			git commit
+
+* reset - 変更をリセットする
+	* 以前のコミットをすべてステージングエリアに戻す
+			git reset --soft
+	* リポジトリおよび作業ツリーからコミットを消し去る(要注意)
+			git reset --hard HEAD^
+
+* rebase - 履歴を書き換える
+	* コミットの順番を変える
+			git rebase -i HEAD~3
+			pick xx..
+			pick yy..
+			pick zz..
+			-> change
+			pick zz..
+			pick xx..
+			pick yy..
+			保存して終了
+	* コミットを圧縮(squash)
+			git rebase -i HEAD~3
+			pick xx..
+			pick yy..
+			pick zz..
+			-> change
+			pick xx..
+			squash yy..
+			pick zz..
+			保存して終了(xxとyyが圧縮)
+
+## Remote
+
+* remote - リモート操作する
+	* リモートリポジトリ一覧を確認
+			git remote
+			git remote -v
+* clone - クローンする
+		git clone git@github.com:assout/dotfiles.git
+* fetch - 取得する
+		git fetch
+* push - 更新する
+		git push
+
+## Technique
+
+* 初回push - refs. [githubのレポジトリに初回pushするとき - MEMOcho-](http://jsapachehtml.hatenablog.com/entry/2014/03/14/205721)
+		touch README.md
+		git init
+		git add README.md
+		git commit -m "first commit"
+		git remote add origin git@github.com:username/hoge.git
+		git push -u origin master
+* git addを取り消す
+		git reset HEAD foo.txt
+* originの再登録方法
+		git remote rm origin
+		git remote add origin git@github.com:(githubのid)/(リポジトリ).git
+		git push -u origin master
+* gitのリモートリポジトリoriginのURLを変更する
+		git remote set-url origin git@git.example.com:foo/bar.git
+* remote設定
+	* HTTPS
+			<https://github.com/USERNAME/OTHERREPOSITORY.git>
+	* SSH
+			git@github.com:USERNAME/OTHERREPOSITORY.git
+* ある特定のファイルを前のバージョンに戻す
+		git checkout HEAD^ path/to/file.java
+* 相対でリビジョンを指定する
+	* ヘッドの1つ前のコミットを見る
+			git show HEAD^
+	* ヘッドの3つ前のコミットを見る
+			git show HEAD~3
+			git show HEAD^^^
+			git show HEAD~~~
+
+## Configuration
+
+* 日本語のファイル名を表示できるようにする
+		git config --global core.quotepath false
+
+## Github
+
+### Search
+
+* ファイル名(パス)を検索
+		.travis.yml in:path
+* 特定ファイル名(パス)を対象にファイル内検索
+		filename:.travis.yml checkbashisms
+
+refs. [Searching code - User Documentation](https://help.github.com/articles/searching-code/)
+
+### Other
+
+* メールアドレスを非公開にする
+	* <https://github.com/settings/emails> - Keep my email address private : checked
+* プロキシを超える
+	* [各種コマンド類でプロキシサーバを越えるための設定 - iwasakimsの日記](http://d.hatena.ne.jp/iwasakims/touch/20120726/1343322297)
+	* [Git - プロキシの指定方法 - Qiita](http://qiita.com/tunepolo/items/296c2639e0b750de41c6)
+

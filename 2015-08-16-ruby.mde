@@ -1,0 +1,15 @@
+# Title: Ruby
+
+Date: 2015-08-16 20:11
+Tags: []
+categories: []
+
+---
+
+## Gem
+
+* インストール(/usr/local/binに入れる)
+		sudo gem install {plugin}
+* アンインストール
+		gem uninstall {plugin}
+

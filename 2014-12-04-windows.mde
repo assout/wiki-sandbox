@@ -1,0 +1,241 @@
+# Title: Windows
+
+Date: 2014-12-04 15:00
+Tags: []
+categories: []
+
+---
+
+## Tools
+
+### Use
+
+* 7-Zip
+* C/Migemo for Windows     : for vim-migemo
+* Change Key               : キーボード配置変更(swap Ctrl and Caps Lock)
+* Cmder (full)             : include conemu, clink, gitmsys                                    : PATHの通る順序を変える(msysgit じゃなく自分で入れた grep を使いたい) : <./vendor/msysgit/etc/profile> を変更(L19,L21)
+* Eclipse                  : refs. <2014-09-09-eclipse.md>
+* Excel Sniper
+* Exuberant Ctags          : for vim
+* GNU grep 2.5.x           : Cmder(msysgit) のは古い(2.4.x)ため --include オプションが使えない
+* Google Chrome            : go to <2014-11-13-chrome.md>
+* IP Messenger             : boot on windows startup.                                          : レジストリをいじって別ネットワークセグメントへ通信。
+* Python                   : json.toolsを使うため
+* RLogin                   : ssh クライアント
+* Rapid Environment Editor : editor for environment
+* Remote Mouse             : for home.
+* Shell Check
+* Tree for Windows
+* Vim(kaoriya)             : refs. <2014-09-30-vim.md>
+* WinSCP                   : Free SFTP, SCP and FTP client for Windows
+* WinShot                  : boot on windows startup.
+* nkf                      : 文字コード変換
+* xmllint
+* wget
+* エクセルパスワード瞬時解除
+* 図形内文字検索置換ツール : for Excel
+
+#### Cmder
+
+vendor/msysgit/etc/profile : PATHの順序を変更(元のPATHを先頭になるように。vimやgrepは別で入れているものを使いたいため)
+
+Settings - Import : 自分の設定ファイルインポート
+
+※変えてるもの
+
+* Settings
+	* Main
+		* Main console font
+			* Size : 14
+			* Monospace : unchecked
+		* Appearance
+			* Generic - Single instance mode : unchecked(TODO Open in new Pain)
+	* Startup
+		* Tasks
+			* Add default tasks... : yes
+	* Features
+		* Transparency
+			* Active window transparency : unchecked
+	* Keys & Macro
+		* Hotkeys, modifires, macros : ref. <2015-08-01-misc.md>
+			* disabled
+				* Ctrl+V
+				* Ctrl+W
+				* Ctrl+Shift+C
+				* Apps+{Down,Left,Right,Up}
+			* enabled
+				* Ctrl+Shift+P : Split: Duplicate ... to bottom
+				* Ctrl+Shift+V : Split: Duplicate ... to right
+				* Ctrl+Shift+T : Split: Maximaize/restore
+				* Ctrl+Shift+C : Close active console
+				* Ctrl+Shift+Q : Close all tas
+				* Ctrl+Shift+{H,J,K,L} : Split: Put focus
+				* Alt+V : Paste first line of clipboard contents
+		* Mark/Copy
+			* Select text with keyboard
+				* Start selection with Shift+Arrow : checked
+	* Features
+		* Colors
+
+#### WinShot
+
+* 基本設定
+	* 接頭語 : `\F\M\D_\H\m\s_WinShot`
+* 品質／減色
+	* JPEG品質 : 90
+* ホットキー
+	* ビットマップで保存(デスクトップ)         : PrintScreen
+	* ビットマップで保存(アクティブウィンドウ) : Alt + PrintScreen
+* その他の設定
+	* トレイアイコンのダブルクリック動作 : ビットマップで保存(矩形範囲指定)
+	* 自動保存時の拡張子                 : ビットマップ .png
+
+#### RLogin
+
+表示 - オプション設定 - キーボード
+※注意！サーバごとに設定があるらしく、全体に適用したい場合「標準の設定にする」を選択
+※再注意！さらに各サーバの設定画面でキーボードの「初期化」をしないとだめっぽい。。
+※二回目以降はRLogin.iniを置くだけ
+
+#### Shell Check
+
+インストール手順
+
+* Cabalをインストール
+	* 一括(Haskell Platformごと)(簡単)
+		* [Download Haskell Platform](https://www.haskell.org/platform/)
+	* 個別(cabal,ghc)
+		* [The Haskell Cabal](https://www.haskell.org/cabal/download.html)
+		* [GHC: Download version 7.10.2](https://www.haskell.org/ghc/download_ghc_7_10_2#windows)
+
+Shell Checkをインストール
+
+	export PATH="/d/admin/Tools/ghc-7.10.2/bin:$PATH" # Haskell Platformごと入れた場合不要
+	export http_proxy=http://USERNAME:PASSWORD@PROXYURL:PORT
+	cabal update
+	cabal install shellcheck
+	-> C:\Users\admin\AppData\Roaming\cabal\bin # 任意にPATH追加
+
+### Unused
+
+* Chat & Messenger : IP Messengerの高機能版。※使用者同士が表示されるので今は未使用。
+* DF               : diff取得。diff, vimdiffに慣れたいので原則使わない。バイナリ比較に使える。
+* Drop Compress    : D&Dで一括解凍 : unzip コマンド使う。
+* FileSum          : ディレクトリサイズ計測。-> unix toolsに慣れときたいのでdf,duとか無いか調べる。
+* Flexible Renamer : unix toolsに慣れときたいのでなるべく使わない。
+* JSON NotePad     : chrome のJSONViewrプラグインが見やすい。また、vimからpython.jsontoolを呼び出す方法もある。
+* Java Decompiler  : 原則Eclipse上のプラグインとかでデコンパイルする。
+* MSYS             : Cmderに付属のmingwを使う
+* To-Do DeskList   : cloudに持ってけるものはWunderlist。ローカル用vim unite-todo
+* WinMerge         : diffコマンド、vimdiffに慣れたいので原則使わない。Excelファイル比較に使える。
+* ag               : grep の高機能版。grepに慣れときたいのでなるべく使わない。
+* pt               : grep の高機能版。grepに慣れときたいのでなるべく使わない。
+* curl             : cmder/msysgitに含まれてるので。
+
+### On Task bar
+
+1. Explore
+1. Mailer
+1. Internet browser
+1. Vim
+1. Eclipse
+1. Cmder
+1. Dos
+1. RLogin
+1. WinSCP
+1. Word
+1. Excel
+1. PowerPoint
+
+## Settings
+
+### IME
+
+プロパティ
+
+* 全般
+	* 入力設定
+		* スペースの入力 : 常に半角
+	* 編集操作
+		* キー設定 TODO ちょっと洗練させたい(linux,vimとあわせたい)
+			* 変換           : 入力/変換済み文字なし= IME-オン。それ以外 = 未割当。(もとの設定をCtrl+Shift+変換に退避)
+			* 無変換         : 入力/変換済み文字なし = IME-オフ。それ以外 = 全消去。(もとの設定をCtrl+Shift+無変換に退避)
+			* Ctrl+C, Ctrl+[ : 入力/変換済み文字なし = 未割当。それ以外=全消去。(Escと同じにさせる)
+			* Ctrl+J         : 全確定(Ctrl + M と同じ動きにさせる)
+			* Ctrl+P         : 候補一覧表示中 = 前候補。それ以外 = 未割当(もとの設定をCtrl+Shift+hogeに退避)
+			* Ctrl+N         : 入力文字のみ = 予測候補表示。候補一覧表示中 = 次候補。それ以外 = 未割当(もとの設定をCtrl+Shift+hogeに退避)
+			* Ctrl+I         : 候補表示切替(TABキーと同じにする)(もとの設定をCtrl+Shift+Iに退避)
+* オートコレクト
+	* 全角/半角
+		* 英字、数字、記号 : 常に半角に変換
+
+### Keys
+
+* Caps Lock -> Ctrl
+
+### PATH
+
+* system
+		Path=D:\admin\Tools\vim74-kaoriya-win32;D:\admin\Tools\grep-2.5.4-bin\bin;D:\admin\Tools\cmder\vendor\msysgit\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\Broadcom\Broadcom 802.11\Driver;C:\Program Files\Intel\DMIX;C:\Program Files\Graphviz 2.28\bin;C:\Program Files\Java\jdk1.7.0_06\bin;%GEMFIRE%\bin
+* user
+		PATH=D:\admin\Tools\vim74-kaoriya-win32;D:\admin\Tools\checkbashisms;D:\admin\Tools\libxml2-2.7.8.win32\bin;D:\admin\Tools\groff-1.20.1-bin\bin;D:\admin\Tools\nkfwin\vc2005\win32(98,Me,NT,2000,XP,Vista,7)Windows-31J;D:\admin\Tools\ctags58j2bin;D:\admin\Tools\cmigemo-default-win32;C:\Users\admin\AppData\Local\Pandoc\;D:\admin\Tools\jad158g.win;C:\Python27;C:\Python34;D:\admin\Tools\pt;D:\admin\Tools\ag4mingw-master;D:\admin\Tools\grep-2.5.4-bin\bin;D:\admin\Tools\wget;D:\admin\Tools\Lynx286rel4TH;w3m-0.5.3-mingw32;D:\admin\Tools\zip20x;D:\admin\Tools\apache-maven-3.0.4\bin;D:\admin\Tools\cmder\vendor\msysgit\bin;C:\Users\admin\AppData\Roaming\cabal\bin;D:\admin\Tools\7za920
+
+## Directory hierarchy (office)
+
+* /d/admin
+	* Backup
+	* Desktop
+	* Development
+		* gist
+		* script
+		* workspace
+	* Documents
+		* caputure
+		* configuration
+		* memolist
+		* misc
+		* references
+		* spell
+		* task
+		* tmp
+		* todo
+	* Downloads
+	* Shortcuts
+	* Tmp
+	* Tools
+
+## 引っ越し時にやること
+
+### 持ってくもの
+
+* Office
+	* 辞書ファイル
+			C:\Users\admin\AppData\Roaming\Microsoft\UProof
+	* Themes,Templates (TODO どちらかでよいかも)
+			C:\Users\admin\AppData\Roaming\Microsoft\Templates
+			C:\Users\admin\AppData\Roaming\Microsoft\Templates\Document Themes
+* /d/admin配下のGithub管理してないもの
+	* memolist
+		* local
+* $HOMEフォルダ配下のGitHub管理してないもの
+	* hoge.local
+
+### 出るときにやること
+
+* 各種設定ファイルエクスポート(configurationディレクトリへ格納)
+	* ChromeのBookmark
+	* Cmder - Settings - Keys & Macro - Export
+	* Word,Excel,PowerPoint - オプション - クイックアクセスツールバー - インポート/エクスポート
+	* RLogin.ini
+* 最新の環境変数PATHを当ファイルに更新
+* 「プログラムと機能」からアンインストール
+* Change Keyでの設定を戻す
+* IMEの設定を戻す
+* レジストリの設定を戻す
+	* gvimで開く -> refs. <2014-09-30-vim.md>
+* メールファイルをバックアップ TODO 手順
+
+### 入るときにやること
+
+↑の逆
+

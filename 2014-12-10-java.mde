@@ -1,0 +1,142 @@
+# Title: Java
+
+Date: 2014-12-10 19:01
+Tags: []
+categories: []
+
+---
+
+## Java SE
+
+### Code idiom
+
+* {}をただのブロックとして使用可能。テストケースとかで、同じ変数名をコピペしたいとかの時に重宝する。
+	ただ、ややこしいし、無駄に複雑に見えるのでプロダクトコードでは使わないこと！
+		{ int a = 1;}
+		{ int a = 2;}
+		※変数名重複とならない
+
+* ゼロ埋め :
+		String.format("%03d", number); // 001, 002…
+
+* メソッド名取得
+		Thread.currentThread().getStackTrace()[0].getMethodName()
+
+* ランダムなバイト配列取得
+		byte[] b = new byte[20];
+		new Random().nextBytes(b);
+
+* Mapのインスタンス作成時に値も挿入するイディオム
+		Map<String, Integer> map = new HashMap<String, Integer>() {
+			{
+				put("one", 1);
+			}
+		};
+
+* オブジェクトのディープコピー
+		private static <T> T deepCopy(T target) {
+			if (target == null) {
+				return null;
+			}
+			try (ByteArrayOutputStream bos = new ByteArrayOutputStream(1024);
+					ObjectOutputStream oos = new ObjectOutputStream(bos);) {
+				oos.writeObject(target);
+				try (ByteArrayInputStream byteIn = new ByteArrayInputStream(bos.toByteArray());
+						ObjectInputStream ois = new ObjectInputStream(byteIn)) {
+					return (T) ois.readObject();
+				}
+			} catch (Exception e) {
+				throw new RuntimeException(e);
+			}
+		}
+
+* 乱数(ランダム値)取得
+		Random.nextInt(n)
+		// コンストラクタとかでRandomをnewしておいて、それを使ってnextIntを呼び出すのが一番よい。
+	※(int)Math.random()×(n+1)は効率が悪いので基本↑でやる。
+	ref. [Math.random()×n か それともRandom.nextInt(n)か - いろいろがんばりたいブログ](http://pushl.hatenablog.com/entry/2012/11/03/004027)
+
+### Other command
+
+* javadoc生成
+		javadoc -d D:/admin/Desktop/javadoc -encoding "utf-8" -charset "utf-8" *.java
+
+* jarの中身を確認
+		jar tf hoge.jar
+
+* スレッドダンプ取得
+		jstack {pid}
+
+* JavaのプロセスID表示
+		JPS
+
+## Java 8
+
+java.io.UncheckedIOException
+
+Stream処理におけるException Tunnelingのために追加された例外。
+UncheckedIOException例外クラスは、従来からある検査例外java.io.IOExceptionをラップする目的で、java.lang.RuntimeExceptionから派生した非検査例外(unchecked exception)である。
+
+---
+
+## Memo
+
+* 無名内部クラスでは、そのクラスのコンストラクターを定義することは出来ない。
+	* [Javaクラス使用メモ(Hishidama's Java Class use Memo)](http://www.ne.jp/asahi/hishidama/home/tech/java/class_use.html#anonymous_class)
+* GlassFish:
+	GlassFishは、サンを中心としたオープンソース・コミュニティと、同コミュニティで開発されたJava EE準拠のアプリケーションサーバの名称である。
+* WildFly
+	JBossが開発するOSSのJavaEEアプリケーションサーバ
+* JAAS（Java Authentication and Authorization Service）
+	認証を実現するための標準API
+	* JAAS認証	・IDやパスワードなどを利用して認証を行うことで、ユーザーの正当性を判定
+		Javaを実行しているユーザーに正当性があることを確認
+	* JAAS承認	・アプリケーションによって、リソースへのアクセス要求が許可できるのかを判定
+		ユーザーに対するアクセス権の保持を判定
+
+## JUnit
+
+* Classクラスを比較(意外とめんどい)
+	* assertEqualsを使う(簡単だが非推奨)
+			assertEquals(factory.getMessageType(), Integer.class); // TODO wrapper classでよいか
+	* assertThatを使う
+		* かんたん(これでいけるっぽい)
+				assertThat(Class, is((Object) Class));
+		* がんばる(失敗したときわかるようにdescriptionつけたほうがよい)
+				assertThat("actual is " + factory.getMessageType(), factory.getMessageType() == Integer.class, is(true));
+		* hamcrest.object.IsCompatibleTypeを使う(coreには入ってないっぽい。。)
+				assertThat("クラスから型を検査", ArrayList.class, is(typeCompatibleWith(List.class)));
+	* refs:
+		* <http://d.hatena.ne.jp/ryoasai/20110502/1304339487>
+		* <http://d.hatena.ne.jp/daisuke-m/20090710/1247181113>
+* equalTo と is
+	> is は equalTo の構文糖であるため、以下は全て等価です。
+	>
+	> assertThat(actual, equalTo(expected));
+	> assertThat(actual, is(equalTo(expected)));
+	> assertThat(actual, is(expected));
+	> 英語として読み下し易くするために、is に matcher を渡すのが普通です。
+* 指定したパッケージのテストをすべて実行するTestSuite :
+	標準では無理らしい(ライブラリはありそう) ref. [java - JUnit4 run all tests in a specific package using a testsuite - Stack Overflow](http://stackoverflow.com/questions/7331214/junit4-run-all-tests-in-a-specific-package-using-a-testsuite)
+
+## Maven
+
+* テストスキップ:
+		mvn hoge -DskipTests=true
+* 依存するライブラリのソースをダウンロード
+		mvn clean eclipse:eclipse -DdownloadSources=true -DdownloadJavadocs=true
+* 大きなメモリ領域を割り当てる
+	* consoleで実施
+			set MAVEN_OPTS=-Xmx2048M
+		ref. [Maven2で大きなメモリ領域を割り当てる - wutseのダイアリー](http://d.hatena.ne.jp/wutse/20071102/1193975925)
+	* eclipseで実施
+			"Run As" > "Maven Build", click on the "JRE" tab, enter VM args e.g. : -Xms128M -Xmx512M
+		ref. [memory - Increase heap size in m2e Eclipse plugin - Stack Overflow](http://stackoverflow.com/questions/7899221/increase-heap-size-in-m2e-eclipse-plugin)
+
+### Plugin
+
+* Maven-javadoc-plugin
+		mvn javadoc:javadoc
+* Maven-eclipse-plugin
+		mvn eclipse:eclipse
+
