@@ -1,8 +1,8 @@
 # Title: document format rules
 
-date: 2014-10-30 14:49
-tags: []
-categories: []
+Date: 2014-10-30 14:49
+Tags: []
+Categories: []
 
 ---
 ## 構成

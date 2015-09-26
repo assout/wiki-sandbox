@@ -1,8 +1,8 @@
 # Title: metasonic
 
-date: 2014-12-03 14:02
-tags: []
-categories: []
+Date: 2014-12-03 14:02
+Tags: []
+Categories: []
 
 ---
 ## Glossary

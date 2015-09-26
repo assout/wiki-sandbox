@@ -1,8 +1,8 @@
 # Title: fumi-aphorism
 
-date: 2015-05-12 22:54
-tags: []
-categories: []
+Date: 2015-05-12 22:54
+Tags: []
+Categories: []
 
 ---
 これからの時代の考え方

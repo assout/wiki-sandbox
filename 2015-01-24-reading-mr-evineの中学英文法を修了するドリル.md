@@ -1,8 +1,8 @@
 # Title: reading Mr Evineの中学英文法を修了するドリル
 
-date: 2015-01-24 16:35
-tags: []
-categories: []
+Date: 2015-01-24 16:35
+Tags: []
+Categories: []
 
 ---
 ## prelude

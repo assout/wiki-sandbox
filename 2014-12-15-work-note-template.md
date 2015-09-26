@@ -1,8 +1,8 @@
 # Title: work note template
 
-date: 2014-12-15 13:56
-tags: []
-categories: []
+Date: 2014-12-15 13:56
+Tags: []
+Categories: []
 
 ---
 ## About this

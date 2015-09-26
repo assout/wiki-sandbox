@@ -1,8 +1,8 @@
 # Title: create note rules
 
-date: 2014-11-25 16:42
-tags: []
-categories: []
+Date: 2014-11-25 16:42
+Tags: []
+Categories: []
 
 ---
 

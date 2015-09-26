@@ -1,8 +1,8 @@
 # Title: OpenShift
 
-date: 2015-08-16 18:24
-tags: []
-categories: []
+Date: 2015-08-16 18:24
+Tags: []
+Categories: []
 
 ---
 

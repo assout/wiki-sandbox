@@ -1,8 +1,8 @@
 # Title: meeting rules
 
-date: 2014-10-31 10:04
-tags: []
-categories: []
+Date: 2014-10-31 10:04
+Tags: []
+Categories: []
 
 ---
 ## 会議の開始前に考えること

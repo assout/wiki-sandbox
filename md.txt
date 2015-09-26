@@ -1,8 +1,8 @@
 # Title: {{_title_}}
 
-date: {{_date_}}
-tags: [{{_tags_}}]
-categories: [{{_categories_}}]
+Date: {{_date_}}
+Tags: [{{_tags_}}]
+Categories: [{{_categories_}}]
 
 ---
 

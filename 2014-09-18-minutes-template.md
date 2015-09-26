@@ -1,8 +1,8 @@
 # Title: minutes template
 
-date: 2014-09-18 11:05
-tags: []
-categories: []
+Date: 2014-09-18 11:05
+Tags: []
+Categories: []
 
 ---
 

@@ -1,8 +1,8 @@
 # Title: Improve skill
 
-date: 2015-09-05 21:34
-tags: []
-categories: []
+Date: 2015-09-05 21:34
+Tags: []
+Categories: []
 
 ---
 

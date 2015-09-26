@@ -1,8 +1,8 @@
 # Title: Logical Thinking
 
-date: 2015-08-29 16:50
-tags: []
-categories: []
+Date: 2015-08-29 16:50
+Tags: []
+Categories: []
 
 ---
 

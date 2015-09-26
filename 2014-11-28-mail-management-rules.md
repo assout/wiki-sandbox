@@ -1,8 +1,8 @@
 # Title: mail management rules
 
-date: 2014-11-28 11:08
-tags: []
-categories: []
+Date: 2014-11-28 11:08
+Tags: []
+Categories: []
 
 ---
 
