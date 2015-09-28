@@ -19,7 +19,6 @@ Categories: []
 	* -> 結局campus が一番良さそう。-> マスが大きければRHODIAでも良いが。
 		* -> そもそもラップトップPCでメモとっていくのが一番効率よさそう
 
-
 ### Refs.
 
 * <2014-11-25-create-note-rules.md>

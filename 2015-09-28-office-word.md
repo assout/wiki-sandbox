@@ -34,7 +34,7 @@ Categories: []
 * リボンから「ホーム」タブをクリックし、「フォント」グループから「文字種の変換」をクリックします。
 * 表示された項目から、任意の変換をクリックします。ここでは例として、「全角」をクリックします。
 
-refs. [121ware.com &gt; サービス＆サポート &gt; Q&amp;A &gt; Q&amp;A番号 013002](http://121ware.com/qasearch/1007/app/servlet/relatedqa?QID=013002)
+refs. [121ware.com&gt;サービス＆サポート&gt;Q&amp;A&gt;Q&amp;A番号013002](http://121ware.com/qasearch/1007/app/servlet/relatedqa?QID=013002)
 
 #### 英数字のみ変換する場合
 
