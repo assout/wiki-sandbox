@@ -1,10 +1,14 @@
-# Title: Excel
+# Title: Office Excel
 
 Date: 2014-09-18 14:53
 Tags: []
 Categories: []
 
 ---
+
+## Prelude
+
+特に断りのない場合Excel 2010を対象とする
 
 ## Shortcut keys
 

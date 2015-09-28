@@ -1,10 +1,14 @@
-# Title: PowerPoint
+# Title: Office PowerPoint
 
 Date: 2014-09-16 13:52
 Tags: []
 Categories: []
 
 ---
+
+## Prelude
+
+特に断りのない場合PowerPoint 2010を対象とする
 
 ## Shortcut keys
 
