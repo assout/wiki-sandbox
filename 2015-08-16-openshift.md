@@ -23,3 +23,4 @@ Categories: []
 ## TODOs
 
 * 文字コード変換方法
+
