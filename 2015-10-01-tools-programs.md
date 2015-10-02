@@ -32,6 +32,9 @@ Categories: []
 
 	bashate -i E002,E003
 
+* E002: ensure that indents are only spaces, and not hard tabs
+* E003: Not an indent with multiple of 4
+
 ## Tools key unity
 
 Commands      | Vim          | Vrapper      | cVim        | tmux                    | Cmder             | RLogin
