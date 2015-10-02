@@ -22,6 +22,10 @@ Categories: []
 * markdownからtextileに変換
 		pandoc -s hogehohe.md -o hogehohe.textile
 
+### Redpen
+
+* Spelling機能は半角スペースで区切られた単語にたいしてのみ動作する点に注意してください
+
 ### Shell Syntax check tools
 
 * ShellCheck
