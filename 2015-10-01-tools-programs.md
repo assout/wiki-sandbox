@@ -25,8 +25,14 @@ Categories: []
 ### Shell Syntax check tools
 
 * ShellCheck
-* checkbashisms
 * bashate
+* checkbashisms
+
+#### ShellCheck
+
+* SC2034
+	* -> for文とかではdummyとして`_`を使う
+			for _ in ${1..10} ; do foo; done
 
 #### bashate
 
