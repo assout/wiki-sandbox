@@ -17,6 +17,26 @@ Categories: []
 
 ## Tools
 
+### Lint tool list
+
+* ansible
+	* ansible-lint
+* json
+	* jsonlint
+* shell
+	* shellcheck
+	* bashate
+	* checkbashisms
+* sql
+	* sqlint : Error出て入れれてない
+* markdown
+	* mdl
+* yaml
+	* js-yaml
+	* yaml-lint
+* text
+	* Redpen
+
 ### Pandoc
 
 * markdownからtextileに変換
