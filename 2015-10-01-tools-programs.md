@@ -17,16 +17,46 @@ Categories: []
 
 ## Tools
 
+### Lint tool list
+
+* ansible
+	* ansible-lint
+* json
+	* jsonlint
+* shell
+	* shellcheck
+	* bashate
+	* checkbashisms
+* sql
+	* sqlint : Error出て入れれてない
+* markdown
+	* mdl
+* yaml
+	* js-yaml
+	* yaml-lint
+* text
+	* Redpen
+
 ### Pandoc
 
 * markdownからtextileに変換
 		pandoc -s hogehohe.md -o hogehohe.textile
 
+### Redpen
+
+* Spelling機能は半角スペースで区切られた単語にたいしてのみ動作する点に注意してください
+
 ### Shell Syntax check tools
 
 * ShellCheck
-* checkbashisms
 * bashate
+* checkbashisms
+
+#### ShellCheck
+
+* SC2034
+	* -> for文とかではdummyとして`_`を使う
+			for _ in ${1..10} ; do foo; done
 
 #### bashate
 
