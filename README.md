@@ -9,18 +9,17 @@ Linux
 curl -L https://raw.githubusercontent.com/assout/memolist/master/install.sh | bash
 ```
 
-Windows
+Windows (Caution: change repository git user config)
 ```
 cd D:\admin\Documents
 git clone git@github.com:assout/memolist.git
-./memolist/install.bat
-```
+cd ./memolist
 
-Office (It switched the account for the office)
- ```
-git config user.name = "assout"
-git config user.email = assout@users.noreply.github.com
- ```
+# if use cmd,
+.\install.bat
+# or else if use msys
+cmd //c ".\install.bat"
+```
 
 ## References
 
