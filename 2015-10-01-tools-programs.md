@@ -67,23 +67,26 @@ Categories: []
 
 ## Tools key unity
 
-Commands      | Vim          | Vrapper      | cVim        | tmux                    | Cmder             | RLogin
----           | ---          | ---          | ---         | ---                     | ---               | ---
-Cut           | `x`          | `x`          | -           | -                       | n/a               | n/a
-Copy          | `y`          | `y`          | `y`         | `<C-s>[`                | n/a(mouse only)   | `<A-c>`
-Paste         | `p`          | `p`          | `p`         | `<C-s>]`<br />`<C-S-v>` | `<A-v>`           | `<A-v>`
-Tab move      | `<C-{h,l}>`  | `<C-{h,l}>`  | `<C-{h,l}>` | -                       | TODO              | TODO
-Pain move     | `s{h,j,k,l>` | `s{h,j,k,l>` | n/a         | `<C-s>{h,l,j,k}`        | `<C-S-{h,l,j,k}>` | TODO
-Pain split    | `sp`         | `sp`         | -           | `<C-s>p`                | `<C-S-p>`         | `<C-S-p>`
-Pain vsplit   | `sv`         | `sv`         | -           | `<C-s>v`                | `<C-S-v>`         | `<C-S-v>`
-Pain maximize | `<C-t>`      | `<C-t>`      | TODO        | `<C-s>t`                | `<C-S-t>`         | TODO
-Pain close    | `<C-c>`      | `<C-c>`      | `x`         | `<C-s>c`                | `<C-S-c>`         | `<C-S-c>`
-Shutdown      | `:qa`        | `:qa`        | `:qa`       | `<C-s>q`                | `<C-S-q>`         | TODO
+Commands        | Vim          | Vrapper      | cVim          | tmux                    | Cmder             | RLogin
+---             | ---          | ---          | ---           | ---                     | ---               | ---
+Cut             | `x`          | `x`          | -             | -                       | n/a               | n/a
+Copy            | `y`          | `y`          | `y`           | `<C-s>[`                | n/a(mouse only?)  | `<A-c>`
+Paste           | `p`          | `p`          | `p`           | `<C-s>]`<br />`<C-S-v>` | `<C-S-v>`         | `<A-v>`
+Pain move       | `s{h,j,k,l>` | `s{h,j,k,l>` | n/a           | `<C-s>{h,l,j,k}`        | `<Alt-{h,l,j,k}>` | ?
+Pain split      | `sp`         | `sp`         | -             | `<C-s>p`                | `<Alt-p>`         | `<C-S-p>`
+Pain vsplit     | `sv`         | `sv`         | -             | `<C-s>v`                | `<Alt-v>`         | `<C-S-v>`
+Pain maximize   | `<C-t>`      | `<C-t>`      | ?             | `<C-s>t`                | `<Alt-t>`         | ?
+Pain close      | `<C-c>`      | `<C-c>`      | `x`           | `<C-s>c`                | `<Alt-c>`         | `<C-S-c>`
+Shutdown        | `:qa`        | `:qa`        | `:qa`         | `<C-s>q`                | `<Alt-q>`         | ?
+Tab move        | `<C-{h,l}>`  | `<C-{h,l}>`  | `<C-{h,l}>`   | -                       | `<C-S-{h,l}`      | ?
+Tab open        | `:tabe[dit]` | `:tabe[dit]` | `<C-t>`       | -                       | `<C-S-t>`         | ?
+Tab close other | n/a          | n/a          | `<C-S-{h,l}>` | -                       | n/a               | ?
 
 Hint
 
 * `<C-S-hoge>`のような3キー同時押しは、cVim, Cmder, RLoginのみで可能
 * `<C-S>hoge`のようなprefix -> キーという定義は、Vim, Vrapper, tmuxのみで可能
-* RLoginはやめて、Cmderをsshクライアントとしたい
-* CmderのPasteが微妙(他と合ってない)
+* RLoginはやめて、Cmderをsshクライアントとしたい(いろいろめんどい)
+* CmderのPaste,Tab move,Tab openが微妙(他と合ってない)
+* cVim <--> Cmderで`<C-S-{h,l}>`の挙動がちがうのが紛らわしい
 
