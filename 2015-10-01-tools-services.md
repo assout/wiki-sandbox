@@ -93,7 +93,7 @@ Hint
 * VISUALGO
 * Cacoo
 * gitignore.io
-* slack
+* Slack
 * ttygif
 * moqups
 * PromiSEES - Promise visualization playground for the adventurous
