@@ -12,7 +12,6 @@ Categories: []
 * Java     : ref. <2014-12-10-java.md>
 * Markdown : ref. <2015-01-27-markdown.md>
 * Ruby     : ref. <2015-08-16-ruby.md>
-* SQL      : ref. <2014-11-27-sql.md>
 * UML      : ref. <2015-01-27-uml.md>
 
 ## Languages
