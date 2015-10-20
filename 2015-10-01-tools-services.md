@@ -37,6 +37,15 @@ Categories: []
 * text
 	* Redpen
 
+### Pacman
+
+* リスト表示
+		pacman -Sl
+* 検索
+		pacman -Ss grep
+* インストール
+		pacman -S grep
+
 ### Pandoc
 
 * markdownからtextileに変換
