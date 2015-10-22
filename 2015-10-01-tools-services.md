@@ -78,45 +78,43 @@ Categories: []
 
 #### Before (Default)
 
-Commands      | tmux (Bash)        | Cmder           | Vim                  | Vrapper (Eclipse) | cVim (Crhome)  | RLogin
----           | ---                | ---             | ---                  | ---               | ---            | ---
-Cut           | n/a                | n/a             | `x`                  | `<C-x>`           | n/a            | TODO
-Copy          | `<C-b>[`,`<C-S-c>` | n/a(mouse only) | `y`                  | `<C-c>`           | n/a            | TODO
-Paste         | `<C-b>]`,`<C-S-v>` | `<M-v>`         | `p`                  | `<C-v>`           | n/a            | TODO
-Tab open      | `<C-b>c`           | `<C-t>`         | `:tabe[dit]`         | `:tabe[dit]`      | `<C-t>`        | TODO
-Tab move      | `<C-b>{p,n}`       | `<C-Tab>`       | `g{t,T}`             | `g{t,T}`          | `g{t,T}`,`K,R` | TODO
-Pain split    | `<C-b>"`           | TODO            | `<C-w>s`,`:s[plit]`  | -                 | n/a            | TODO
-Pain vsplit   | `<C-b>%`           | TODO            | `<C-w>v`,`:v[split]` | -                 | n/a            | TODO
-Pain move     | `<C-b><AllowKey>`  | TODO            | `<C-w>{h,j,k,l>`     | -                 | n/a            | TODO
-Pain close    | -                  | `<C-w>`         | `<C-w>c`,`:clo[se]`  | `<C-F4>`          | `x`            | TODO
-Pain maximize | `<C-b>z`           | TODO            | -                    | `<C-m>`           | `F11`          | TODO
-Shutdown      | -                  | TODO            | `:qa[ll]`            | `<Alt-F4>`        | `<Alt-F4>`     | TODO
+Commands      | tmux (Bash, Mintty) | Vim                  | Vrapper (Eclipse) | cVim (Crhome)  | RLogin
+---           | ---                 | ---                  | ---               | ---            | ---
+Cut           | n/a                 | `x`                  | `<C-x>`           | n/a            | TODO
+Copy          | `<C-b>[`,`<C-S-c>`  | `y`                  | `<C-c>`           | n/a            | TODO
+Paste         | `<C-b>]`,`<C-S-v>`  | `p`                  | `<C-v>`           | n/a            | TODO
+Tab open      | `<C-b>c`            | `:tabe[dit]`         | `:tabe[dit]`      | `<C-t>`        | TODO
+Tab move      | `<C-b>{p,n}`        | `g{t,T}`             | `g{t,T}`          | `g{t,T}`,`K,R` | TODO
+Pain split    | `<C-b>"`            | `<C-w>s`,`:s[plit]`  | -                 | n/a            | TODO
+Pain vsplit   | `<C-b>%`            | `<C-w>v`,`:v[split]` | -                 | n/a            | TODO
+Pain move     | `<C-b><AllowKey>`   | `<C-w>{h,j,k,l>`     | -                 | n/a            | TODO
+Pain close    | -                   | `<C-w>c`,`:clo[se]`  | `<C-F4>`          | `x`            | TODO
+Pain maximize | `<C-b>z`            | -                    | `<C-m>`           | `F11`          | TODO
+Shutdown      | -                   | `:qa[ll]`            | `<Alt-F4>`        | `<Alt-F4>`     | TODO
 
 #### After
 
-Commands      | tmux (Bash)        | Cmder           | Vim                  | Vrapper (Eclipse)    | cVim (Chrome)           | RLogin
----           | ---                | ---             | ---                  | ---                  | ---                     | ---
-Cut           | -                  | n/a             | `x`                  | `x`                  | -                       | n/a
-Copy          | `<C-s>[`,`<C-S-c>` | n/a(mouse only) | `y`                  | `y`                  | `y`                     | `<M-c>`
-Paste         | `<C-s>]`,`<C-S-v>` | `<C-S-v>`       | `p`                  | `p`                  | `p`                     | `<M-v>`
-Tab open      | `<M-t>`            | `<C-S-t>`       | `<M-t>`,`:tabe[dit]` | `<M-t>`,`:tabe[dit]` | `<C-t>`                 | TODO
-Tab move      | `<M-{h,l}>`        | `<C-S-{h,l}`    | `<M-{h,l}>`          | `<M-{h,l}>`          | `<M-{h,l}>`,`<C-{h,l}>` | TODO
-Tab close     | `<M-c>`            | TODO            | `<M-c>`              | `<C-c>`              | `c`,`x`                 | TODO
-Pain split    | `<C-s>p`           | `<M-p>`         | `sp`                 | `sp`                 | -                       | `<C-S-p>`
-Pain vsplit   | `<C-s>v`           | `<M-v>`         | `sv`                 | `sv`                 | -                       | `<C-S-v>`
-Pain move     | `<C-s>{h,l,j,k}`   | `<M-{h,l,j,k}>` | `s{h,j,k,l}`         | `s{h,j,k,l>`         | n/a                     | TODO
-Pain close    | `<C-s>c`           | `<M-c>`         | `sc`                 | `sc`                 | `x`                     | `<C-S-c>`
-Pain maximize | `<C-s>m`           | `<M-m>`         | `sm`                 | `<C-t>`              | TODO                    | TODO
-Buffer delete | `<C-s>x`           | `<M-x>`         | TODO                 | TODO                 | `x`                     | TODO
-Shutdown      | `<C-s>q`           | `<M-q>`         | `:qa[ll]`            | `:qa[ll]`            | `:qa[ll]`               | TODO
+Commands      | tmux (Bash, Mintty) | Vim                  | Vrapper (Eclipse) | cVim (Chrome)           | RLogin
+---           | ---                 | ---                  | ---               | ---                     | ---
+Cut           | -                   | `x`                  | `x`               | -                       | n/a
+Copy          | `<C-s>[`,`<C-S-c>`  | `y`                  | `y`               | `y`                     | `<M-c>`
+Paste         | `<C-s>]`,`<C-S-v>`  | `p`                  | `p`               | `p`                     | `<M-v>`
+Tab open      | `<M-t>`             | `<M-t>`,`:tabe[dit]` | `-`               | `<C-t>`                 | TODO
+Tab move      | `<M-{h,l}>`         | `<M-{h,l}>`          | `<M-{h,l}>`       | `<M-{h,l}>`,`<C-{h,l}>` | TODO
+Tab close     | `<M-c>`             | `<M-c>`              | `-`               | `c`,`x`                 | TODO
+Pain split    | `<C-s>p`            | `sp`                 | `sp`              | -                       | `<C-S-p>`
+Pain vsplit   | `<C-s>v`            | `sv`                 | `sv`              | -                       | `<C-S-v>`
+Pain move     | `<C-s>{h,l,j,k}`    | `s{h,j,k,l}`         | `s{h,j,k,l>`      | n/a                     | TODO
+Pain close    | `<C-s>c`            | `sc`                 | `sc`              | `x`                     | `<C-S-c>`
+Pain maximize | `<C-s>m`            | `sm`                 | `sm`              | TODO                    | TODO
+Buffer delete | `<C-s>x`            | TODO                 | TODO              | `x`                     | TODO
+Shutdown      | `<C-s>q`            | `:qa[ll]`            | `:qa[ll]`         | `:qa[ll]`               | TODO
 
 Hint
 
-* `<C-S-hoge>`のような3キー同時押しは、cVim, Cmder, RLoginのみで可能
+* `<C-S-hoge>`のような3キー同時押しは、cVim, RLoginのみで可能
 * `<C-S>hoge`のようなprefix -> キーという定義は、Vim, Vrapper, tmuxのみで可能
-* Cmderは使わない(tmux on windows(msys2)を使う)
-* CmderのPasteが微妙(他と合ってない)
-* RLoginはやめて、Cmderをsshクライアントとしたい
+* RLoginはやめて、をsshクライアントとしたい
 
 ### Tools color unity
 
@@ -125,13 +123,11 @@ Tools   | dark/light | color
 Vim     | dark       | hybrid
 GVim    | dark       | hybrid
 tmux    | dark       | default
-Cmder   | dark       | Tomorrow-Night
 Eclipse | light      | default(light)
 
 Hint
 
 * TODO Linux GVimでTomorrow-Nightだと無駄にboldになるキーワードがある(無駄ではない?)
-* TODO 同じTomorrow-NightなのにGVimとCmder -> vimでsyntax highlightが異なる
 
 ## Services (Web)
 
@@ -148,3 +144,4 @@ Hint
 ### Unused
 
 * coggle : Mind map
+
