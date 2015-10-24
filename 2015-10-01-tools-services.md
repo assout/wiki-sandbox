@@ -37,6 +37,11 @@ Categories: []
 * text
 	* Redpen
 
+### Ctags
+
+* langmap確認
+		ctags --list-maps
+
 ### Pacman
 
 * リスト表示
