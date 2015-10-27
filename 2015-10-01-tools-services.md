@@ -46,12 +46,17 @@ Categories: []
 
 * リスト表示
 		pacman -Sl
-* 検索
+* 検索(パッケージ名と説明の両方)
 		pacman -Ss grep
 * インストール
 		pacman -S grep
 * アンインストール
 		pacman -R grep
+
+Refs.
+
+* [pacman - ArchWiki](https://wiki.archlinuxjp.org/index.php/Pacman)
+* [Pacman ヒント - ArchWiki](https://wiki.archlinuxjp.org/index.php/Pacman_%E3%83%92%E3%83%B3%E3%83%88)
 
 ### Pandoc
 
