@@ -131,9 +131,9 @@ Tools   | dark/light | color
 ---     | ---        | ---
 Vim     | dark       | hybrid
 GVim    | dark       | hybrid
-tmux    | TODO       | TODO
-mintty  | dark       | hybrid
+Mintty  | dark       | hybrid
 Eclipse | light      | default(light)
+tmux    | TODO       | TODO
 
 Hint
 
