@@ -50,6 +50,8 @@ Categories: []
 		pacman -Ss grep
 * インストール
 		pacman -S grep
+* アンインストール
+		pacman -R grep
 
 ### Pandoc
 
@@ -112,14 +114,16 @@ Pain vsplit   | `<C-s>v`                      | `sv`                 | `sv`     
 Pain move     | `<C-s>{h,l,j,k}`              | `s{h,j,k,l}`         | `s{h,j,k,l>`      | n/a                     | TODO
 Pain close    | `<C-s>c`                      | `sc`                 | `sc`              | `x`                     | `<C-S-c>`
 Pain maximize | `<C-s>m`                      | `sm`                 | `sm`              | TODO                    | TODO
+Pain size     | TODO                          | TODO                 | TODO              | TODO                    | TODO
 Buffer delete | `<C-s>x`                      | TODO                 | TODO              | `x`                     | TODO
 Shutdown      | `<C-s>q`                      | `:qa[ll]`            | `:qa[ll]`         | `:qa[ll]`               | TODO
 
-Hint
+Hint/TODOs
 
 * `<C-S-hoge>`のような3キー同時押しは、cVim, RLoginのみで可能
 * `<C-S>hoge`のようなprefix -> キーという定義は、Vim, Vrapper, tmuxのみで可能
-* RLoginはやめて、をsshクライアントとしたい
+* TODO RLoginはやめて、をsshクライアントとしたい
+* TODO Pain sizeを統一したい(<C-w>hogeのvim基準で合わせたい)
 
 ### Tools color unity
 
@@ -127,7 +131,8 @@ Tools   | dark/light | color
 ---     | ---        | ---
 Vim     | dark       | hybrid
 GVim    | dark       | hybrid
-tmux    | dark       | default
+tmux    | TODO       | TODO
+mintty  | dark       | hybrid
 Eclipse | light      | default(light)
 
 Hint
