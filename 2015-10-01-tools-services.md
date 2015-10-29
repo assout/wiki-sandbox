@@ -138,7 +138,6 @@ Vim     | dark       | hybrid
 GVim    | dark       | hybrid
 Mintty  | dark       | hybrid
 Eclipse | light      | default(light)
-tmux    | TODO       | TODO
 
 Hint
 
