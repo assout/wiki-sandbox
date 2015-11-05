@@ -246,7 +246,7 @@ do / does の過去形はひとつ。did.
 * I didn't play soccer.
 * He didn't play soccer.
 
-※三単現のsなので、過去形はsがない！
+\* 三単現のsなので、過去形はsがない！
 
 否定・疑問文の一般動詞は原型に戻る
 
@@ -257,7 +257,7 @@ do / does の過去形はひとつ。did.
 * Did you play soccer.
 * Did she play soccer.
 
-※三単現のsなので、過去形はsがない！
+\* 三単現のsなので、過去形はsがない！
 
 否定・疑問文の一般動詞は原型に戻る
 
@@ -444,7 +444,7 @@ Helen lives in Kyoto. -> Does Helen live in Kyoto? -> Where does Helen live?
 3. 形容詞を尋ねる -> 形容詞の疑問詞(疑問形容詞) -> what / which / whose
 
 Bob likes yellow color. -> What color does Bob like?
-※colorも移動することがポイント
+\* colorも移動することがポイント
 
 ### 疑問詞の種類
 
