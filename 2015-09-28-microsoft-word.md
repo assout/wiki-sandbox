@@ -1,4 +1,4 @@
-# Title: Office Word
+# Title: Microsoft Word
 
 Date: 2015-09-28 17:07
 Tags: []
@@ -49,7 +49,7 @@ Word 2010で、文章の全角半角文字を変換する方法について教�
 * リボンから「ホーム」タブをクリックし、「フォント」グループから「文字種の変換」をクリックします。
 * 表示された項目から、任意の変換をクリックします。ここでは例として、「全角」をクリックします。
 
-refs. [121ware.com&gt;サービス＆サポート&gt;Q&amp;A&gt;Q&amp;A番号013002](http://121ware.com/qasearch/1007/app/servlet/relatedqa?QID=013002)
+Ref.. [121ware.com&gt;サービス＆サポート&gt;Q&amp;A&gt;Q&amp;A番号013002](http://121ware.com/qasearch/1007/app/servlet/relatedqa?QID=013002)
 
 ---
 
@@ -58,7 +58,7 @@ refs. [121ware.com&gt;サービス＆サポート&gt;Q&amp;A&gt;Q&amp;A番号013
 * 「ワイルドカードを使用する」にチェックを入れ [０-９ａ-ｚＡ-Ｚ] と入力し、「検索先▼」－「メイン文書」をクリック
 * 後は↑と一緒。
 
-ref. [Word：英数字だけを半角に変換するには？（カタカナは半角にしない）－教えて！HELPDESK](http://office-qa.com/Word/wd209.htm)
+Ref. [Word：英数字だけを半角に変換するには？（カタカナは半角にしない）－教えて！HELPDESK](http://office-qa.com/Word/wd209.htm)
 
 ### 表ツール
 
