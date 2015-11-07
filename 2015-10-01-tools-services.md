@@ -37,6 +37,27 @@ Categories: []
 * text
 	* Redpen
 
+### Ctags
+
+* langmap確認
+		ctags --list-maps
+
+### Pacman
+
+* リスト表示
+		pacman -Sl
+* 検索(パッケージ名と説明の両方)
+		pacman -Ss grep
+* インストール
+		pacman -S grep
+* アンインストール
+		pacman -R grep
+
+Refs.
+
+* [pacman - ArchWiki](https://wiki.archlinuxjp.org/index.php/Pacman)
+* [Pacman ヒント - ArchWiki](https://wiki.archlinuxjp.org/index.php/Pacman_%E3%83%92%E3%83%B3%E3%83%88)
+
 ### Pandoc
 
 * markdownからtextileに変換
@@ -69,57 +90,57 @@ Categories: []
 
 #### Before (Default)
 
-Commands      | tmux (Bash)       | Cmder           | Vim                  | Vrapper (Eclipse) | cVim (Crhome)  | RLogin
----           | ---               | ---             | ---                  | ---               | ---            | ---
-Cut           | n/a               | n/a             | `x`                  | `<C-x>`           | n/a            | TODO
-Copy          | `<C-b>[`          | n/a(mouse only) | `y`                  | `<C-c>`           | n/a            | TODO
-Paste         | `<C-b>]`          | `<A-v>`         | `p`                  | `<C-v>`           | n/a            | TODO
-Tab move      | `<C-b>{p,n}`      | `<C-Tab>`       | `g{t,T}`             | `g{t,T}`          | `g{t,T}`,`K,R` | TODO
-Tab open      | `<C-b>c`          | `<C-t>`         | `:tabedit`           | TODO              | `<C-t>`        | TODO
-Pain move     | `<C-b><AllowKey>` | TODO            | `<C-w>{h,j,k,l>`     | -                 | n/a            | TODO
-Pain split    | `<C-b>"`          | TODO            | `<C-w>s`,`:s[plit]`  | -                 | n/a            | TODO
-Pain vsplit   | `<C-b>%`          | TODO            | `<C-w>v`,`:v[split]` | -                 | n/a            | TODO
-Pain close    | -                 | `<C-w>`         | `<C-w>c`,`:clo[se]`  | `<C-F4>`          | `x`            | TODO
-Pain maximize | `<C-b>z`          | TODO            | -                    | `<C-m>`           | `F11`          | TODO
-Shutdown      | -                 | TODO            | `:qa[ll]`            | `<Alt-F4>`        | `<Alt-F4>`     | TODO
+Commands      | tmux (Bash, Mintty) | Vim                  | Vrapper (Eclipse) | cVim (Crhome)
+---           | ---                 | ---                  | ---               | ---
+Cut           | n/a                 | `x`                  | `<C-x>`           | n/a
+Copy          | `<C-b>[`,`<C-S-c>`  | `y`                  | `<C-c>`           | n/a
+Paste         | `<C-b>]`,`<C-S-v>`  | `p`                  | `<C-v>`           | n/a
+Tab open      | `<C-b>c`            | `:tabe[dit]`         | `:tabe[dit]`      | `<C-t>`
+Tab move      | `<C-b>{p,n}`        | `g{t,T}`             | `g{t,T}`          | `g{t,T}`,`K,R`
+Pain split    | `<C-b>"`            | `<C-w>s`,`:s[plit]`  | -                 | n/a
+Pain vsplit   | `<C-b>%`            | `<C-w>v`,`:v[split]` | -                 | n/a
+Pain move     | `<C-b><AllowKey>`   | `<C-w>{h,j,k,l>`     | -                 | n/a
+Pain close    | -                   | `<C-w>c`,`:clo[se]`  | `<C-F4>`          | `x`
+Pain maximize | `<C-b>z`            | -                    | `<C-m>`           | `F11`
+Shutdown      | -                   | `:qa[ll]`            | `<Alt-F4>`        | `<Alt-F4>`
 
 #### After
 
-Commands      | tmux (Bash)      | Cmder             | Vim          | Vrapper (Eclipse) | cVim (Chrome) | RLogin
----           | ---              | ---               | ---          | ---               | ---           | ---
-Cut           | -                | n/a               | `x`          | `x`               | -             | n/a
-Copy          | `<C-s>[`         | n/a(mouse only)   | `y`          | `y`               | `y`           | `<A-c>`
-Paste         | `<C-s>]`         | `<A-v>`           | `p`          | `p`               | `p`           | `<A-v>`
-Tab move      | -                | TODO              | `<C-{h,l}>`  | `<C-{h,l}>`       | `<C-{h,l}>`   | TODO
-Tab open      | TODO             | TODO              | TODO         | TODO              | TODO          | TODO
-Pain move     | `<C-s>{h,l,j,k}` | `<C-S-{h,l,j,k}>` | `s{h,j,k,l>` | `s{h,j,k,l>`      | n/a           | TODO
-Pain split    | `<C-s>p`         | `<C-S-p>`         | `sp`         | `sp`              | -             | `<C-S-p>`
-Pain vsplit   | `<C-s>v`         | `<C-S-v>`         | `sv`         | `sv`              | -             | `<C-S-v>`
-Pain close    | `<C-s>c`         | `<C-S-c>`         | `<C-c>`      | `<C-c>`           | `x`           | `<C-S-c>`
-Pain maximize | `<C-s>t`         | `<C-S-t>`         | `<C-t>`      | `<C-t>`           | TODO          | TODO
-Shutdown      | `<C-s>q`         | `<C-S-q>`         | `:qa[ll]`    | `:qa[ll]`         | `:qa[ll]`     | TODO
+Commands      | tmux (Gnome Terminal, Mintty) | Vim                  | Vrapper (Eclipse) | cVim (Chrome)
+---           | ---                           | ---                  | ---               | ---
+Cut           | -                             | `x`                  | `x`               | -
+Copy          | `<C-s>[`,`<C-S-c>`            | `y`                  | `y`               | `y`
+Paste         | `<C-s>]`,`<C-S-v>`            | `p`                  | `p`               | `p`
+Tab open      | `<M-t>`                       | `<M-t>`,`:tabe[dit]` | `-`               | `<C-t>`
+Tab move      | `<M-{h,l}>`                   | `<M-{h,l}>`          | `<M-{h,l}>`       | `<M-{h,l}>`,`<C-{h,l}>`
+Tab close     | `<M-c>`                       | `<M-c>`              | `-`               | `c`,`x`
+Pain split    | `<C-s>p`                      | `sp`                 | `sp`              | -
+Pain vsplit   | `<C-s>v`                      | `sv`                 | `sv`              | -
+Pain move     | `<C-s>{h,l,j,k}`              | `s{h,j,k,l}`         | `s{h,j,k,l>`      | n/a
+Pain close    | `<C-s>c`                      | `sc`                 | `sc`              | `x`
+Pain maximize | `<C-s>m`                      | `sm`                 | `sm`              | TODO
+Pain size     | TODO                          | TODO                 | TODO              | TODO
+Buffer delete | `<C-s>x`                      | TODO                 | TODO              | `x`
+Shutdown      | `<C-s>q`                      | `:qa[ll]`            | `:qa[ll]`         | `:qa[ll]`
 
-Hint
+Hint/TODOs
 
-* `<C-S-hoge>`のような3キー同時押しは、cVim, Cmder, RLoginのみで可能
+* `<C-S-hoge>`のような3キー同時押しは、cVim のみで可能
 * `<C-S>hoge`のようなprefix -> キーという定義は、Vim, Vrapper, tmuxのみで可能
-* RLoginはやめて、Cmderをsshクライアントとしたい
-* CmderのPasteが微妙(他と合ってない)
+* TODO Pain sizeを統一したい(<C-w>hogeのvim基準で合わせたい)
 
 ### Tools color unity
 
 Tools   | dark/light | color
 ---     | ---        | ---
-Vim     | dark       | Tomorrow-Night
-GVim    | dark       | Tomorrow-Night
-tmux    | dark       | default
-Cmder   | dark       | Tomorrow-Night
+Vim     | dark       | hybrid
+GVim    | dark       | hybrid
+Mintty  | dark       | hybrid
 Eclipse | light      | default(light)
 
 Hint
 
-* TODO Linux GVimで無駄にboldになるキーワードがある
-* TODO 同じTomorrow-NightなのにGVimとCmder -> vimでsyntax highlightが異なる
+* TODO Linux GVimでTomorrow-Nightだと無駄にboldになるキーワードがある(無駄ではない?)
 
 ## Services (Web)
 
@@ -136,3 +157,4 @@ Hint
 ### Unused
 
 * coggle : Mind map
+
