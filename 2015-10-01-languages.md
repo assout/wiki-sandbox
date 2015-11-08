@@ -30,3 +30,10 @@ Categories: []
 * pip update
 		sudo pip install pycrypto
 
+### Node.js
+
+* npm install
+		sudo npm install -g eslint
+* npm自身をupdate
+		sudo npm update -g npm
+

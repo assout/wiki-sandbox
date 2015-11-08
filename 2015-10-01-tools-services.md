@@ -15,12 +15,14 @@ Categories: []
 	* Docker : <2015-08-10-docker.md>
 	* And other
 
-## Tools
+## Lint tools
 
-### Lint tool list
+### List
 
 * ansible
 	* ansible-lint
+* javascript
+	* eslint
 * json
 	* jsonlint
 * shell
@@ -28,19 +30,50 @@ Categories: []
 	* bashate
 	* checkbashisms
 * sql
-	* sqlint : Error出て入れれてない
-* markdown
+	* sqlint : TODO Error出て入れれてない
+* markdown(text)
+	* Redpen
+	* eslint-md
 	* mdl
+	* textlint
+	* textstat : TODO 実行時Error出る
 * yaml
 	* js-yaml
 	* yaml-lint
-* text
-	* Redpen
+
+### Redpen
+
+* Spelling機能は半角スペースで区切られた単語にたいしてのみ動作する点に注意してください
+
+### ShellCheck
+
+* SC2034
+	* -> for文とかではdummyとして`_`を使う
+			for _ in ${1..10} ; do foo; done
+
+### bashate
+
+	bashate -i E002,E003
+
+* E002: ensure that indents are only spaces, and not hard tabs
+* E003: Not an indent with multiple of 4
+
+## Other tools
 
 ### Ctags
 
 * langmap確認
 		ctags --list-maps
+
+### GitBook
+
+* 初期化
+		gitbook init
+		\* SUMMARY.mdに従ってディレクトリ、ファイルを作成できる
+* ビルド
+		gitbook build
+* サーブ
+		gitbook serve
 
 ### Pacman
 
@@ -63,32 +96,9 @@ Refs.
 * markdownからtextileに変換
 		pandoc -s hogehohe.md -o hogehohe.textile
 
-### Redpen
+## Tools key unity
 
-* Spelling機能は半角スペースで区切られた単語にたいしてのみ動作する点に注意してください
-
-### Shell Syntax check tools
-
-* ShellCheck
-* bashate
-* checkbashisms
-
-#### ShellCheck
-
-* SC2034
-	* -> for文とかではdummyとして`_`を使う
-			for _ in ${1..10} ; do foo; done
-
-#### bashate
-
-	bashate -i E002,E003
-
-* E002: ensure that indents are only spaces, and not hard tabs
-* E003: Not an indent with multiple of 4
-
-### Tools key unity
-
-#### Before (Default)
+### Before (Default)
 
 Commands      | tmux (Bash, Mintty) | Vim                  | Vrapper (Eclipse) | cVim (Crhome)
 ---           | ---                 | ---                  | ---               | ---
@@ -104,7 +114,7 @@ Pain close    | -                   | `<C-w>c`,`:clo[se]`  | `<C-F4>`          |
 Pain maximize | `<C-b>z`            | -                    | `<C-m>`           | `F11`
 Shutdown      | -                   | `:qa[ll]`            | `<Alt-F4>`        | `<Alt-F4>`
 
-#### After
+### After
 
 Commands      | tmux (Gnome Terminal, Mintty) | Vim                  | Vrapper (Eclipse) | cVim (Chrome)
 ---           | ---                           | ---                  | ---               | ---
@@ -129,7 +139,7 @@ Hint/TODOs
 * `<C-S>hoge`のようなprefix -> キーという定義は、Vim, Vrapper, tmuxのみで可能
 * TODO Pain sizeを統一したい(<C-w>hogeのvim基準で合わせたい)
 
-### Tools color unity
+## Tools color unity
 
 Tools   | dark/light | color
 ---     | ---        | ---
