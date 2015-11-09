@@ -25,5 +25,5 @@ cmd //c ".\install.bat"
 
 ## References
 
-<https://github.com/glidenote/memolist.vim>
-
+* [glidenote/memolist.vim · GitHub](https://github.com/glidenote/memolist.vim)
+* [GitBook · Writing made easy](https://www.gitbook.com/)
