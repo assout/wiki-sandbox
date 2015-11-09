@@ -9,7 +9,7 @@ Categories: []
 * 以下の2つを使う
 	* Wunderlist
 	* Vim - unite-todo plugin
-* engllhs あんまりきっちりルール作らない
+* Principles: あんまりきっちりルール作らない
 
 ## Wunderlist
 
