@@ -5,6 +5,7 @@ Tags: []
 Categories: []
 
 ---
+
 ## 構成
 
 * 言葉の定義
@@ -21,7 +22,7 @@ Categories: []
 
 * 説明資料は基本 PPT で作る
 	* -> Excelは印刷に不向き
-	* -> アウトラインレベルは text で markdown で書く
+	* -> アウトラインレベルは markdown で書く
 
 ## Excel で作る場合
 
