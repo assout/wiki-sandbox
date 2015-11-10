@@ -127,10 +127,10 @@ Tab close     | `<M-c>`                       | `<M-c>`              | `-`      
 Pain split    | `<C-s>p`                      | `sp`                 | `sp`              | -
 Pain vsplit   | `<C-s>v`                      | `sv`                 | `sv`              | -
 Pain move     | `<C-s>{h,l,j,k}`              | `s{h,j,k,l}`         | `s{h,j,k,l>`      | n/a
-Pain close    | `<C-s>c`                      | `sc`                 | `sc`              | `x`
+Pain close    | `<C-s>c`                      | `sc`                 | `sc`,`sx`         | `x`
 Pain maximize | `<C-s>m`                      | `sm`                 | `sm`              | TODO
-Pain size     | TODO                          | TODO                 | TODO              | TODO
-Buffer delete | `<C-s>x`                      | TODO                 | TODO              | `x`
+Pain size     | `<C-s>{<,>,-,+}`              | `<C-w>{<,>,-,+}`     | TODO              | TODO
+Buffer delete | `<C-s>x`                      | `sx`,`:bd[elete]`    | `sx`,`sc`         | `x`
 Shutdown      | `<C-s>q`                      | `:qa[ll]`            | `:qa[ll]`         | `:qa[ll]`
 
 Hint/TODOs
