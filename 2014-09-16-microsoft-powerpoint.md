@@ -48,6 +48,11 @@ Ref.. [【Office2010】ファイルを開くとき「このWebサーバーへの
 	* フォント
 		* すべて大文字 : unchecked!
 
+## Useful Features
+
+* 挿入
+	* クリップアート
+
 ## Tips
 
 * pptxファイルをShift+右クリックで「保護されたビューで開く」ができる
