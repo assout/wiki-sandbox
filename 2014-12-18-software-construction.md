@@ -10,6 +10,18 @@ Categories: []
 
 * Software testingについては <2015-08-17-software-testing.md>
 
+## Requirement definition - 要件定義
+
+要求仕様書は取得者が供給者に対して求めるシステムの機能を記述したものであり、要件定義書は、開発されるべきシステムの機能を定義したものである。
+
+* 要求定義 : 「～がしたい」 -> 利用者の希望
+* 要件定義 : 「～が必要」 -> システムの仕様書
+
+RFI / RFP
+
+* RFI - Request For Information - 情報提供依頼書 : 顧客が作成
+* RFP - Request For Proposal - 提案依頼書 : ベンダーが作成
+
 ## Design - 設計
 
 ### Naming - 名前付け
