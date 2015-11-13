@@ -100,38 +100,38 @@ Refs.
 
 ### Before (Default)
 
-Commands      | tmux (Bash, Mintty) | Vim                  | Vrapper (Eclipse) | cVim (Crhome)
----           | ---                 | ---                  | ---               | ---
-Cut           | n/a                 | `x`                  | `<C-x>`           | n/a
-Copy          | `<C-b>[`,`<C-S-c>`  | `y`                  | `<C-c>`           | n/a
-Paste         | `<C-b>]`,`<C-S-v>`  | `p`                  | `<C-v>`           | n/a
-Tab open      | `<C-b>c`            | `:tabe[dit]`         | `:tabe[dit]`      | `<C-t>`
-Tab move      | `<C-b>{p,n}`        | `g{t,T}`             | `g{t,T}`          | `g{t,T}`,`K,R`
-Pain split    | `<C-b>"`            | `<C-w>s`,`:s[plit]`  | -                 | n/a
-Pain vsplit   | `<C-b>%`            | `<C-w>v`,`:v[split]` | -                 | n/a
-Pain move     | `<C-b><AllowKey>`   | `<C-w>{h,j,k,l>`     | -                 | n/a
-Pain close    | -                   | `<C-w>c`,`:clo[se]`  | `<C-F4>`          | `x`
-Pain maximize | `<C-b>z`            | -                    | `<C-m>`           | `F11`
-Shutdown      | -                   | `:qa[ll]`            | `<Alt-F4>`        | `<Alt-F4>`
+| Commands      | tmux (Bash, Mintty) | Vim                   | Vrapper (Eclipse) | cVim (Crhome)     |
+|---------------|---------------------|-----------------------|-------------------|-------------------|
+| Cut           | n/a                 | `x`                   | `<C-x>`           | n/a               |
+| Copy          | `<C-b>[`, `<C-S-c>` | `y`                   | `<C-c>`           | n/a               |
+| Paste         | `<C-b>]`, `<C-S-v>` | `p`                   | `<C-v>`           | n/a               |
+| Tab open      | `<C-b>c`            | `:tabe[dit]`          | `:tabe[dit]`      | `<C-t>`           |
+| Tab move      | `<C-b>{p, n}`       | `g{t, T}`             | `g{t, T}`         | `g{t, T}`, `K, R` |
+| Pain split    | `<C-b>"`            | `<C-w>s`, `:s[plit]`  | -                 | n/a               |
+| Pain vsplit   | `<C-b>%`            | `<C-w>v`, `:v[split]` | -                 | n/a               |
+| Pain move     | `<C-b><AllowKey>`   | `<C-w>{h, j, k, l>`   | -                 | n/a               |
+| Pain close    | -                   | `<C-w>c`, `:clo[se]`  | `<C-F4>`          | `x`               |
+| Pain maximize | `<C-b>z`            | -                     | `<C-m>`           | `F11`             |
+| Shutdown      | -                   | `:qa[ll]`             | `<Alt-F4>`        | `<Alt-F4>`        |
 
 ### After
 
-Commands      | tmux (Gnome Terminal, Mintty) | Vim                  | Vrapper (Eclipse) | cVim (Chrome)
----           | ---                           | ---                  | ---               | ---
-Cut           | -                             | `x`                  | `x`               | -
-Copy          | `<C-s>[`,`<C-S-c>`            | `y`                  | `y`               | `y`
-Paste         | `<C-s>]`,`<C-S-v>`            | `p`                  | `p`               | `p`
-Tab open      | `<M-t>`                       | `<M-t>`,`:tabe[dit]` | `-`               | `<C-t>`
-Tab move      | `<M-{h,l}>`                   | `<M-{h,l}>`          | `<M-{h,l}>`       | `<M-{h,l}>`,`<C-{h,l}>`
-Tab close     | `<M-c>`                       | `<M-c>`              | `-`               | `c`,`x`
-Pain split    | `<C-s>p`                      | `sp`                 | `sp`              | -
-Pain vsplit   | `<C-s>v`                      | `sv`                 | `sv`              | -
-Pain move     | `<C-s>{h,l,j,k}`              | `s{h,j,k,l}`         | `s{h,j,k,l>`      | n/a
-Pain close    | `<C-s>c`                      | `sc`                 | `sc`,`sx`         | `x`
-Pain maximize | `<C-s>m`                      | `sm`                 | `sm`              | TODO
-Pain size     | `<C-s>{<,>,-,+}`              | `<C-w>{<,>,-,+}`     | TODO              | TODO
-Buffer delete | `<C-s>x`                      | `sx`,`:bd[elete]`    | `sx`,`sc`         | `x`
-Shutdown      | `<C-s>q`                      | `:qa[ll]`            | `:qa[ll]`         | `:qa[ll]`
+| Commands      | tmux (Gnome Terminal, Mintty) | Vim                   | Vrapper (Eclipse)       | cVim (Chrome)              |
+|---------------|-------------------------------|-----------------------|-------------------------|----------------------------|
+| Cut           | -                             | `x`                   | `x`                     | -                          |
+| Copy          | `<C-s>[`, `<C-S-c>`           | `y`                   | `y`                     | `y`                        |
+| Paste         | `<C-s>]`, `<C-S-v>`           | `p`                   | `p`                     | `p`                        |
+| Tab open      | `<M-t>`                       | `<M-t>`, `:tabe[dit]` | `-`                     | `<C-t>`                    |
+| Tab move      | `<M-{h, l}>`                  | `<M-{h, l}>`          | `<M-{h, l}>`            | `<M-{h, l}>`, `<C-{h, l}>` |
+| Tab close     | `<M-c>`                       | `<M-c>`               | `-`                     | `x`                        |
+| Pain split    | `<C-s>p`                      | `sp`                  | `sp`                    | -                          |
+| Pain vsplit   | `<C-s>v`                      | `sv`                  | `sv`                    | -                          |
+| Pain move     | `<C-s>{h, l, j, k}`           | `s{h, j, k, l}`       | `s{h, j, k, l}`         | n/a                        |
+| Pain close    | `<C-s>c`                      | `sc`                  | `sc`, `sx`, `bd[elete]` | `x`                        |
+| Pain maximize | `<C-s>m`                      | `sm`                  | `sm`                    | TODO                       |
+| Pain size     | `<C-s>{<, >, -, +}`           | `<C-w>{<, >, -, +}`   | TODO                    | TODO                       |
+| Buffer delete | `<C-s>x`(kill session)        | `sx`, `:bd[elete]`    | `sc`, `sx`, `bd[elete]` | `x`                        |
+| Shutdown      | `<C-s>q`                      | `:qa[ll]`             | `:qa[ll]`               | `:qa[ll]`                  |
 
 Hint/TODOs
 
@@ -141,12 +141,12 @@ Hint/TODOs
 
 ## Tools color unity
 
-Tools   | dark/light | color
----     | ---        | ---
-Vim     | dark       | hybrid
-GVim    | dark       | hybrid
-Mintty  | dark       | hybrid
-Eclipse | light      | default(light)
+| Tools   | dark/light | color          |
+|---------|------------|----------------|
+| Vim     | dark       | hybrid         |
+| GVim    | dark       | hybrid         |
+| Mintty  | dark       | hybrid         |
+| Eclipse | light      | default(light) |
 
 Hint
 

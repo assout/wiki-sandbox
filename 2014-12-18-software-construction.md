@@ -10,6 +10,16 @@ Categories: []
 
 * Software testingについては <2015-08-17-software-testing.md>
 
+## Process - ソフトウェア開発プロセス
+
+### SLCP-JCF - 共通フレーム
+
+「保守・運用」とまとめることが多いが、共通フレームではそれを明確に区分している。
+「保守」とはシステムを改善・変更する作業
+「運用」は現行のシステムを日々動かしていく作業。システムの変更作業はしない
+
+Refs. [共通フレーム＜法規・基準＜Ｗｅｂ教材＜木暮仁](http://kogures.com/hitoshi/webtext/std-kyotu-frame/index.html)
+
 ## Requirement definition - 要件定義
 
 要求仕様書は取得者が供給者に対して求めるシステムの機能を記述したものであり、要件定義書は、開発されるべきシステムの機能を定義したものである。
