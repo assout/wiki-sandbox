@@ -1,4 +1,4 @@
-# Title: meeting rules
+# Title: Meeting rules
 
 Date: 2014-10-31 10:04
 Tags: []

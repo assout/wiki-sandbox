@@ -1,4 +1,4 @@
-# Title: work note template
+# Title: Work note template
 
 Date: 2014-12-15 13:56
 Tags: []

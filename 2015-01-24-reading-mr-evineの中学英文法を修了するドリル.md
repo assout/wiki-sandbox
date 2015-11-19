@@ -1,4 +1,4 @@
-# Title: reading Mr Evineの中学英文法を修了するドリル
+# Title: Reading Mr Evineの中学英文法を修了するドリル
 
 Date: 2015-01-24 16:35
 Tags: []

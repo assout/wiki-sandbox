@@ -1,4 +1,4 @@
-# Title: exercises Mr Evineの中学英文法を修了するドリル
+# Title: Exercises Mr Evineの中学英文法を修了するドリル
 
 Date: 2015-01-24 19:25
 Tags: []

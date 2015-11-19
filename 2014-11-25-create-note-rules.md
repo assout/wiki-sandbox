@@ -1,4 +1,4 @@
-# Title: create note rules
+# Title: Create note rules
 
 Date: 2014-11-25 16:42
 Tags: []
@@ -11,9 +11,9 @@ Categories: []
 ノート、メモの作成ルール。
 対象は以下3種類。
 
-* work note : 作業ノート
-* study note : 学習ノート
-* pc memo : pcでの作業メモ
+* Work note : 作業ノート
+* Study note : 学習ノート
+* PC memo : pcでの作業メモ
 
 ## Rules
 
@@ -65,6 +65,10 @@ Categories: []
 		* および
 		* など
 		* または
+* よく使う英語
+	* TODO
+	* Caution:
+	* Refs.
 
 ### Work note
 

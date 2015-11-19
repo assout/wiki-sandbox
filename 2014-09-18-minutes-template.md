@@ -1,4 +1,4 @@
-# Title: minutes template
+# Title: Minutes template
 
 Date: 2014-09-18 11:05
 Tags: []
