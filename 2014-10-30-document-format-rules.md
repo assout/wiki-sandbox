@@ -1,4 +1,4 @@
-# Title: document format rules
+# Title: Document format rules
 
 Date: 2014-10-30 14:49
 Tags: []

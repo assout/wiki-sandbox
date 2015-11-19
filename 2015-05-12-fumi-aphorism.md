@@ -1,4 +1,4 @@
-# Title: fumi-aphorism
+# Title: Fumi-aphorism
 
 Date: 2015-05-12 22:54
 Tags: []
