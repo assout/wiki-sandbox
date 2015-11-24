@@ -33,7 +33,7 @@ Categories: []
 
 * ファイルをShift+右クリックで「読み取り専用で開く」ができる
 * 数字に桁区切りを挿入する
-	* -> 置換で頑張るしかなさそう。。ref. [Wordで、Excelのように桁区切りのカンマを容易に設定したい: パソコンのツボ　～Office　のTIP](http://pcclick.seesaa.net/article/190043575.html)
+	* -> 置換で頑張るしかなさそう。。Ref. [Wordで、Excelのように桁区切りのカンマを容易に設定したい: パソコンのツボ　～Office　のTIP](http://pcclick.seesaa.net/article/190043575.html)
 
 ---
 
@@ -49,7 +49,7 @@ Word 2010で、文章の全角半角文字を変換する方法について教�
 * リボンから「ホーム」タブをクリックし、「フォント」グループから「文字種の変換」をクリックします。
 * 表示された項目から、任意の変換をクリックします。ここでは例として、「全角」をクリックします。
 
-Ref.. [121ware.com&gt;サービス＆サポート&gt;Q&amp;A&gt;Q&amp;A番号013002](http://121ware.com/qasearch/1007/app/servlet/relatedqa?QID=013002)
+Ref. [121ware.com&gt;サービス＆サポート&gt;Q&amp;A&gt;Q&amp;A番号013002](http://121ware.com/qasearch/1007/app/servlet/relatedqa?QID=013002)
 
 ---
 
