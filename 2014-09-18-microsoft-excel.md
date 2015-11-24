@@ -53,9 +53,9 @@ Categories: []
 
 ## Add-in
 
-* Relax Tools                  : 主にオートシェイプ内文字列検索のための使用
-* taskline - エクセルガントチャート       : [EXCELマクロでガントチャートを作ってみた - ITレシピ](http : //mitsuyahiromi.sakura.ne.jp/fswiki/wiki.cgi?page=EXCEL%A5%DE%A5%AF%A5%ED%A4%C7%A5%AC%A5%F3%A5%C8%A5%C1%A5%E3%A1%BC%A5%C8%A4%F2%BA%EE%A4%C3%A4%C6%A4%DF%A4%BF)
-* エクセルパスワード解除ソフト : エクセルパスワード瞬時解除.xlam
+* Relax Tools                       : 主にオートシェイプ内文字列検索のための使用
+* taskline - エクセルガントチャート : [EXCELマクロでガントチャートを作ってみた - ITレシピ](http://mitsuyahiromi.sakura.ne.jp/fswiki/wiki.cgi?page=EXCEL%A5%DE%A5%AF%A5%ED%A4%C7%A5%AC%A5%F3%A5%C8%A5%C1%A5%E3%A1%BC%A5%C8%A4%F2%BA%EE%A4%C3%A4%C6%A4%DF%A4%BF)
+* エクセルパスワード解除ソフト      : エクセルパスワード瞬時解除.xlam
 
 ### Relax Tools
 
