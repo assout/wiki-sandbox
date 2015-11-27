@@ -85,6 +85,9 @@ Categories: []
 		pacman -S grep
 * アンインストール
 		pacman -R grep
+* 更新
+		update-core
+		pacman -Su
 
 Refs.
 
