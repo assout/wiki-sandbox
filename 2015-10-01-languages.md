@@ -36,4 +36,6 @@ Categories: []
 		sudo npm install -g eslint
 * npm自身をupdate
 		sudo npm update -g npm
+* すべてのGlobalパッケージをアップデート
+		npm update -g
 
