@@ -171,3 +171,10 @@ Hint
 
 * coggle : Mind map
 
+### Continuous Integration
+
+* Travis CI : CI
+* OpenShift : PaaS
+	* Jenkins : CI
+* Codecov   : Continuous code coverage
+* COVERALLS : Continuous code coverage
