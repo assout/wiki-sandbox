@@ -94,9 +94,9 @@ Categories: []
 		update-core
 		pacman -Su
 * ダウングレード
-> : /var/cache/pacman/pkg ディレクトリの中にもし古いバージョンのパッケージが保存されていた場合、簡単にダウングレードすることができます。
-> （つい最近に pacman -Scc をしたりしていない限り存在しているはずです）。
-> pacman -U /var/cache/pacman/pkg/pkgname-olderpkgver.pkg.tar.gz でその指定したバージョンのパッケージをインストールできます。
+	> : /var/cache/pacman/pkg ディレクトリの中にもし古いバージョンのパッケージが保存されていた場合、簡単にダウングレードすることができます。
+	> （つい最近に pacman -Scc をしたりしていない限り存在しているはずです）。
+	> pacman -U /var/cache/pacman/pkg/pkgname-olderpkgver.pkg.tar.gz でその指定したバージョンのパッケージをインストールできます。
 
 Refs.
 
