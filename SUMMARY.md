@@ -1,7 +1,5 @@
 # Summary
 
-TODOs
-
 TODO Auto generation this file
 
 * Memo list

@@ -19,27 +19,32 @@ Categories: []
 
 ### List
 
-* ansible
-	* ansible-lint
-* javascript
-	* eslint
-* json
-	* jsonlint
-* shell
-	* shellcheck
-	* bashate
-	* checkbashisms
-* sql
-	* sqlint : TODO Error出て入れれてない
-* markdown(text)
-	* Redpen
+* Ansible
+	* Ansible-lint
+* Dockerfile
+	* dockerfile-lint
+	* dockerlint : Deprecated (結構ゆるそう)
+* Markdown(text)
+	* Markdown lint tool (mdl)
+	* Redpen : Deprecated ("textlint"のほうがモダンっぽい)
 	* eslint-md
-	* mdl
 	* textlint
 	* textstat : TODO 実行時Error出る
-* yaml
-	* js-yaml
-	* yaml-lint
+* JavaScript
+	* ESLint
+* JSON
+	* JSON Lint
+* ShellScript
+	* bashate
+	* checkbashisms
+	* shellcheck
+* SQL
+	* SQLint : TODO Error出て入れれてない
+* VimScript
+	* vint
+* YAML
+	* JS-YAML
+	* yaml-lint: Deprecated ("JS-YAML"に比べドキュメントがあんまなさそう)
 
 ### Redpen
 
@@ -88,6 +93,10 @@ Categories: []
 * 更新
 		update-core
 		pacman -Su
+* ダウングレード
+> : /var/cache/pacman/pkg ディレクトリの中にもし古いバージョンのパッケージが保存されていた場合、簡単にダウングレードすることができます。
+> （つい最近に pacman -Scc をしたりしていない限り存在しているはずです）。
+> pacman -U /var/cache/pacman/pkg/pkgname-olderpkgver.pkg.tar.gz でその指定したバージョンのパッケージをインストールできます。
 
 Refs.
 
@@ -166,10 +175,11 @@ Hint
 * moqups
 * PromiSEES - Promise visualization playground for the adventurous
 * Restler
+* Text 2 Mind Map
 
 ### Unused
 
-* coggle : Mind map
+* coggle : Mind Map (Alternative to "Text 2 Mind Map")
 
 ### Continuous Integration
 
