@@ -7,4 +7,6 @@ before_script:
   - cp .mdlrc .mdlrc.style.rb ~
 script:
   - mdl *.md
+after_success:
+  - npm run travis:codecov
 
