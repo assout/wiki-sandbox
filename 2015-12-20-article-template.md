@@ -6,11 +6,11 @@ Categories: []
 
 ---
 
-	# {Title}
+    # {Title}
 
-	## TL;DR (要約)
+    ## TL;DR (要約)
 
-	## Foo
+    ## Foo
 
-	## Summary
+    ## Summary
 

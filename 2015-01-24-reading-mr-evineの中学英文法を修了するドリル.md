@@ -21,9 +21,9 @@ M = Modifier - 修飾語
 
 修飾語の性質 -> 「SV + 場所 + 時」の順番
 
-	e.g.
-	You run in the park in the morning.
-	You come here every day.
+    e.g.
+    You run in the park in the morning.
+    You come here every day.
 
 今まで出てきたMの"in the park" "to school" "on Sunday"などで見られる"In" "to" "on" などは、**前置詞**と呼ばれる。
 「前置詞+名詞」でできるカタマリを**前置詞句**という。
@@ -61,32 +61,32 @@ S = C,S ≠ O
 ### 形容詞と副詞の違い
 
 * 同じ点
-	* **どちらも修飾語M**
+    * **どちらも修飾語M**
 * 違う点
-	* 修飾対象 : (原則)形容詞->名詞、副詞->動詞 (e.g. I have a **big** car. e.g. I have a **very** nice car.)
-	* 形容詞はCになれるが、副詞はなれない (e.g. That house is big.)
+    * 修飾対象 : (原則)形容詞->名詞、副詞->動詞 (e.g. I have a **big** car. e.g. I have a **very** nice car.)
+    * 形容詞はCになれるが、副詞はなれない (e.g. That house is big.)
 
 ### **数・量を表す形容詞**
 
-	すべての             | all                    | all books / all money
-	たくさんの(可算)     | many                   | many dogs
-	たくさんの(不可算)   | much                   | much water
-	たくさんの(両方)     | a lot of               | a lot of cats / a lot of food
-	いくつかの           | some (疑問・否定はany) | some ants / some milk
-	少しの(可算)         | a few                  | a few students
-	少しの(不可算)       | a little               | a little money
-	ほとんどない(可算)   | few                    | few boys
-	ほとんどない(不可算) | little                 | little water
-	まったくない         | no                     | no girls / no food
+    すべての             | all                    | all books / all money
+    たくさんの(可算)     | many                   | many dogs
+    たくさんの(不可算)   | much                   | much water
+    たくさんの(両方)     | a lot of               | a lot of cats / a lot of food
+    いくつかの           | some (疑問・否定はany) | some ants / some milk
+    少しの(可算)         | a few                  | a few students
+    少しの(不可算)       | a little               | a little money
+    ほとんどない(可算)   | few                    | few boys
+    ほとんどない(不可算) | little                 | little water
+    まったくない         | no                     | no girls / no food
 
 ### **頻度を表す副詞**
 
-	いつも             : always
-	ふつう、たいてい   : usually
-	しばしば           : often
-	ときどき           : sometimes
-	めったに・・・ない : seldom
-	1度も・・・ない    : never
+    いつも             : always
+    ふつう、たいてい   : usually
+    しばしば           : often
+    ときどき           : sometimes
+    めったに・・・ない : seldom
+    1度も・・・ない    : never
 
 ### 形容詞と副詞の位置
 
@@ -121,25 +121,25 @@ wellのような「程度」を示す副詞は**動詞または目的語の後**
 他動詞によって決まる
 
 * for : 「・・のために」という「気持ち」が込められているので、相手に利益を与えるニュアンスのある他動詞と一緒になる
-	(e.g. You make breakfast for me. I cook grilled chicken for you.)
+    (e.g. You make breakfast for me. I cook grilled chicken for you.)
 * to : 「・・に」という「方向・到達点」を示す、「相手に情報やものを伝えるニュアンスのある他動詞と一緒になる
-	(e.g. You show a beautiful landscape to me. I write a letter to you every day.)
+    (e.g. You show a beautiful landscape to me. I write a letter to you every day.)
 
 ## Lesson.06 - SVOC文型
 
 ### 不完全他動詞
 
 * 他動詞
-	* 不完全他動詞 : SVOC
-	* 完全他動詞 : SVO, SVOO
+    * 不完全他動詞 : SVOC
+    * 完全他動詞 : SVO, SVOO
 * 自動詞
-	* 不完全自動詞 : SVC
-	* 完全自動詞 : SV
+    * 不完全自動詞 : SVC
+    * 完全自動詞 : SV
 
 ### S=C と O=C
 
 * SVOC文型はO=Cとなる
-	(e.g. I call you Tom.)
+    (e.g. I call you Tom.)
 
 ### SVOC を作る動詞
 
@@ -186,32 +186,32 @@ wellのような「程度」を示す副詞は**動詞または目的語の後**
 
 目的格の代名詞
 
-	グループ | 単数形         | 複数形
-	一人称   | me             | us
-	二人称   | you
-	三人称   | him / her / it | them
+    グループ | 単数形         | 複数形
+    一人称   | me             | us
+    二人称   | you
+    三人称   | him / her / it | them
 
 所有格の代名詞
 
-	グループ | 単数形          | 複数形
-	一人称   | my              | our
-	二人称   | your
-	三人称   | his / her / its | their
+    グループ | 単数形          | 複数形
+    一人称   | my              | our
+    二人称   | your
+    三人称   | his / her / its | their
 
 指示代名詞 = 所有格と同じように名詞の前に置き、その名詞を特定のものにする
 
-	単数形     | 複数形
-	this(この) | these
-	that(あの) | those
+    単数形     | 複数形
+    this(この) | these
+    that(あの) | those
 
 ### 所有代名詞
 
 my deskのような「所有格の代名詞＋名詞」を1つに言い換えることができる
 
-	グループ | 単数形     | 複数形
-	一人称   | mine       | ours
-	二人称   | yours
-	三人称   | his / hers | theirs
+    グループ | 単数形     | 複数形
+    一人称   | mine       | ours
+    二人称   | yours
+    三人称   | his / hers | theirs
 
 ### 代名詞の変化表まとめ
 
@@ -271,14 +271,14 @@ do / does の過去形はひとつ。did.
 
 ### 冠詞の機能
 
-	a/an   | 不特定であるというイメージを名詞に持たせる   | 単数の可算名詞のみ
-	the    | ある特定・限定のイメージを名詞に持たせる     | すべての名詞
-	無冠詞 | 抽象的で枠組みのないイメージを名詞に持たせる | 単数の可算名詞以外すべて
+    a/an   | 不特定であるというイメージを名詞に持たせる   | 単数の可算名詞のみ
+    the    | ある特定・限定のイメージを名詞に持たせる     | すべての名詞
+    無冠詞 | 抽象的で枠組みのないイメージを名詞に持たせる | 単数の可算名詞以外すべて
 
 e.g.
 
-	Tomoko: I met a man at the party last night.
-	Yukari: Did you talk to the man?
+    Tomoko: I met a man at the party last night.
+    Yukari: Did you talk to the man?
 
 ### 無冠詞
 
@@ -305,13 +305,13 @@ e.g.
 注意するポイント
 
 1. 唯一のもの、楽器には the をつける :
-	the earth, the piano
+    the earth, the piano
 2. 国名、固有名詞、食事、教科などは無冠詞 :
-	play soccer, visit London, have lunch
+    play soccer, visit London, have lunch
 3. 決まった表現のなかでの無冠詞 :
-	go to school, go to bed
+    go to school, go to bed
 4. a/ an の特別用法:
-	aとanには「・・・につき、・・・ごとに」と意味で単位を表す用法がある。(We go shopping once a month.)
+    aとanには「・・・につき、・・・ごとに」と意味で単位を表す用法がある。(We go shopping once a month.)
 
 ### There is / are
 
@@ -382,46 +382,46 @@ will は動詞を助けるので、**助動詞**。
 ### 助動詞の種類いろいろ
 
 * will
-	* 否定 : won't
-	* 過去 : would
-	* e.g. :
-		* I'll do my best.
-		* Will you explain the problem?
-		* Would you like some tea or coffee?
+    * 否定 : won't
+    * 過去 : would
+    * e.g. :
+        * I'll do my best.
+        * Will you explain the problem?
+        * Would you like some tea or coffee?
 * can
-	* 否定 : can't
-	* 過去 : could
-	* e.g. :
-		* Yes,we can.
-		* Can I help you?
-	* note : be able to + 動詞の原形でほぼ同じ意味
+    * 否定 : can't
+    * 過去 : could
+    * e.g. :
+        * Yes,we can.
+        * Can I help you?
+    * note : be able to + 動詞の原形でほぼ同じ意味
 * must
-	* 否定 : mustn't
-	* 過去 : なし
-	* e.g. :
-		* You must try a new model.
-	* note :
-		* have [has] to で言い換えられることが非常に多い。
-		-> He must agree to this offer. <--> He has to agree to this offer.
-		* また、must には過去形がないので、had to で言い換える。
-		-> He had to agree to this offer.
-		* さらに、have [has] to のポイントとして、疑問文・否定文を作るときは、一般動詞のように考えること。
-			* 肯定 : You have to go alone.
-			* 否定 : Do you have to go alone?
-		* must を否定にすると禁止になるが、have to の場合は違う意味になる。  
-		-> You don't have to go alone. <--> 君は一人で行く必要はありません  
-		-> You must not go alone. <--> 君は一人でいってはいけません
+    * 否定 : mustn't
+    * 過去 : なし
+    * e.g. :
+        * You must try a new model.
+    * note :
+        * have [has] to で言い換えられることが非常に多い。
+        -> He must agree to this offer. <--> He has to agree to this offer.
+        * また、must には過去形がないので、had to で言い換える。
+        -> He had to agree to this offer.
+        * さらに、have [has] to のポイントとして、疑問文・否定文を作るときは、一般動詞のように考えること。
+            * 肯定 : You have to go alone.
+            * 否定 : Do you have to go alone?
+        * must を否定にすると禁止になるが、have to の場合は違う意味になる。  
+        -> You don't have to go alone. <--> 君は一人で行く必要はありません  
+        -> You must not go alone. <--> 君は一人でいってはいけません
 * may
-	* 否定 : may not
-	* 過去 : **might**
-	* e.g. :
-		* She may be wrong.
-		* May I help you?
+    * 否定 : may not
+    * 過去 : **might**
+    * e.g. :
+        * She may be wrong.
+        * May I help you?
 * should
-	* 否定 : shouldn't
-	* 過去 : なし(shallの過去形がshould)
-	* e.g. :
-		* You should believe you r partner.
+    * 否定 : shouldn't
+    * 過去 : なし(shallの過去形がshould)
+    * e.g. :
+        * You should believe you r partner.
 
 ## Lesson.15 - 疑問詞を使った疑問文
 
