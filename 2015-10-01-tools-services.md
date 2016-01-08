@@ -11,40 +11,40 @@ Categories: []
 * Linux限定のものは、ref. <2014-09-09-linux.md>
 * Windows限定のものは、ref. <2014-12-04-windows.md>
 * 重要なものは別ファイル化
-	* Git : <2015-02-02-git.md>
-	* Docker : <2015-08-10-docker.md>
-	* And other
+    * Git : <2015-02-02-git.md>
+    * Docker : <2015-08-10-docker.md>
+    * And other
 
 ## Lint tools
 
 ### List
 
 * Ansible
-	* Ansible-lint
+    * Ansible-lint
 * Dockerfile
-	* dockerfile-lint
-	* dockerlint : Deprecated (結構ゆるそう)
+    * dockerfile-lint
+    * dockerlint : Deprecated (結構ゆるそう)
 * Markdown(text)
-	* Markdown lint tool (mdl)
-	* Redpen : Deprecated ("textlint"のほうがモダンっぽい)
-	* eslint-md
-	* textlint
-	* textstat : TODO 実行時Error出る
+    * Markdown lint tool (mdl)
+    * Redpen : Deprecated ("textlint"のほうがモダンっぽい)
+    * eslint-md
+    * textlint
+    * textstat : TODO 実行時Error出る
 * JavaScript
-	* ESLint
+    * ESLint
 * JSON
-	* JSON Lint
+    * JSON Lint
 * ShellScript
-	* bashate
-	* checkbashisms
-	* shellcheck
+    * bashate
+    * checkbashisms
+    * shellcheck
 * SQL
-	* SQLint : TODO Error出て入れれてない
+    * SQLint : TODO Error出て入れれてない
 * VimScript
-	* vint
+    * vint
 * YAML
-	* JS-YAML
-	* yaml-lint: Deprecated ("JS-YAML"に比べドキュメントがあんまなさそう)
+    * JS-YAML
+    * yaml-lint: Deprecated ("JS-YAML"に比べドキュメントがあんまなさそう)
 
 ### Redpen
 
@@ -53,12 +53,12 @@ Categories: []
 ### ShellCheck
 
 * SC2034
-	* -> for文とかではdummyとして`_`を使う
-			for _ in ${1..10} ; do foo; done
+    * -> for文とかではdummyとして`_`を使う
+            for _ in ${1..10} ; do foo; done
 
 ### bashate
 
-	bashate -i E002,E003
+    bashate -i E002,E003
 
 * E002: ensure that indents are only spaces, and not hard tabs
 * E003: Not an indent with multiple of 4
@@ -68,35 +68,35 @@ Categories: []
 ### Ctags
 
 * langmap確認
-		ctags --list-maps
+        ctags --list-maps
 
 ### GitBook
 
 * 初期化
-		gitbook init
-		\* SUMMARY.mdに従ってディレクトリ、ファイルを作成できる
+        gitbook init
+        \* SUMMARY.mdに従ってディレクトリ、ファイルを作成できる
 * ビルド
-		gitbook build
+        gitbook build
 * サーブ
-		gitbook serve
+        gitbook serve
 
 ### Pacman
 
 * リスト表示
-		pacman -Sl
+        pacman -Sl
 * 検索(パッケージ名と説明の両方)
-		pacman -Ss grep
+        pacman -Ss grep
 * インストール
-		pacman -S grep
+        pacman -S grep
 * アンインストール
-		pacman -R grep
+        pacman -R grep
 * 更新
-		update-core
-		pacman -Su
+        update-core
+        pacman -Su
 * ダウングレード
-	> : /var/cache/pacman/pkg ディレクトリの中にもし古いバージョンのパッケージが保存されていた場合、簡単にダウングレードすることができます。
-	> （つい最近に pacman -Scc をしたりしていない限り存在しているはずです）。
-	> pacman -U /var/cache/pacman/pkg/pkgname-olderpkgver.pkg.tar.gz でその指定したバージョンのパッケージをインストールできます。
+    > : /var/cache/pacman/pkg ディレクトリの中にもし古いバージョンのパッケージが保存されていた場合、簡単にダウングレードすることができます。
+    > （つい最近に pacman -Scc をしたりしていない限り存在しているはずです）。
+    > pacman -U /var/cache/pacman/pkg/pkgname-olderpkgver.pkg.tar.gz でその指定したバージョンのパッケージをインストールできます。
 
 Refs.
 
@@ -106,7 +106,7 @@ Refs.
 ### Pandoc
 
 * markdownからtextileに変換
-		pandoc -s hogehohe.md -o hogehohe.textile
+        pandoc -s hogehohe.md -o hogehohe.textile
 
 ## Tools key unity
 
@@ -185,6 +185,6 @@ Hint
 
 * Travis CI : CI
 * OpenShift : PaaS
-	* Jenkins : CI
+    * Jenkins : CI
 * Codecov   : Continuous code coverage
 * COVERALLS : Continuous code coverage

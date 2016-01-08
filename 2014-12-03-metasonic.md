@@ -52,7 +52,7 @@ Categories: []
 ### プロセス終了ステートについて
 
 以下マニュアルからベストプラクティスを抜粋する。
-	-> Metasonic_Build_Modeler_Manual_ja.pdf
+    -> Metasonic_Build_Modeler_Manual_ja.pdf
 
 >プロセス終了ステートは常に「End」と名前が付けられ、終了したプロセシングブランチの結果は括弧書きされます。例：End (Order delivered)。この方法で、インスタンスマネージャまたはレコーダで、どのプロセシングブランチが処理されたかを素早く見ることができ、さらに「end」についての制限により、テキスト全体もシンボルに適合します。
 

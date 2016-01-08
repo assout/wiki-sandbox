@@ -7,16 +7,16 @@ Categories: []
 ---
 
 * 議事録ファイル名
-	* rule
-			<ticket number>_<ticket name>_議事メモ_<作成日(yyyymmdd)>_<revision>.md
-	* example
-			1234_環境構築手順書作成_議事メモ_20141010_r1.md
+    * rule
+            <ticket number>_<ticket name>_議事メモ_<作成日(yyyymmdd)>_<revision>.md
+    * example
+            1234_環境構築手順書作成_議事メモ_20141010_r1.md
 
-	 めんどくさいのでmemolistで作ってもよい。そのときのメモタイトルは以下とする。
-	* rule
-			minutes of ticket <ticket number>
-	* example
-			minutes of ticket 5866
+     めんどくさいのでmemolistで作ってもよい。そのときのメモタイトルは以下とする。
+    * rule
+            minutes of ticket <ticket number>
+    * example
+            minutes of ticket 5866
 
 以下内容フォーマット。
 
@@ -38,7 +38,7 @@ Tue. May 3. 15:00-17:30
 
 ## 資料
 
-	xxx.xlsx
+    xxx.xlsx
 
 ## レビューの目的
 
@@ -58,8 +58,8 @@ Tue. May 3. 15:00-17:30
 ### Foo
 
 * xxxは修正すること。
-	* -> xxxをyyyに修正しました。
+    * -> xxxをyyyに修正しました。
 * yyyは修正すること。
-	* -> yyyをzzzに修正しました。
+    * -> yyyをzzzに修正しました。
 
 </pre>

@@ -7,8 +7,8 @@ Categories: []
 ---
 
 * 以下の2つを使う
-	* Wunderlist
-	* Vim - unite-todo plugin
+    * Wunderlist
+    * Vim - unite-todo plugin
 * Principles: あんまりきっちりルール作らない
 
 ## Wunderlist

@@ -9,34 +9,34 @@ Categories: []
 ## Reference
 
 * 権限付与 :
-	[ORACLE／権限編 - オラクルちょこっとリファレンス](http://luna.gonna.jp/oracle/ora_auth.html)
+    [ORACLE／権限編 - オラクルちょこっとリファレンス](http://luna.gonna.jp/oracle/ora_auth.html)
 * SETシステム変数 :
-	[SQL*Plusコマンド・リファレンス](http://otndnld.oracle.co.jp/document/products/oracle10g/102/doc_cd/server.102/B19277-01/ch12.html#39458)
+    [SQL*Plusコマンド・リファレンス](http://otndnld.oracle.co.jp/document/products/oracle10g/102/doc_cd/server.102/B19277-01/ch12.html#39458)
 
 ## Useful commands
 
 * 接続 :
-		connect user/pass@host/sid
+        connect user/pass@host/sid
 * ユーザ一覧参照 :
-		select username from all_users;
+        select username from all_users;
 * テーブル一覧参照 :
-		select table_name from user_tables;
+        select table_name from user_tables;
 * sqlファイルの実行 :
-		SQL> @/tmp/hoge.sql
+        SQL> @/tmp/hoge.sql
 * システム権限付与 :
-		grant [システム権限名] to [ロール名];
+        grant [システム権限名] to [ロール名];
 * バッファリスト表示 :
-		list [n]
+        list [n]
 * バッファ内SQLを実行 :
-		run [n]
+        run [n]
 * バッファ内SQLを実行(表示せず) :
-		/
+        /
 * Backspace :
-		Ctrl-Backspace
+        Ctrl-Backspace
 * インポート :
-		imp user/pass@sid file=data.dmp
-	* ユーザ指定 :
-			imp user/pass@sid file=data.dmp fromuser=tanaka touser=sato
+        imp user/pass@sid file=data.dmp
+    * ユーザ指定 :
+            imp user/pass@sid file=data.dmp fromuser=tanaka touser=sato
 * テーブル作成 :
-		create table table_name (item_name1 varchar(10),item_name2 varchar(20))
+        create table table_name (item_name1 varchar(10),item_name2 varchar(20))
 
