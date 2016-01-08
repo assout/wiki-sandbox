@@ -3,13 +3,10 @@ sudo: false
 
 install:
   - gem install mdl
-  - npm install codecov.io textlint textlint-formatter-codecov -D
 before_script:
   - cp .mdlrc .mdlrc.style.rb ~
-  - cp .textlintrc ~
 script:
   - mdl *.md
-  - textlint -f codecov | codecov.io
 after_success:
   - npm run travis:codecov
 
