@@ -53,9 +53,9 @@ Categories: []
 
 ## Add-in
 
-* Relax Tools                       : 主にオートシェイプ内文字列検索のための使用
-* taskline - エクセルガントチャート : [EXCELマクロでガントチャートを作ってみた - ITレシピ](http : //mitsuyahiromi.sakura.ne.jp/fswiki/wiki.cgi?page=EXCEL%A5%DE%A5%AF%A5%ED%A4%C7%A5%AC%A5%F3%A5%C8%A5%C1%A5%E3%A1%BC%A5%C8%A4%F2%BA%EE%A4%C3%A4%C6%A4%DF%A4%BF)
-* エクセルパスワード解除ソフト      : エクセルパスワード瞬時解除.xlam
+* Relax Tools                                      : 主にオートシェイプ内文字列検索のための使用 : [Releases · RelaxTools/RelaxTools-Addin](https://github.com/RelaxTools/RelaxTools-Addin/releases)
+* taskline - エクセルガントチャート                : [EXCELマクロでガントチャートを作ってみた - ITレシピ](http://mitsuyahiromi.sakura.ne.jp/fswiki/wiki.cgi?page=EXCEL%A5%DE%A5%AF%A5%ED%A4%C7%A5%AC%A5%F3%A5%C8%A5%C1%A5%E3%A1%BC%A5%C8%A4%F2%BA%EE%A4%C3%A4%C6%A4%DF%A4%BF)
+* エクセルパスワード瞬時解除ForExcel2007/2010/2013 : [エクセルパスワード瞬時解除ForExcel2007/2010/2013の詳細情報 : Vector ソフトを探す！](http://www.vector.co.jp/soft/winnt/business/se499814.html)
 
 ### Deprecated
 
@@ -206,4 +206,8 @@ TODO 自動設定したい
 ## Refs
 
 * [Excel のショートカット キーとファンクション キーについて](http://office.microsoft.com/ja-jp/excel-help/HP010073848.aspx)
+
+## TODOs
+
+* TODO クイックアクセスツールバーからRelax Toolsの分が消失することがある
 
