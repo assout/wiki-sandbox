@@ -25,6 +25,12 @@ Categories: []
 * 最短一致にする場合には数量子の後ろに ? を付けます。
         s/a+?/1/;
 
+* 置換
+    * 複数行置換
+            perl -0pe 's/aaa\nbbb/ccc/m' foo.txt
+    * 置換後保存
+            perl -pi -e 's/aaa/ccc/g' foo.txt
+
 ### Python
 
 * pip update
