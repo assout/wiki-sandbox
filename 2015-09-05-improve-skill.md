@@ -6,7 +6,7 @@ Categories: []
 
 ---
 
-Ref. [Text 2 Mind Map - Simple mind mapping online](http://text2mindmap.com/v4P8mD3)
+Refs: [Text 2 Mind Map - Simple mind mapping online](http://text2mindmap.com/v4P8mD3)
 
 ```
 Me

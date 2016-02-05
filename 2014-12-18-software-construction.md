@@ -18,7 +18,7 @@ Categories: []
 「保守」とはシステムを改善・変更する作業
 「運用」は現行のシステムを日々動かしていく作業。システムの変更作業はしない
 
-Refs. [共通フレーム＜法規・基準＜Ｗｅｂ教材＜木暮仁](http://kogures.com/hitoshi/webtext/std-kyotu-frame/index.html)
+Refs: [共通フレーム＜法規・基準＜Ｗｅｂ教材＜木暮仁](http://kogures.com/hitoshi/webtext/std-kyotu-frame/index.html)
 
 ## Requirement definition - 要件定義
 
@@ -117,7 +117,7 @@ RFI / RFP
 * open       : ソケットなどの通信、ストリームへの接続。
 * close      : ソケットなどの通信、ストリームの終了・切断。
 
-#### Refs.
+#### Refs:
 
 * [関数名によく使われる英単語（動詞）の意味とニュアンス](http://php-archive.net/php/words-in-function-names/)
 * [正しいコーディングが身につくエンジニア英語の手引き 〜文法とクラス／メソッド、命名規則〜](http://www.find-job.net/startup/ehce]nglish-for-engineers-naming-conventions)
@@ -175,7 +175,7 @@ RFI / RFP
 
 ### Design Pattern
 
-Ref. [Text 2 Mind Map - Design Pattern](http://www.text2mindmap.com/w2dArcX)
+Refs: [Text 2 Mind Map - Design Pattern](http://www.text2mindmap.com/w2dArcX)
 
 ```
 Design Pattern
@@ -194,7 +194,7 @@ Design Pattern
 
 ### Exception - 例外設計
 
-Ref..
+Refs:.
 
 * [Ruby - Railsアプリケーションにおけるエラー処理（例外設計）の考え方 - Qiita](http://qiita.com/jnchito/items/3ef95ea144ed15df3637)
 * [.NETの例外処理 Part.1 - とあるコンサルタントのつぶやき - Site Home - MSDN Blogs](http://blogs.msdn.com/b/nakama/archive/2008/12/29/net-part-1.aspx)
@@ -251,11 +251,11 @@ Ref..
 6. bodyは1行あたり72文字以内にしましょう
 7. howよりwhatやwhyをbodyに記述しましょう
 
-Ref. [Gitコミットメッセージの7大原則 - rochefort&#39;s blog](http://rochefort.hatenablog.com/entry/2015/09/05/090000)
+Refs: [Gitコミットメッセージの7大原則 - rochefort&#39;s blog](http://rochefort.hatenablog.com/entry/2015/09/05/090000)
 
 ### Pull Request Template - プルリクエストテンプレート
 
-Ref..
+Refs:.
 
 * [Pull Request のフォーマットを決めるとレビューの効率が3倍よくなる :: Crocos Engineering Blog](http://engineering.crocos.jp/post/98455177675/pull-request-%E3%81%AE%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%83%E3%83%88%E3%82%92%E6%B1%BA%E3%82%81%E3%82%8B%E3%81%A8%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC%E3%81%AE%E5%8A%B9%E7%8E%87%E3%81%8C3%E5%80%8D%E3%82%88%E3%81%8F%E3%81%AA%E3%82%8B)
 * [symfony/CONTRIBUTING.md at 2.8 · symfony/symfony · GitHub](https://github.com/symfony/symfony/blob/2.8/CONTRIBUTING.md)
@@ -272,14 +272,14 @@ Ref..
 |            | ピアデスクチェック | 机上チェック。自分で書いたものを自分で丹念に調べる                                                                                                                                                                                                                                   |
 | 最も非公式 | アドホックレビュー | 即席のレビュー。つかまえにくいバグをつきとめるのに同僚にチェックを頼む行為があたります。 プロセスとして組み込まれておらず、目下の問題の解決以上の成果はないです。                                                                                                                    |
 
-Ref. [あなたのおっしゃるレビューってどのことかしら？ - Qiita](http://qiita.com/mima_ita/items/c3490ad1ccc12ad853f1)
+Refs: [あなたのおっしゃるレビューってどのことかしら？ - Qiita](http://qiita.com/mima_ita/items/c3490ad1ccc12ad853f1)
 
 ## OOP - オブジェクト指向プログラミング
 
 CRCカード(Class Responsibility Collaborator)
 > クラス (class) は同じようなオブジェクトの集合であり、責務 (responsibility) はクラスが知っている、あるいは行う事柄であり、協調クラス (collaborator) はクラスが責務を果たすために相互作用する他のクラスです
 
-Ref. [CRC(Class Responsibility Collaborator)モデルの概要](https://www.ogis-ri.co.jp/otc/swec/process/am-res/am/artifacts/crcModel.html)
+Refs: [CRC(Class Responsibility Collaborator)モデルの概要](https://www.ogis-ri.co.jp/otc/swec/process/am-res/am/artifacts/crcModel.html)
 
 ## Concurrent Programing - 並行プログラミング
 
@@ -289,7 +289,7 @@ Ref. [CRC(Class Responsibility Collaborator)モデルの概要](https://www.ogis
 * 並行(concurrent) - 論理的に同時進行的な処理。「疑似並列」
     * e.g. 複数スレッドコンテキストスイッチしながら同時に処理してるように見える など
 
-Ref. [parallel と concurrent、並列と並行の違い - 本当は怖い情報科学](http://freak-da.hatenablog.com/entry/20100915/p1)
+Refs: [parallel と concurrent、並列と並行の違い - 本当は怖い情報科学](http://freak-da.hatenablog.com/entry/20100915/p1)
 
 ## Refs
 
