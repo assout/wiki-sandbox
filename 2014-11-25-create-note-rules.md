@@ -31,7 +31,7 @@ Categories: []
     * ＠ : ＠場所 を表す
 
 * 記号は日本語文の中なら全角、英語文の中なら半角。(数字は必ず半角) -> 必ず半角のほうがよいかも。(根拠探す -> Redpen, textlintあたり)
-* 英単語と和語の単語区切りはスペースを入れない。(correct -> Jonh Doeは言った。 incorrect -> Jonh Doe は言った。) -> TODO space入れた方が良い？(根拠探す -> Redpen, textlintあたり)
+* 英単語と和語の単語区切りはスペースを入れない。(correct -> Jonh Doeは言った。 incorrect -> Jonh Doe は言った。) -> TODO: space入れた方が良い？(根拠探す -> Redpen, textlintあたり)
 * 人名の書き方
     * 紙 : ○内にカタカナ1 or 2文字
     * 電子 : ()内に名前。(メモでは先頭2文字をアルファベットで。e.g. (hiro), (taha)
@@ -39,7 +39,7 @@ Categories: []
 * 絵を多用すること(図解)
 * 原則 markdown で書く
     * 用語集は定義リストとして書く
-    * 定義リストは、以下のフォーマットとする(TODO 微妙かも。主要パーサーの実装に合わせたい)
+    * 定義リストは、以下のフォーマットとする(TODO: 微妙かも。主要パーサーの実装に合わせたい)
             Hoge
             : hogehoge
             : hogehoge
@@ -68,7 +68,7 @@ Categories: []
 * よく使う英語
     * TODO
     * Caution:
-    * Refs.
+    * Refs:
 
 ### Work note
 
@@ -77,11 +77,11 @@ Categories: []
 * サブペインは「メモ欄」or「タイムトラック欄」 -> どっちにするか保留中
 * メモは無理して漢字つかわない。ひらがなのほうが早い
 
-Ref. <2015-09-28-stationery.md>
+Refs: <2015-09-28-stationery.md>
 
 ### Study note
 
-Ref. <2015-09-28-stationery.md>
+Refs: <2015-09-28-stationery.md>
 
 ### PC memo
 

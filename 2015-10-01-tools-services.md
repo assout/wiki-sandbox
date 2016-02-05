@@ -29,7 +29,7 @@ Categories: []
     * Redpen : Deprecated ("textlint"のほうがモダンっぽい)
     * eslint-md
     * textlint
-    * textstat : TODO 実行時Error出る
+    * textstat : TODO: 実行時Error出る
 * JavaScript
     * ESLint
 * JSON
@@ -39,7 +39,7 @@ Categories: []
     * checkbashisms
     * shellcheck
 * SQL
-    * SQLint : TODO Error出て入れれてない
+    * SQLint : TODO: Error出て入れれてない
 * VimScript
     * vint
 * YAML
@@ -98,7 +98,7 @@ Categories: []
     > （つい最近に pacman -Scc をしたりしていない限り存在しているはずです）。
     > pacman -U /var/cache/pacman/pkg/pkgname-olderpkgver.pkg.tar.gz でその指定したバージョンのパッケージをインストールできます。
 
-Refs.
+Refs:
 
 * [pacman - ArchWiki](https://wiki.archlinuxjp.org/index.php/Pacman)
 * [Pacman ヒント - ArchWiki](https://wiki.archlinuxjp.org/index.php/Pacman_%E3%83%92%E3%83%B3%E3%83%88)
@@ -140,8 +140,8 @@ Refs.
 | Pain vsplit   | `<C-s>v`                      | `sv`                  | `sv`                    | -                          |
 | Pain move     | `<C-s>{h, l, j, k}`           | `s{h, j, k, l}`       | `s{h, j, k, l}`         | n/a                        |
 | Pain close    | `<C-s>c`                      | `sc`                  | `sc`, `sx`, `bd[elete]` | `x`                        |
-| Pain maximize | `<C-s>m`                      | `sm`                  | `sm`                    | TODO                       |
-| Pain size     | `<C-s>{<, >, -, +}`           | `<C-w>{<, >, -, +}`   | TODO                    | TODO                       |
+| Pain maximize | `<C-s>m`                      | `sm`                  | `sm`                    | TODO:                       |
+| Pain size     | `<C-s>{<, >, -, +}`           | `<C-w>{<, >, -, +}`   | TODO:                    | TODO:                       |
 | Buffer delete | `<C-s>x`(kill session)        | `sx`, `:bd[elete]`    | `sc`, `sx`, `bd[elete]` | `x`                        |
 | Shutdown      | `<C-s>q`                      | `:qa[ll]`             | `:qa[ll]`               | `:qa[ll]`                  |
 
@@ -149,7 +149,7 @@ Hint/TODOs
 
 * `<C-S-hoge>`のような3キー同時押しは、cVim のみで可能
 * `<C-S>hoge`のようなprefix -> キーという定義は、Vim, Vrapper, tmuxのみで可能
-* TODO Pain sizeを統一したい(<C-w>hogeのvim基準で合わせたい)
+* TODO: Pain sizeを統一したい(<C-w>hogeのvim基準で合わせたい)
 
 ## Tools color unity
 
@@ -162,7 +162,7 @@ Hint/TODOs
 
 Hint
 
-* TODO Linux GVimでTomorrow-Nightだと無駄にboldになるキーワードがある(無駄ではない?)
+* TODO: Linux GVimでTomorrow-Nightだと無駄にboldになるキーワードがある(無駄ではない?)
 
 ## Services (Web)
 

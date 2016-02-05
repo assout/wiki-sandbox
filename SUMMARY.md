@@ -1,6 +1,6 @@
 # Summary
 
-TODO Auto generation this file
+TODO: Auto generation this file
 
 * Memo list
     * [Eclipse](2014-09-09-eclipse.md)
