@@ -8,8 +8,8 @@ Categories: []
 
 ## Prelude
 
-* Linux限定のものは、ref. <2014-09-09-linux.md>
-* Windows限定のものは、ref. <2014-12-04-windows.md>
+* Linux限定のものは、Refs: <2014-09-09-linux.md>
+* Windows限定のものは、Refs: <2014-12-04-windows.md>
 * 重要なものは別ファイル化
     * Git : <2015-02-02-git.md>
     * Docker : <2015-08-10-docker.md>
