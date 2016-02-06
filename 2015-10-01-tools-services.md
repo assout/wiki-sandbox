@@ -8,104 +8,104 @@ Categories: []
 
 ## Prelude
 
-* Linux限定のものは、Refs: <2014-09-09-linux.md>
-* Windows限定のものは、Refs: <2014-12-04-windows.md>
-* 重要なものは別ファイル化
-    * Git : <2015-02-02-git.md>
-    * Docker : <2015-08-10-docker.md>
-    * And other
+- Linux限定のものは、Refs: <2014-09-09-linux.md>
+- Windows限定のものは、Refs: <2014-12-04-windows.md>
+- 重要なものは別ファイル化
+    - Git : <2015-02-02-git.md>
+    - Docker : <2015-08-10-docker.md>
+    - And other
 
 ## Lint tools
 
 ### List
 
-* Ansible
-    * Ansible-lint
-* Dockerfile
-    * dockerfile-lint
-    * dockerlint : Deprecated (結構ゆるそう)
-* Markdown(text)
-    * Markdown lint tool (mdl)
-    * Redpen : Deprecated ("textlint"のほうがモダンっぽい)
-    * eslint-md
-    * textlint
-    * textstat : TODO: 実行時Error出る
-* JavaScript
-    * ESLint
-* JSON
-    * JSON Lint
-* ShellScript
-    * bashate
-    * checkbashisms
-    * shellcheck
-* SQL
-    * SQLint : TODO: Error出て入れれてない
-* VimScript
-    * vint
-* YAML
-    * JS-YAML
-    * yaml-lint: Deprecated ("JS-YAML"に比べドキュメントがあんまなさそう)
+- Ansible
+    - Ansible-lint
+- Dockerfile
+    - dockerfile-lint
+    - dockerlint : Deprecated (結構ゆるそう)
+- Markdown(text)
+    - Markdown lint tool (mdl)
+    - Redpen : Deprecated ("textlint"のほうがモダンっぽい)
+    - eslint-md
+    - textlint
+    - textstat : TODO: 実行時Error出る
+- JavaScript
+    - ESLint
+- JSON
+    - JSON Lint
+- ShellScript
+    - bashate
+    - checkbashisms
+    - shellcheck
+- SQL
+    - SQLint : TODO: Error出て入れれてない
+- VimScript
+    - vint
+- YAML
+    - JS-YAML
+    - yaml-lint: Deprecated ("JS-YAML"に比べドキュメントがあんまなさそう)
 
 ### Redpen
 
-* Spelling機能は半角スペースで区切られた単語にたいしてのみ動作する点に注意してください
+- Spelling機能は半角スペースで区切られた単語にたいしてのみ動作する点に注意してください
 
 ### ShellCheck
 
-* SC2034
-    * -> for文とかではdummyとして`_`を使う
+- SC2034
+    - -> for文とかではdummyとして`_`を使う
             for _ in ${1..10} ; do foo; done
 
 ### bashate
 
     bashate -i E002,E003
 
-* E002: ensure that indents are only spaces, and not hard tabs
-* E003: Not an indent with multiple of 4
+- E002: ensure that indents are only spaces, and not hard tabs
+- E003: Not an indent with multiple of 4
 
 ## Other tools
 
 ### Ctags
 
-* langmap確認
+- langmap確認
         ctags --list-maps
 
 ### GitBook
 
-* 初期化
+- 初期化
         gitbook init
         \* SUMMARY.mdに従ってディレクトリ、ファイルを作成できる
-* ビルド
+- ビルド
         gitbook build
-* サーブ
+- サーブ
         gitbook serve
 
 ### Pacman
 
-* リスト表示
+- リスト表示
         pacman -Sl
-* 検索(パッケージ名と説明の両方)
+- 検索(パッケージ名と説明の両方)
         pacman -Ss grep
-* インストール
+- インストール
         pacman -S grep
-* アンインストール
+- アンインストール
         pacman -R grep
-* 更新
+- 更新
         update-core
         pacman -Su
-* ダウングレード
+- ダウングレード
     > : /var/cache/pacman/pkg ディレクトリの中にもし古いバージョンのパッケージが保存されていた場合、簡単にダウングレードすることができます。
     > （つい最近に pacman -Scc をしたりしていない限り存在しているはずです）。
     > pacman -U /var/cache/pacman/pkg/pkgname-olderpkgver.pkg.tar.gz でその指定したバージョンのパッケージをインストールできます。
 
 Refs:
 
-* [pacman - ArchWiki](https://wiki.archlinuxjp.org/index.php/Pacman)
-* [Pacman ヒント - ArchWiki](https://wiki.archlinuxjp.org/index.php/Pacman_%E3%83%92%E3%83%B3%E3%83%88)
+- [pacman - ArchWiki](https://wiki.archlinuxjp.org/index.php/Pacman)
+- [Pacman ヒント - ArchWiki](https://wiki.archlinuxjp.org/index.php/Pacman_%E3%83%92%E3%83%B3%E3%83%88)
 
 ### Pandoc
 
-* markdownからtextileに変換
+- markdownからtextileに変換
         pandoc -s hogehohe.md -o hogehohe.textile
 
 ## Tools key unity
@@ -147,9 +147,9 @@ Refs:
 
 Hint/TODOs
 
-* `<C-S-hoge>`のような3キー同時押しは、cVim のみで可能
-* `<C-S>hoge`のようなprefix -> キーという定義は、Vim, Vrapper, tmuxのみで可能
-* TODO: Pain sizeを統一したい(<C-w>hogeのvim基準で合わせたい)
+- `<C-S-hoge>`のような3キー同時押しは、cVim のみで可能
+- `<C-S>hoge`のようなprefix -> キーという定義は、Vim, Vrapper, tmuxのみで可能
+- TODO: Pain sizeを統一したい(<C-w>hogeのvim基準で合わせたい)
 
 ## Tools color unity
 
@@ -162,29 +162,29 @@ Hint/TODOs
 
 Hint
 
-* TODO: Linux GVimでTomorrow-Nightだと無駄にboldになるキーワードがある(無駄ではない?)
+- TODO: Linux GVimでTomorrow-Nightだと無駄にboldになるキーワードがある(無駄ではない?)
 
 ## Services (Web)
 
-* Google Trends
-* VISUALGO
-* Cacoo
-* gitignore.io
-* Slack
-* ttygif
-* moqups
-* PromiSEES - Promise visualization playground for the adventurous
-* Restler
-* Text 2 Mind Map
+- Google Trends
+- VISUALGO
+- Cacoo
+- gitignore.io
+- Slack
+- ttygif
+- moqups
+- PromiSEES - Promise visualization playground for the adventurous
+- Restler
+- Text 2 Mind Map
 
 ### Unused
 
-* coggle : Mind Map (Alternative to "Text 2 Mind Map")
+- coggle : Mind Map (Alternative to "Text 2 Mind Map")
 
 ### Continuous Integration
 
-* Travis CI : CI
-* OpenShift : PaaS
-    * Jenkins : CI
-* Codecov   : Continuous code coverage
-* COVERALLS : Continuous code coverage
+- Travis CI : CI
+- OpenShift : PaaS
+    - Jenkins : CI
+- Codecov   : Continuous code coverage
+- COVERALLS : Continuous code coverage

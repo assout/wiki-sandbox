@@ -15,12 +15,12 @@ Categories: []
 
 ## Command
 
-* sshログイン
+- sshログイン
         rhc ssh $app
-* ログtail
+- ログtail
         rhc tail -a myapp
 
 ## TODOs
 
-* 文字コード変換方法
+- 文字コード変換方法
 

@@ -25,10 +25,10 @@ cmd //c ".\install.bat"
 
 ## References
 
-* [glidenote/memolist.vim · GitHub](https://github.com/glidenote/memolist.vim)
-* [GitBook · Writing made easy](https://www.gitbook.com/)
+- [glidenote/memolist.vim · GitHub](https://github.com/glidenote/memolist.vim)
+- [GitBook · Writing made easy](https://www.gitbook.com/)
 
 ## TODOs
 
-* ある程度各ファイル内の構成を統一する(e.g. Description -> Settings -> Tips とか)
+- ある程度各ファイル内の構成を統一する(e.g. Description -> Settings -> Tips とか)
 
