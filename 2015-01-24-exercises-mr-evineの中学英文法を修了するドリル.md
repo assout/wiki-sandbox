@@ -8,39 +8,39 @@ Categories: []
 
 ## prelude
 
-* <./2015-01-24-reading-mr-evineの中学英文法を修了するドリル.md>
-* -> 正否
-* => まとめて○
+- <./2015-01-24-reading-mr-evineの中学英文法を修了するドリル.md>
+- -> 正否
+- => まとめて○
 
 ## Lesson.01 - 英語の語順 SV文型
 
 ### 1st
 
-* 1 -> ok.
-    * (1) V
-    * (2) M
-    * (3) S
-* 2:a,e -> ok.
-* 3 -> ng.
-    * (1) I         , sit   , ~~under~~
+- 1 -> ok.
+    - (1) V
+    - (2) M
+    - (3) S
+- 2:a,e -> ok.
+- 3 -> ng.
+    - (1) I         , sit   , ~~under~~
     -> ng. under the desk
-    * (2) You       , go    , in the afternoon
+    - (2) You       , go    , in the afternoon
     -> ng. to bank in the afternoon
-    * (3) I         , sleep , with my dog | every night
+    - (3) I         , sleep , with my dog | every night
     -> ok.
-    * (4) You and I , swim  , in the river | on Wednesdays
+    - (4) You and I , swim  , in the river | on Wednesdays
     -> ok.
-    * (5) We        , die   , some day
+    - (5) We        , die   , some day
     -> ok.
-* 4 -> ok.
-    * (1) You listen to the song.
-    * (2) We live in the village.
-    * (3) I work at an airport.
-    * (4) You stand under the tree.
-    * (5) We walk to the office inter morning.
-* 5 -> ok.
-    * (b) you run fast.
-    * (c) I come here tonight.
+- 4 -> ok.
+    - (1) You listen to the song.
+    - (2) We live in the village.
+    - (3) I work at an airport.
+    - (4) You stand under the tree.
+    - (5) We walk to the office inter morning.
+- 5 -> ok.
+    - (b) you run fast.
+    - (c) I come here tonight.
 
 ## Lesson.02 - 英語の語順 SVC文型
 
@@ -48,40 +48,40 @@ Categories: []
 
 #### L.01
 
-* 1 -> ok.
-    * (1) S=We, V=volunteer
-    * (2) S=I, V=come
-    * (3) S=You and I, V=relax
-* 2 ->
-    * (1) You are ski here in winter.
+- 1 -> ok.
+    - (1) S=We, V=volunteer
+    - (2) S=I, V=come
+    - (3) S=You and I, V=relax
+- 2 ->
+    - (1) You are ski here in winter.
     -> ng, You ski here in winter.
-    * (2) You and I are cook in the kitchen every day.
+    - (2) You and I are cook in the kitchen every day.
     -> ng, You and I cook in the kitchen every day.
 
 #### L.02
 
-* 1
-    * (1) x -> ok.
-    * (2) o -> ok.
-    * (3) x -> ok.
-    * (4) o -> ng.
-    * (5) x -> ok.
-* 2 -> ok.
-    * (1) SVC
-    * (2) SVC
-    * (3) SV
-    * (4) SV
-    * (5) SVC
-* 3 -> ok.
-    * She is Rieko.
-    * He is from Okinawa.
-    * You look tired.
-    * I am a student here.
-    * You are kind.
-* 4 -> ok.
-    * い
-    * い
-    * あ
+- 1
+    - (1) x -> ok.
+    - (2) o -> ok.
+    - (3) x -> ok.
+    - (4) o -> ng.
+    - (5) x -> ok.
+- 2 -> ok.
+    - (1) SVC
+    - (2) SVC
+    - (3) SV
+    - (4) SV
+    - (5) SVC
+- 3 -> ok.
+    - She is Rieko.
+    - He is from Okinawa.
+    - You look tired.
+    - I am a student here.
+    - You are kind.
+- 4 -> ok.
+    - い
+    - い
+    - あ
 
 ## Lesson.03 - 英語の語順 SVO文型
 
@@ -108,9 +108,9 @@ Categories: []
     4. svo
     5. svc
 3. : -> ok.
-    * a. O
-    * b. S
-    * c. C
+    - a. O
+    - b. S
+    - c. C
 4. : b -> ok.
 5. : 他動詞の補語に形容詞はこない -> ng. 他動詞は補語を取らない(目的語を取る)
 6. : -> ok.
@@ -150,9 +150,9 @@ Categories: []
     2. good が parent
     3. pink が car
 3. : -> ok.
-    * a. C
-    * b. 副詞
-    * c. M
+    - a. C
+    - b. 副詞
+    - c. M
 4. : -> ok.
     1. い
     2. い
@@ -231,32 +231,32 @@ Categories: []
     2. You always make me sad. (SVOC)
 4. : -> ok.
     1. SVOC
-        * S. You
-        * V. name
-        * O1. the machine
-        * C. Mr.Big.
+        - S. You
+        - V. name
+        - O1. the machine
+        - C. Mr.Big.
     2. SVOC
-        * S. I
-        * V. call
-        * O1. you
-        * C. Momo.
+        - S. I
+        - V. call
+        - O1. you
+        - C. Momo.
     3. SVOO
-        * S. I
-        * V. show
-        * O1. you
-        * O2. the right way
+        - S. I
+        - V. show
+        - O1. you
+        - O2. the right way
     4. SVOO
-        * S. You
-        * V. tell
-        * O1. me
-        * O2. the address
+        - S. You
+        - V. tell
+        - O1. me
+        - O2. the address
 
 ## Communication Stage 1
 
 ### 1st
 
-* They look happy.
-* I like music too.
+- They look happy.
+- I like music too.
 
 ## Lesson.7 - 主語と動詞
 
@@ -386,14 +386,14 @@ Categories: []
 
 1. :
     1. : -> ok/ng. (He)
-        * Naoya doesn't study history.
-        * Does Naoya study history?
+        - Naoya doesn't study history.
+        - Does Naoya study history?
     2. : -> ok/ng. (They)
-        * Mika and Tom are not baseball fans.
-        * Are Mika and Tom baseball fans?
+        - Mika and Tom are not baseball fans.
+        - Are Mika and Tom baseball fans?
     3. :
-        * Sayaka doesn't have some pets in her room. -> ng. : She doesn't have any pets in her room.
-        * Does Sayaka have some petes in her room? -> ng. : Does she have any pets in her room?
+        - Sayaka doesn't have some pets in her room. -> ng. : She doesn't have any pets in her room.
+        - Does Sayaka have some petes in her room? -> ng. : Does she have any pets in her room?
 2. : -> ok.
     1. My mom is not 50 years old.
     2. Does she dry dishes in the morning?
