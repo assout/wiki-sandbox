@@ -385,15 +385,15 @@ Categories: []
 #### L.09
 
 1. :
-    1. : -> ok/ng. (He)
-        - Naoya doesn't study history.
-        - Does Naoya study history?
+    1. : -> ok/ng. (He).
+            - Naoya doesn't study history.
+            - Does Naoya study history?
     2. : -> ok/ng. (They)
-        - Mika and Tom are not baseball fans.
-        - Are Mika and Tom baseball fans?
+            - Mika and Tom are not baseball fans.
+            - Are Mika and Tom baseball fans?
     3. :
-        - Sayaka doesn't have some pets in her room. -> ng. : She doesn't have any pets in her room.
-        - Does Sayaka have some petes in her room? -> ng. : Does she have any pets in her room?
+            - Sayaka doesn't have some pets in her room. -> ng. : She doesn't have any pets in her room.
+            - Does Sayaka have some petes in her room? -> ng. : Does she have any pets in her room?
 2. : -> ok.
     1. My mom is not 50 years old.
     2. Does she dry dishes in the morning?
