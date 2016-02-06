@@ -30,6 +30,10 @@ Categories: []
             perl -0pe 's/aaa\nbbb/ccc/m' foo.txt
     * 置換後保存
             perl -pi -e 's/aaa/ccc/g' foo.txt
+* ドキュメントを読む
+        perldoc hoge
+        perldoc perldoc
+        perldoc perlintro
 
 ### Python
 
