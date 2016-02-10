@@ -1,4 +1,4 @@
-# Title: Windows
+# Title: Windows / Dos
 
 Date: 2014-12-04 15:00
 Tags: []
@@ -516,3 +516,56 @@ Caution: 常に半角スペースにする設定はしない(デフォルトでS
 
 ↑の逆
 
+## Dos
+
+### Notes
+
+@echo off
+rem 指定フォルダ配下のファイル/ディレクトリを再帰的に
+rem 処理するバッチファイルサンプル
+
+- rem 指定フォルダ直下のファイルに対する処理
+
+        for %%a in (%1\*) do call filecmd.bat "%%a"
+
+- rem 下位フォルダを再帰的に処理
+
+        for /d %%a in (%1\*) do call foldercmd.bat "%%a"
+
+- シンボリックリンク作成
+
+        mklink <link(リンクの場所)> <target(リンクが参照するパス>
+
+    - ディレクトリが対象
+
+            mklink /D <link> <target>
+
+    - ジャンクションを作成
+
+            mklink /J <link> <target>
+
+#### シンボリックリンクとジャンクションの違い
+
+ググってもよくわからない。。
+
+- ジャンクションにcdした先にシンボリックリンクがあるとFunction not Implemented が出力されるのでシンボリックリンクを使う
+- シンボリックリンク上でgit pullが失敗するため、gitディレクトリはジャンクションを使う。
+- シンボリックリンクで無効なパスのものを作ってしまうとExplorer上から削除できないことがあった
+
+大まかな違い Refs: [Windowsのジャンクション(junction)とシンボリック・リンク(symblic link)違い - Gobble up pudding](http://fa11enprince.hatenablog.com/entry/2015/07/25/231114)
+
+| 機能                     | ジャンクション    | シンボリックリンク |
+|--------------------------|-------------------|--------------------|
+| ファイル・システム       | NTFS              | NTFS               |
+| 作成に必要な権限         | 一般ユーザー権限  | 管理者権限が必要   |
+| ファイルへのリンク       | ×                 | ○                  |
+| ディレクトリへのリンク   | ○                 | ○                  |
+| dirコマンド出力での表記  | JUNCTION          | SYMLINK SYMLINKD   |
+| ネットワーク先へのリンク | ×（ローカルのみ） | ○                  |
+| 他マシンから参照(\*1)    | ○                 | ×                  |
+| 作成コマンド             | mklink /j         | mklink mklink /d   |
+| エクスプローラの表示     | アイコンに矢印    | アイコンに矢印     |
+
+### TODOs
+
+- TODO: Windows memoと統合
