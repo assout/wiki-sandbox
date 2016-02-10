@@ -2,7 +2,7 @@
 
 - Memo List
     - [Eclipse](2014-09-09-eclipse.md)
-    - [Linux](2014-09-09-linux.md)
+    - [Linux / Shell script](2014-09-09-linux-shell-script.md)
     - [Redmine](2014-09-09-redmine.md)
     - [Dos](2014-09-12-dos.md)
     - [Microsoft PowerPoint](2014-09-16-microsoft-powerpoint.md)

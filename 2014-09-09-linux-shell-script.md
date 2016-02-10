@@ -1,4 +1,4 @@
-# Title: Linux
+# Title: Linux / Shell script
 
 Date: 2014-09-09 13:34
 Tags: []
