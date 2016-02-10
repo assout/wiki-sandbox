@@ -113,7 +113,6 @@ Categories: []
 
         gitbook serve
 
-
 ### Pacman
 
 - リスト表示
