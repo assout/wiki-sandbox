@@ -493,7 +493,6 @@ Refs: [DigiLoog » Linuxの各圧縮コマンド実行速度と圧縮率を測�
 
             find -name "include" -not -path "*exclude*"
 
-
     - ファイルの最終更新日が3日より前のファイルを検索する
 
             find . -mtime +3
