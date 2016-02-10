@@ -63,6 +63,31 @@ Categories: []
 - E002: ensure that indents are only spaces, and not hard tabs
 - E003: Not an indent with multiple of 4
 
+## Pomodoro
+
+決定
+
+- Chrome Extension
+    - Strict Workflow
+
+方針
+
+- msys2, linux両方で動く(office/home)
+- tmux統合がある
+
+候補
+
+- Chrome Extension
+    - Strict Workflow
+    - Simple Pomodoro
+- Ruby
+    - Thyme: Refs: [Thyme - Console Pomodoro Timer](http://hughbien.com/thyme/) デーモン実行がエラー、tmuxステータス領域がみづらい(時間経過後消えちゃうだけ)
+    - pomo: 動かないっぽい
+- Node.js
+    - pomo(pomojs): tmux連携、動かない、ログが出力されない @msys2
+    - pomodoro: tmux連携なし
+    - pomodoro-timer: tmux連携なし
+
 ## Other tools
 
 ### Ctags
