@@ -16,8 +16,11 @@ Categories: []
 ## Command
 
 - sshログイン
+
         rhc ssh $app
+
 - ログtail
+
         rhc tail -a myapp
 
 ## TODOs

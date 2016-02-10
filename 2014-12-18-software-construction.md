@@ -194,7 +194,7 @@ Design Pattern
 
 ### Exception - 例外設計
 
-Refs:.
+Refs:
 
 - [Ruby - Railsアプリケーションにおけるエラー処理（例外設計）の考え方 - Qiita](http://qiita.com/jnchito/items/3ef95ea144ed15df3637)
 - [.NETの例外処理 Part.1 - とあるコンサルタントのつぶやき - Site Home - MSDN Blogs](http://blogs.msdn.com/b/nakama/archive/2008/12/29/net-part-1.aspx)

@@ -22,12 +22,15 @@ Me
             [アジャイルソフトウェア開発の奥義 第2版]
             デザインパターン
                 [- 主に言語とシステム開発に関して](http://d.hatena.ne.jp/language_and_engineering/touch/20120331/p1)
-        Java
-            [Effective Java]
         Web
             [Webを支える技術]
         DB
             [SQLアンチパターン]
+        Languages
+            Java
+                [Effective Java]
+            Shellscript
+            Javascript
     Software testing
     Project management
     Logical thinking

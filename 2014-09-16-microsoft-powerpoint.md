@@ -13,8 +13,11 @@ Categories: []
 ## Shortcut keys
 
 - レベル下げ
+
         Shift + Alt + →
+
 - レベル上げ
+
         Shift + Alt + ←
 
 ## Notes

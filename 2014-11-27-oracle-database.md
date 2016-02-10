@@ -16,27 +16,49 @@ Categories: []
 ## Useful commands
 
 - 接続 :
+
         connect user/pass@host/sid
+
 - ユーザ一覧参照 :
+
         select username from all_users;
+
 - テーブル一覧参照 :
+
         select table_name from user_tables;
+
 - sqlファイルの実行 :
+
         SQL> @/tmp/hoge.sql
+
 - システム権限付与 :
+
         grant [システム権限名] to [ロール名];
+
 - バッファリスト表示 :
+
         list [n]
+
 - バッファ内SQLを実行 :
+
         run [n]
+
 - バッファ内SQLを実行(表示せず) :
+
         /
+
 - Backspace :
+
         Ctrl-Backspace
 - インポート :
+
         imp user/pass@sid file=data.dmp
+
     - ユーザ指定 :
+
             imp user/pass@sid file=data.dmp fromuser=tanaka touser=sato
+
 - テーブル作成 :
+
         create table table_name (item_name1 varchar(10),item_name2 varchar(20))
 

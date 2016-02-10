@@ -54,6 +54,7 @@ Categories: []
 
 - SC2034
     - -> for文とかではdummyとして`_`を使う
+
             for _ in ${1..10} ; do foo; done
 
 ### bashate
@@ -93,31 +94,49 @@ Categories: []
 ### Ctags
 
 - langmap確認
+
         ctags --list-maps
 
 ### GitBook
 
 - 初期化
+
         gitbook init
-        \* SUMMARY.mdに従ってディレクトリ、ファイルを作成できる
+
+    \* SUMMARY.mdに従ってディレクトリ、ファイルを作成できる
+
 - ビルド
+
         gitbook build
+
 - サーブ
+
         gitbook serve
+
 
 ### Pacman
 
 - リスト表示
+
         pacman -Sl
+
 - 検索(パッケージ名と説明の両方)
+
         pacman -Ss grep
+
 - インストール
+
         pacman -S grep
+
 - アンインストール
+
         pacman -R grep
+
 - 更新
+
         update-core
         pacman -Su
+
 - ダウングレード
     > : /var/cache/pacman/pkg ディレクトリの中にもし古いバージョンのパッケージが保存されていた場合、簡単にダウングレードすることができます。
     > （つい最近に pacman -Scc をしたりしていない限り存在しているはずです）。
@@ -131,6 +150,7 @@ Refs:
 ### Pandoc
 
 - markdownからtextileに変換
+
         pandoc -s hogehohe.md -o hogehohe.textile
 
 ## Tools key unity

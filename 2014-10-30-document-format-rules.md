@@ -36,5 +36,5 @@ B列 ## 節番号
 
 ## References
 
-<2014-11-25-create-note-rules.md>
+[2014-11-25-create-note-rules.md]
 

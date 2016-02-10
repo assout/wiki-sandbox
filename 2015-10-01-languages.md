@@ -21,6 +21,7 @@ Categories: []
 - LTSV parser
 
         cat accesslog | perl -F'\t' -nale '%h=map{split/:/,$_,2}@F;print"$h{time}\t$h{ua}"'
+
     Refs: [LTSVログをパースする最強のワンライナー集&middot;DQNEO起業日記](http://dqn.sakusakutto.jp/2014/02/ltsv_parser_oneliner.html)
 
 - 最短一致にする場合には数量子の後ろに ? を付けます。
@@ -35,6 +36,7 @@ Categories: []
     - 置換後保存
 
             perl -pi -e 's/aaa/ccc/g' foo.txt
+
 - ドキュメントを読む
 
         perldoc hoge
@@ -52,15 +54,16 @@ Categories: []
 - npm install
 
         sudo npm install -g eslint
-- npm自身をupdate
-
-        sudo npm update -g npm
-- すべてのGlobalパッケージをアップデート
-
-        npm update -g
 
 - npm uninstall
 
         sudo npm uninstall -g eslint
 
+- npm自身をupdate
+
+        sudo npm update -g npm
+
+- すべてのGlobalパッケージをアップデート
+
+        npm update -g
 
