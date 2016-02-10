@@ -1,4 +1,4 @@
-# Title: mail management rules
+# Title: Mail management rules
 
 Date: 2014-11-28 11:08
 Tags: []
