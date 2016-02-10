@@ -484,9 +484,15 @@ Refs: [DigiLoog » Linuxの各圧縮コマンド実行速度と圧縮率を測�
         find パス -name "name"
 
     - 除く
+        - `-prune`
 
             find -name "hoge" -prune
             find -name "exclude" -prune -o -name "include"
+
+        - `-not`
+
+            find -name "include" -not -path "*exclude*"
+
 
     - ファイルの最終更新日が3日より前のファイルを検索する
 
