@@ -720,6 +720,18 @@ Refs: [DigiLoog » Linuxの各圧縮コマンド実行速度と圧縮率を測�
 
     Refs: [Man page of INSTALL](http://linuxjm.sourceforge.jp/html/gnumaniak/man1/install.1.html)
 
+    - ディレクトリを作成
+
+        install -d {directory}
+
+    - 所有者、グループを設定
+
+        install {source} {dest} -g {group} -o {user}
+
+    - 権限を設定
+
+        install {source} {dest} -m {permission(e.g. 600)}
+
 - nl - 行番号を付けてファイルを出力する :
 
         nl [options...]

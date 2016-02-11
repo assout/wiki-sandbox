@@ -29,28 +29,29 @@ Categories: []
 
 ### List
 
-- AutoHotKey               : msys2でのvim ime offに使用 : [AutoHotkey Downloads](https://autohotkey.com/download/)
-- Cabal                    : For ShellCheck
-- Ctrl2cap                 : キーボード配置変更(Caps LockをCtrlにする) : [Ctrl2cap](https://technet.microsoft.com/ja-jp/sysinternals/bb897578.aspx)
-- Eclipse                  : Refs: <2014-09-09-eclipse.md>
-- Everything Search Engine : [Everything Search Engine](http://www.voidtools.com/)
+- AutoHotKey                        : msys2でのvim ime offに使用 : [AutoHotkey Downloads](https://autohotkey.com/download/)
+- Cabal                             : For ShellCheck
+- Ctrl2cap                          : キーボード配置変更(Caps LockをCtrlにする) : [Ctrl2cap](https://technet.microsoft.com/ja-jp/sysinternals/bb897578.aspx)
+- Eclipse                           : Refs: <2014-09-09-eclipse.md>
+- Everything Command-line Interface : [Downloads](http://www.voidtools.com/downloads/)
+- Everything Search Engine          : [Everything Search Engine](http://www.voidtools.com/)
 - GCViewer
-- GHC                      : For Cabal
-- Google Chrome            : Refs: <2014-11-13-chrome.md>
+- GHC                               : For Cabal
+- Google Chrome                     : Refs: <2014-11-13-chrome.md>
 - Microsoft Lync
-- MSYS2                    : <http://sourceforge.net/p/msys2/wiki/MSYS2%20installation/>, <http://sourceforge.net/projects/msys2/files/Base/x86_64/>
-- Pandoc                   : markdown - textile 変換 等。
-- PlantUML                 : TODO: 未確認 TODO: Graphvizもいりそう
-- Rapid Environment Editor : editor for environment : [Rapid Environment Editor](http://www.rapidee.com/ja/about)
-- Remote Mouse             : For home.
+- MSYS2                             : <http://sourceforge.net/p/msys2/wiki/MSYS2%20installation/>, <http://sourceforge.net/projects/msys2/files/Base/x86_64/>
+- Pandoc                            : markdown - textile 変換 等。
+- PlantUML                          : TODO: 未確認 TODO: Graphvizもいりそう
+- Rapid Environment Editor          : editor for environment : [Rapid Environment Editor](http://www.rapidee.com/ja/about)
+- Remote Mouse                      : For home.
 - ShellCheck
-- Vim(kaoriya)             : Refs: <2014-09-30-vim.md> : [Vim ; KaoriYa](http://www.kaoriya.net/software/vim/)
-- WinSCP                   : Free SFTP, SCP and FTP client for Windows
+- Vim(kaoriya)                      : Refs: <2014-09-30-vim.md> : [Vim ; KaoriYa](http://www.kaoriya.net/software/vim/)
+- WinSCP                            : Free SFTP, SCP and FTP client for Windows
 - WinShot
-- XZ Utils                 : For unarchive msys2 install file : <http://tukaani.org/xz/>
+- XZ Utils                          : For unarchive msys2 install file : <http://tukaani.org/xz/>
 - kSar
-- nkf                      : 文字コード変換 : [nkf.exe nkf32.dll Windows用の詳細情報 : Vector ソフトを探す！](http://www.vector.co.jp/soft/win95/util/se295331.html)
-- Tar for Windows          : For unarchive msys2 install file : <http://gnuwin32.sourceforge.net/packages/gtar.htm>
+- nkf                               : 文字コード変換 : [nkf.exe nkf32.dll Windows用の詳細情報 : Vector ソフトを探す！](http://www.vector.co.jp/soft/win95/util/se295331.html)
+- Tar for Windows                   : For unarchive msys2 install file : <http://gnuwin32.sourceforge.net/packages/gtar.htm>
 
 Caution
 
