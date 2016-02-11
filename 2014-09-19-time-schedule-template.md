@@ -1,4 +1,4 @@
-# Title: Time-schedule-template
+# Title: Time schedule template
 
 Date: 2014-09-19 14:01
 Tags: []
