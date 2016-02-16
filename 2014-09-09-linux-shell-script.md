@@ -8,7 +8,7 @@ Categories: []
 
 ## Bash
 
-### Grammar
+### Grammar - 文法
 
 - Shebang - シバン(グ)
 
@@ -1042,6 +1042,5 @@ Keys(dotfilesでカスタマイズ済み)
 
 ## TODOs
 
-- TODO: Refactoring structure (Bashは別ファイルにわける)
 - TODO: コーディング基準について
     - TODO: 変数ダブルクォートで囲むとき変数だけか全部か
