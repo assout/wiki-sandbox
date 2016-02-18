@@ -41,20 +41,21 @@ Categories: []
 - GCViewer
 - GHC                               : For Cabal
 - Google Chrome                     : Refs: <2014-11-13-chrome.md>
-- Microsoft Lync
 - MSYS2                             : <http://sourceforge.net/p/msys2/wiki/MSYS2%20installation/>, <http://sourceforge.net/projects/msys2/files/Base/x86_64/>
+- Microsoft Lync
 - Pandoc                            : markdown - textile 変換 等。
 - PlantUML                          : TODO: 未確認 TODO: Graphvizもいりそう
 - Rapid Environment Editor          : editor for environment : [Rapid Environment Editor](http://www.rapidee.com/ja/about)
 - Remote Mouse                      : For home.
 - ShellCheck
+- Tar for Windows                   : For unarchive msys2 install file : <http://gnuwin32.sourceforge.net/packages/gtar.htm>
 - Vim(kaoriya)                      : Refs: <2014-09-30-vim.md> : [Vim ; KaoriYa](http://www.kaoriya.net/software/vim/)
 - WinSCP                            : Free SFTP, SCP and FTP client for Windows
 - WinShot
 - XZ Utils                          : For unarchive msys2 install file : <http://tukaani.org/xz/>
+- astah\* community
 - kSar
 - nkf                               : 文字コード変換 : [nkf.exe nkf32.dll Windows用の詳細情報 : Vector ソフトを探す！](http://www.vector.co.jp/soft/win95/util/se295331.html)
-- Tar for Windows                   : For unarchive msys2 install file : <http://gnuwin32.sourceforge.net/packages/gtar.htm>
 
 Caution
 
@@ -357,6 +358,13 @@ Shell Checkをインストール
 - その他の設定
     - トレイアイコンのダブルクリック動作 : ビットマップで保存(矩形範囲指定)
     - 自動保存時の拡張子                 : ビットマップ .png
+
+#### astah\* community
+
+- ツール
+    - システム プロパティ
+       - ファイル
+           - プロジェクト保存時にバックアップファイルを作成する: unchecked
 
 ## Settings
 
