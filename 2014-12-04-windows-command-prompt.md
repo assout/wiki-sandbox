@@ -117,6 +117,17 @@ Caution
 
 Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey](http://rcmdnk.github.io/blog/2013/08/04/computer-windows-autohotkey/)
 
+#### Everything Command-line Interface
+
+- 文字化け対策
+
+        winpty es.exe hoge
+        es.exe hoge | nkf32.exe -w
+
+- 正規表現で検索
+
+        es.exe -r hoge
+
 #### Microsoft Lync
 
 - Lync - オプション - 全般 - タスクバーではなく... : チェック
