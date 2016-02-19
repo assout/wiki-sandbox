@@ -201,7 +201,10 @@ Refs: [Can ${var} parameter expansion expressions be nested in bash? - Stack Ove
 | sed            | BREメタ文字セット          |
 | vi             | BREメタ文字セット          |
 
-Refs: [どのUNIXコマンドでも使える正規表現 - Qiita](http://qiita.com/richmikan@github/items/b6fb641e5b2b9af3522e)
+Important:
+
+> 参考までに述べておくと、GNU拡張やPerl拡張、JavaScript拡張は、いずれもEREのスーパーセットである。ということはすなわち、EREメタ文字セットを覚えておけばそれらの上でも動くということだ。
+> Refs: [どのUNIXコマンドでも使える正規表現 - Qiita](http://qiita.com/richmikan@github/items/b6fb641e5b2b9af3522e)
 
 ### Perl拡張正規表現
 
@@ -266,7 +269,7 @@ Refs: [どのUNIXコマンドでも使える正規表現 - Qiita](http://qiita.c
 
         grep -I
 
-- Perl Regexオプション使う
+- Perl Regexオプション使う(Note: もう正規表現はこれ限定にしてもよいかも)
 
         grep -P pattern target
 
@@ -419,6 +422,11 @@ Refs: [どのUNIXコマンドでも使える正規表現 - Qiita](http://qiita.c
     - 中身確認
 
             tar tvfj foo.tar.bz2
+
+- tar.xz (tar + xz) :
+    - 解凍(Note: Required tar 1.22)
+
+            tar Jxvf foo.tar.xz
 
 - tar
     - 展開
@@ -629,6 +637,15 @@ Refs: [DigiLoog » Linuxの各圧縮コマンド実行速度と圧縮率を測�
     - プロセス名も表示
 
             pgrep -fl fooProc
+
+    - 最近のバージョンでは以下の通り(pgrep from procps-ng)
+        - プロセス名表示
+
+                pgrep -fl fooProc
+
+        - プロセス名、コマンド全体表示
+
+                pgrep -fa fooProc
 
 - pkill - プロセスをkill
 

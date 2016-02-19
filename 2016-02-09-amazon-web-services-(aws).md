@@ -6,11 +6,11 @@ Categories: []
 
 ---
 
-## _EC2_
+## EC2
 
 - TODO: 無料利用枠のAMIから作成したカスタムAMIは無料？
 
-## _CloudFormation_
+## CloudFormation
 
 - TODO: Designerの表示を設計書として出力できないか？
 

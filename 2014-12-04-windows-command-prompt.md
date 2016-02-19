@@ -33,6 +33,7 @@ Categories: []
 ### List
 
 - AutoHotKey                        : msys2でのvim ime offに使用 : [AutoHotkey Downloads](https://autohotkey.com/download/)
+- C/Migemo for Windows              : For vim-migemo : [C/Migemo KaoriYa](http://www.kaoriya.net/software/cmigemo/)
 - Cabal                             : For ShellCheck
 - Ctrl2cap                          : キーボード配置変更(Caps LockをCtrlにする) : [Ctrl2cap](https://technet.microsoft.com/ja-jp/sysinternals/bb897578.aspx)
 - Eclipse                           : Refs: <2014-09-09-eclipse.md>
@@ -67,7 +68,6 @@ Caution
 - Apache JMeter
 - Apache Maven
 - Apache Tomcat
-- C/Migemo for Windows           : For vim-migemo : いったんmsys2 pacmanで入るやつ使う: [C/Migemo KaoriYa](http://www.kaoriya.net/software/cmigemo/)
 - CarotDAV                       : WebDav client. For Gxxxxmax Collaboration
 - Chat & Messenger               : IP Messengerの高機能版。\* 使用者同士が表示されるので場合によっては使わない。Slackに以降!
 - DF                             : 基本diff使うが。フォルダ比較、バイナリ比較時に使う
@@ -186,7 +186,6 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
     pacman -Su
 
     pacman -S \
-    cmigemo \
     ctags \
     diffutils \
     expect \
@@ -218,7 +217,7 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
 
             cmd //c "mklink /J D:\\mingw64 D:\\admin\\Tools\\msys64\\mingw64"
 
-- Note: `mingw-w64-x86_64-libnotify`はいるかわからんが`thyme`で使えるかも
+- Note: `mingw-w64-x86_64-libnotify`は必要かわからんが`thyme`で使えるかも
 
 ##### Install with npm
 
@@ -338,7 +337,7 @@ Windowsでのインストール手順
         - [The Haskell Cabal](https://www.haskell.org/cabal/download.html)
         - [GHC: Download version 7.10.2](https://www.haskell.org/ghc/download_ghc_7_10_2#windows)
 
-Shell Checkをインストール
+ShellCheckをインストール
 
     export PATH="/d/admin/Tools/ghc-7.10.2/bin:$PATH" # Haskell Platformごと入れた場合不要
     export http_proxy=http://USERNAME:PASSWORD@PROXYURL:PORT
@@ -349,7 +348,7 @@ Shell Checkをインストール
 #### WinShot
 
 - 基本設定
-    - 接頭語 : `\F\M\D_\H\m\s_WinShot`
+- 接頭語 : `\F\M\D_\H\m\s_WinShot`
 - 品質／減色
     - JPEG品質 : 100
 - ホットキー
@@ -578,6 +577,3 @@ rem 処理するバッチファイルサンプル
 | 作成コマンド             | mklink /j         | mklink mklink /d   |
 | エクスプローラの表示     | アイコンに矢印    | アイコンに矢印     |
 
-### TODOs
-
-- TODO: Windows memoと統合
