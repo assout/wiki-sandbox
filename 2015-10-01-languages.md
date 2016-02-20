@@ -53,15 +53,15 @@ Categories: []
 
 - npm install
 
-        sudo npm install -g eslint
+        npm install -g eslint
 
 - npm uninstall
 
-        sudo npm uninstall -g eslint
+        npm uninstall -g eslint
 
 - npm自身をupdate
 
-        sudo npm update -g npm
+        npm update -g npm
 
 - すべてのGlobalパッケージをアップデート
 
