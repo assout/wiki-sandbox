@@ -39,9 +39,9 @@ Categories: []
 
             perl -pi -e 's/aaa/ccc/g' foo.txt
 
-- マッチ全体を格納
+    - マッチ全体を格納(後方参照)
 
-        perl -0pe 's/hoge/$&+fuga/m' foo.txt
+            perl -0pe 's/hoge/$&+fuga/m' foo.txt
 
 - ドキュメントを読む
 
@@ -59,17 +59,17 @@ Categories: []
 
 - npm install
 
-        npm install -g eslint
+        sudo npm install -g eslint
 
 - npm uninstall
 
-        npm uninstall -g eslint
+        sudo npm uninstall -g eslint
 
 - npm自身をupdate
 
-        npm update -g npm
+        sudo npm update -g npm
 
 - すべてのGlobalパッケージをアップデート
 
-        npm update -g
+        sudo npm update -g
 
