@@ -1004,6 +1004,10 @@ Refs: [shell のショートカットキー適当にまとめてみた。 Lonely
 
 - 複数行の置換はPerl使うのがいちばん楽そう Refs: <2015-10-01-languages.md>
 
+- ミリ秒単位で時刻を表示する
+
+        echo  $(date +%c) $(printf '%03d' $(expr `date +%N` / 1000000))
+
 ### スペシャルファイル
 
 - nullデバイス
