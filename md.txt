@@ -4,5 +4,7 @@ Date: {{_date_}}
 Tags: [{{_tags_}}]
 Categories: [{{_categories_}}]
 
+<!-- toc -->
+
 ---
 

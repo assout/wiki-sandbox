@@ -4,6 +4,8 @@ Date: 2014-09-09 13:34
 Tags: []
 Categories: []
 
+<!-- toc -->
+
 ---
 
 ## Bash
@@ -1000,7 +1002,7 @@ Refs: [shell のショートカットキー適当にまとめてみた。 Lonely
         mv -- -c foo
         mv ./-c foo
 
-- 複数行の置換はPerl使うのがいちばん楽そうRefs: <2015-10-01-languages.md>
+- 複数行の置換はPerl使うのがいちばん楽そう Refs: <2015-10-01-languages.md>
 
 ### スペシャルファイル
 

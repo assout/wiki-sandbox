@@ -4,6 +4,8 @@ Date: 2015-09-05 21:34
 Tags: []
 Categories: []
 
+<!-- toc -->
+
 ---
 
 Refs: [Text 2 Mind Map - Simple mind mapping online](http://text2mindmap.com/v4P8mD3)

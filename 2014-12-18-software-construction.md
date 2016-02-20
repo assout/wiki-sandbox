@@ -4,6 +4,8 @@ Date: 2014-12-18 15:45
 Tags: []
 Categories: []
 
+<!-- toc -->
+
 ---
 
 ## Prelude

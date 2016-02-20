@@ -4,6 +4,8 @@ Date: 2015-10-01 11:08
 Tags: []
 Categories: []
 
+<!-- toc -->
+
 ---
 
 ## Prelude
@@ -36,6 +38,10 @@ Categories: []
     - 置換後保存
 
             perl -pi -e 's/aaa/ccc/g' foo.txt
+
+- マッチ全体を格納
+
+        perl -0pe 's/hoge/$&+fuga/m' foo.txt
 
 - ドキュメントを読む
 
