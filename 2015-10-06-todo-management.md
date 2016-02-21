@@ -15,13 +15,16 @@ Categories: []
 
 ## Wunderlist
 
+重要度×難易度でカテゴライズ
+
 List
 
-- Must (e.g. Bug)         : 超重要なもの。すぐ対処したいもの。
-- Should (e.g. Minor bug) : 何か問題があるもの。
-- May (e.g. Enhancement)  : 調べもの、機能拡張など。
-- Pending                 : わけあって中断中のもの、外部要因で止まっているもの。
-- Continuation            : 継続的なタスク。
-- Idea                    : 思いついたアプリ構想とか。
-- Unnecessary             : 不要になったが解決しなかったもの。
+- Important x Easy   : 重要だし簡単。すぐやる。
+- Important x Hard   : 重要だが難しい。歯を食いしばりながらやる。
+- Unimportant x Easy : 重要じゃないが簡単。まあやればよい。
+- Unimportant x Hard : 重要じゃないのに難しい。基本塩漬けでもいいくらい。
+- Pending            : わけあって中断中のもの、外部要因で止まっているもの。
+- Continuation       : 継続的なタスク。
+- Idea               : 思いついたアプリ構想とか。
+- Unnecessary        : 不要になったが解決しなかったもの。
 
