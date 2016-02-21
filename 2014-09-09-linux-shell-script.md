@@ -173,6 +173,24 @@ Refs: [Can ${var} parameter expansion expressions be nested in bash? - Stack Ove
         piyo
         EOS
 
+### Tips / Notes
+
+- ステップ実行
+
+        trap 'read -p "$BASH_COMMAND"' DEBUG
+
+    Refs: [shellのデバッグ方法(1279) teratail](https://teratail.com/questions/1279)
+
+### Style Guide - スタイルガイド(コーディング基準)
+
+Refs: [Shell Style Guide](https://google.github.io/styleguide/shell.xml)
+
+
+Rules
+
+- Naming Conventions - 命名規則
+    - Source Filenames - ファイル名: Lowercase
+
 ### Refs.
 
 - [コマンドラインプログラムにおける引数、オプションなどの標準仕様 プログラマーズ雑記帳](http://yohshiy.blog.fc2.com/blog-entry-260.html)
@@ -1063,7 +1081,3 @@ Keys(dotfilesでカスタマイズ済み)
 
         [prefix]q
 
-## TODOs
-
-- TODO: コーディング基準について
-    - TODO: 変数ダブルクォートで囲むとき変数だけか全部か
