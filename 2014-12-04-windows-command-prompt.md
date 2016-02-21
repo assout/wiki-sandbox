@@ -199,6 +199,7 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
     pacman -Su
 
     pacman -S \
+    bc \
     ctags \
     diffutils \
     expect \
