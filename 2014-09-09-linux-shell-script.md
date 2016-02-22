@@ -173,6 +173,11 @@ Refs: [Can ${var} parameter expansion expressions be nested in bash? - Stack Ove
         piyo
         EOS
 
+- 簡易ヒアドキュメント？(ぐぐっても出てこない。`tldr bc`でみつけた)
+
+        cat <<< abc
+        bc <<< "1 + 2"
+
 ### Tips / Notes
 
 - ステップ実行
