@@ -185,7 +185,6 @@ Refs: [Can ${var} parameter expansion expressions be nested in bash? - Stack Ove
 
 Refs: [Shell Style Guide](https://google.github.io/styleguide/shell.xml)
 
-
 Rules
 
 - Naming Conventions - 命名規則
