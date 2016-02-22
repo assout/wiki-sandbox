@@ -1028,6 +1028,11 @@ Refs: [shell のショートカットキー適当にまとめてみた。 Lonely
 
         echo  $(date +%c) $(printf '%03d' $(expr `date +%N` / 1000000))
 
+- `Ctrl + s`でキー入力受け付けられなくなる。(操作できなくなる)
+    Ctrl + qで解除
+    Refs: [「Ctrl」＋「S」でキー入力が受け付けられなくなる - ITmedia エンタープライズ](http://www.itmedia.co.jp/help/tips/linux/l0612.html)
+
+
 ### スペシャルファイル
 
 - nullデバイス
@@ -1061,8 +1066,7 @@ Keys(dotfilesでカスタマイズ済み)
 
 - prefix
 
-        Ctrl-s
-
+        Ctrl-s 
 - ペイン横分割
 
         [prefix]p
