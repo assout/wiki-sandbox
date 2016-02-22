@@ -19,12 +19,12 @@ Categories: []
 
 List
 
-- Important x Easy   : 重要だし簡単。すぐやる。
-- Important x Hard   : 重要だが難しい。歯を食いしばりながらやる。
-- Unimportant x Easy : 重要じゃないが簡単。まあやればよい。
-- Unimportant x Hard : 重要じゃないのに難しい。基本塩漬けでもいいくらい。
-- Pending            : わけあって中断中のもの、外部要因で止まっているもの。
-- Continuation       : 継続的なタスク。
-- Idea               : 思いついたアプリ構想とか。
-- Unnecessary        : 不要になったが解決しなかったもの。
+- High - Important * Easy     : 重要だし簡単。すぐやる。
+- Mid - Important * Hard      : 重要だが難しい。歯を食いしばりながらやる。
+- Low - Unimportant * Easy    : 重要じゃないが簡単。まあやればよい。
+- Lowest - Unimportant * Hard : 重要じゃないのに難しい。基本塩漬けでもいいくらい。
+- Pending                     : わけあって中断中のもの、外部要因で止まっているもの。
+- Continuation                : 継続的なタスク。
+- Idea                        : 思いついたアプリ構想とか。
+- Unnecessary                 : 不要になったが解決しなかったもの。
 
