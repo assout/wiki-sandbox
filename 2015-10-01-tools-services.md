@@ -85,11 +85,15 @@ Categories: []
     - Simple Pomodoro
 - Ruby
     - Thyme: Refs: [Thyme - Console Pomodoro Timer](http://hughbien.com/thyme/) デーモン実行がエラー、tmuxステータス領域がみづらい(時間経過後消えちゃうだけ)
-    - pomo: 動かないっぽい
+    - pomo: 動かないっぽい@msys2
+    - pomodoro_timer: 動かないっぽい@msys2
 - Node.js
     - pomo(pomojs): tmux連携、動かない、ログが出力されない @msys2
-    - pomodoro: tmux連携なし
+    - pomodoro: tmux連携なし。動かないっポイ@msys2
     - pomodoro-timer: tmux連携なし
+    - turnip: 動かない@msys2
+    - tomato-timer: 動いた。tmux連携無し
+    - pommy: 動かない@msys2
 
 ## Other tools
 

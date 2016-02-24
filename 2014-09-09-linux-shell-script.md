@@ -1028,8 +1028,9 @@ Refs: [shell のショートカットキー適当にまとめてみた。 Lonely
 
 - 複数行の置換はPerl使うのがいちばん楽そう Refs: <2015-10-01-languages.md>
 
-- ミリ秒単位で時刻を表示する
+- ミリ秒単位で時刻を表示する Refs: [dateコマンドでミリ秒まで出す２ - 揮発性のメモ](http://d.hatena.ne.jp/iww/20131214/dash)
 
+        date +'%Y-%m-%d %H:%M:%S.%3N'
         echo  $(date +%c) $(printf '%03d' $(expr `date +%N` / 1000000))
 
 - `Ctrl + s`でキー入力受け付けられなくなる。(操作できなくなる)
