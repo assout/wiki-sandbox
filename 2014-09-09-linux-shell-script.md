@@ -1037,7 +1037,6 @@ Refs: [shell のショートカットキー適当にまとめてみた。 Lonely
     Ctrl + qで解除
     Refs: [「Ctrl」＋「S」でキー入力が受け付けられなくなる - ITmedia エンタープライズ](http://www.itmedia.co.jp/help/tips/linux/l0612.html)
 
-
 ### スペシャルファイル
 
 - nullデバイス
@@ -1071,7 +1070,8 @@ Keys(dotfilesでカスタマイズ済み)
 
 - prefix
 
-        Ctrl-s 
+        Ctrl-s
+
 - ペイン横分割
 
         [prefix]p
