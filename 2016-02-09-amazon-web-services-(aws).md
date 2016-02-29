@@ -16,3 +16,8 @@ Categories: []
 
 - TODO: Designerの表示を設計書として出力できないか？
 
+## AWS CLI
+
+- アクセス可能か確認
+
+        aws ec2 describe-instance
