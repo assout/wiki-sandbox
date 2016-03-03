@@ -68,11 +68,6 @@ Categories: []
 
 ## Pomodoro
 
-決定
-
-- Chrome Extension
-    - Strict Workflow
-
 方針
 
 - msys2, linux両方で動く(office/home)
@@ -80,6 +75,10 @@ Categories: []
 
 候補
 
+- Bash
+    - pomosh
+    - p
+    - pomodoro_sh
 - Chrome Extension
     - Strict Workflow
     - Simple Pomodoro
@@ -94,6 +93,11 @@ Categories: []
     - turnip: 動かない@msys2
     - tomato-timer: 動いた。tmux連携無し
     - pommy: 動かない@msys2
+
+決定
+
+- Bash
+    - p: Linux, msys2で同じように使える。tmux連携できる。chromeはだるい。
 
 ## Other tools
 

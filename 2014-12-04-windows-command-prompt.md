@@ -59,6 +59,7 @@ Categories: []
 - astah\* community
 - kSar
 - nkf                               : 文字コード変換 : [nkf.exe nkf32.dll Windows用の詳細情報 : Vector ソフトを探す！](http://www.vector.co.jp/soft/win95/util/se295331.html)
+- p                                 : pomodoro by bash. Refs: [GitHub - chrismdp/p: A simple yet powerful pomodoro tracker in pure Shell](https://github.com/chrismdp/p)
 
 Caution
 
@@ -208,6 +209,7 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
     make \
     man-pages-posix \
     mingw-w64-x86_64-connect \
+    mingw-w64-x86_64-gcc \
     mingw-w64-x86_64-libnotify \
     mingw-w64-x86_64-nodejs \
     mingw-w64-x86_64-ruby \
@@ -232,6 +234,7 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
             cmd //c "mklink /J D:\\mingw64 D:\\admin\\Tools\\msys64\\mingw64"
 
 - Note: `mingw-w64-x86_64-libnotify`は必要かわからんが`thyme`で使えるかも
+- Note: `mingw-w64-x86_64-gcc`は`fzf`のために入れてる
 
 ##### Install with npm
 
@@ -296,6 +299,7 @@ Refs: [mintty-color-schemes/base16-tomorrow.minttyrc at master ・ oumu/mintty-c
 
 - SJISのファイルをgrepしたい場合、一時的に Options - Text - Character setをSJISに変更する
 - maven 3.3.3では$HOME/.m2でなく$USERPROFILE/.m2を見るみたいなので、settings.xmlはC:\Users\admin\.m2に配置する
+- `cygpath`で、Windowsパス形式をUnix形式に変換できる
 
 ###### 文字化け関連
 

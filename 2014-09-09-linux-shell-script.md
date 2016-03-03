@@ -411,6 +411,7 @@ Important:
         - 特定のファイルのみ解凍
 
             unzip file.zip [files ...]
+            unzip file.zip */*.log
 
 - pigz - マルチコアで圧縮
     - 圧縮
@@ -488,6 +489,37 @@ Refs: [DigiLoog » Linuxの各圧縮コマンド実行速度と圧縮率を測�
         read
         read hoge
 
+### Performance
+
+- TODO
+    - free
+    - sar
+    - top
+    - vmstat
+
+- sar - システム情報取得(ファイルから) :
+
+        sar -f /var/log/sa/sa18
+
+- top - システムの負荷
+    - コマンド名だけでなくコマンドライン全体を表示
+
+            top -c
+
+### Network
+
+- TODO
+    - dig
+    - ifconfig
+    - netstat
+    - ping
+    - route
+    - traceroute
+
+- netstat - リッスンしているポートの確認 :
+
+        netstat -tanp | grep LISTEN
+
 ### Useful commands
 
 - chown - 再帰的に所有者変更 :
@@ -511,7 +543,7 @@ Refs: [DigiLoog » Linuxの各圧縮コマンド実行速度と圧縮率を測�
 
             -s
 
-- find - 検索:
+- `find` - 検索:
 
         find パス -name "name"
 
@@ -604,10 +636,6 @@ Refs: [DigiLoog » Linuxの各圧縮コマンド実行速度と圧縮率を測�
 
             man -k hoge
 
-- netstat - リッスンしているポートの確認 :
-
-        netstat -tanp | grep LISTEN
-
 - nkf - 文字コード変換 Refs: [文字コード変換コマンドの nkfの使い方と実例をまとめました。 - それマグで！](http://takuya-1st.hatenablog.jp/entry/20100511/1273585953)
     - 文字コード確認
 
@@ -686,10 +714,6 @@ Refs: [DigiLoog » Linuxの各圧縮コマンド実行速度と圧縮率を測�
     - 特定ディレクトリを除外
 
             rsync -ra --exclude 'hoge' fugaFile fooHost:/piyoDir/
-
-- sar - システム情報取得(ファイルから) :
-
-        sar -f /var/log/sa/sa18
 
 - sort - ソートする
     - 数値としてソート
