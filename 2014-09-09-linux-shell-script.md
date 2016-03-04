@@ -667,8 +667,9 @@ Refs: [DigiLoog » Linuxの各圧縮コマンド実行速度と圧縮率を測�
             nkf -w --overwrite *.java
             nkf -w --overwrite `find -name "*.java"`
 
-    - caution
+    - Caution:
         - msysgitのだとnkf32.exe,nkfwin32.exeが入ってて後者はうまく動かなかった
+
 - nohup - ログアウトしてもバックグラウンドジョブを継続する
 
         nohup ./hoge.sh &
@@ -731,7 +732,7 @@ Refs: [DigiLoog » Linuxの各圧縮コマンド実行速度と圧縮率を測�
 
     - 区切り文字を指定
 
-        sort -t " " -k 2
+            sort -t " " -k 2
 
 - ulimit - コマンドに割り当てる資源を制限する :
     - すべての値を表示する

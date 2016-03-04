@@ -60,8 +60,9 @@ Categories: []
 - kSar
 - nkf                               : 文字コード変換 : [nkf.exe nkf32.dll Windows用の詳細情報 : Vector ソフトを探す！](http://www.vector.co.jp/soft/win95/util/se295331.html)
 - p                                 : pomodoro by bash. Refs: [GitHub - chrismdp/p: A simple yet powerful pomodoro tracker in pure Shell](https://github.com/chrismdp/p)
+- 侍
 
-Caution
+Caution:
 
 - エクセルアドインは Refs: <2014-09-18-microsoft-excel.md>
 - MSYS2内で利用するものは Refs: <# MSYS2>
@@ -90,19 +91,16 @@ Caution
 
 ### On Task bar
 
+1. MSYS2 MINGW64 Shell
 1. Google Chrome
 1. Internet Explorer
 1. Explore
-1. Dos
-1. Mintty (bat)
 1. Outlook
 1. PowerPoint
 1. Excel
 1. Word
-1. Vim
 1. Eclipse
-1. Everything Search Engine
-1. WinSCP
+1. GVim
 
 ### On Task Notice
 
@@ -143,6 +141,8 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
 #### MSYS2
 
 ##### Initial Settings
+
+- Task Bar - 作業フォルダ - `D:\admin`
 
 - Create bash_profile
 
