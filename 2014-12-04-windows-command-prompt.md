@@ -44,6 +44,7 @@ Categories: []
 - GCViewer
 - GHC                               : For Cabal
 - Google Chrome                     : Refs: <2014-11-13-chrome.md>
+- Java Decompiler (JD-GUI)
 - MSYS2                             : <http://sourceforge.net/p/msys2/wiki/MSYS2%20installation/>, <http://sourceforge.net/projects/msys2/files/Base/x86_64/>
 - Microsoft Lync
 - Pandoc                            : markdown - textile 変換 等。
@@ -78,7 +79,6 @@ Caution:
 - DropCompres                    : 一括unzipなどで使用。基本MSYS2で行うがたまに使う
 - FileSum                        : 基本MSYS2(du,df)を使う
 - Flexible Renamer               : 基本MSYS2(rename,mv)を使う
-- Java Decompiler (JD-GUI)       : 基本Java Decompiler Eclipse Plug-inを使う
 - Git for Windows (Portable Git) : 基本MSYS2を使うが初回cloneできないことがあるためこっちのgit-cmd.exe使う Refs: [Releases ・ git-for-windows/git ・ GitHub](https://github.com/git-for-windows/git/releases)
 - SQL Developer
 - SizeOf                         : Java インスタンスのメモリサイズ計測 Refs: [いー ドット ぷりんとすたっくとれーす : Javaのインスタンスが使っているメモリサイズをみたい](http : //edotprintstacktrace.blogspot.jp/2007/04/java.html)
