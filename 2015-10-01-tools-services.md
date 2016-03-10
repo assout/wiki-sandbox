@@ -220,16 +220,17 @@ Hint
 
 ## Services (Web)
 
-- Google Trends
-- VISUALGO
 - Cacoo
-- gitignore.io
-- Slack
-- ttygif
-- moqups
+- Google Trends
 - PromiSEES - Promise visualization playground for the adventurous
-- Restler
+- RegExr : Regex
+- Restler : REST
+- Slack
 - Text 2 Mind Map
+- VISUALGO : Algorithm
+- gitignore.io
+- moqups
+- ttygif
 
 ### Unused
 

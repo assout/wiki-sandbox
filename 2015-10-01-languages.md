@@ -73,3 +73,9 @@ Categories: []
 
         sudo npm update -g
 
+#### Notes
+
+- msys2の場合global installしたパス(node_modules)が含まれなそうなのでNODE_PATH設定したほうがよさそう
+
+        export NODE_PATH=/mingw64/lib/node_modules
+
