@@ -535,6 +535,11 @@ Refs: [DigiLoog » Linuxの各圧縮コマンド実行速度と圧縮率を測�
 
             echo hoge | head -c-3
 
+- diff - 差分をとる
+    - ファイル名のみ表示
+
+            diff -q foo bar
+
 - du - ディレクトリサイズ表示 :
 
         du -h --max-depth=1
@@ -1084,36 +1089,4 @@ Refs: [shell のショートカットキー適当にまとめてみた。 Lonely
 - 起動
 
         systemctl start [Unit名(e.g. docker)]
-
-### tmux
-
-- すべてのセッションを終了させる
-
-        tmux kill-server
-
-Keys(dotfilesでカスタマイズ済み)
-
-- prefix
-
-        Ctrl-s
-
-- ペイン横分割
-
-        [prefix]p
-
-- ペイン縦分割
-
-        [prefix]v
-
-- ペイン移動
-
-        [prefix]h, j, k, l
-
-- ペイン最大化・最小化トグル
-
-        [prefix]m
-
-- すべてのセッションを終了させる
-
-        [prefix]q
 

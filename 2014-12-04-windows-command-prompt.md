@@ -252,12 +252,17 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
     npm install -g js-yaml
     npm install -g tldr
 
-Note: `pomo`、あんま動かないがmsysでエラー出ないのこれぐらいしかない
-
 ##### Install with gem
 
     gem install mdl
     gem install yaml-lint
+
+##### Install other
+
+- p
+
+        curl https://raw.githubusercontent.com/chrismdp/p/master/p > /usr/local/bin/
+        chmod +x /usr/local/bin/p
 
 ##### Options...
 
@@ -336,6 +341,8 @@ Refs: [mintty-color-schemes/base16-tomorrow.minttyrc at master ・ oumu/mintty-c
             nkf -w --overwrite ~/vimfiles/dict/gene95/GENE.TXT
 
 #### Eclipse
+
+##### ShellEd
 
 Preferences
 

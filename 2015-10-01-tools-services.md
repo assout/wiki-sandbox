@@ -162,6 +162,27 @@ Refs:
 
         pandoc -s hogehohe.md -o hogehohe.textile
 
+### tmux
+
+#### Commands
+
+- すべてのセッションを終了させる
+
+        tmux kill-server
+
+#### Plug-ins
+
+- List
+    - tmux-logging
+        - Logging toggle(start/end): `prefix + shift + p`
+        - Screen capture: `prefix + alt + p`
+        - Save complete history: `prefix + alt + shift + p`
+        - Clear pane history: `prefix + alt + c`
+- tpm (Tmux Plugin Manager)
+    - インストール
+
+            Prefix + I
+
 ## Tools key unity
 
 ### Before (Default)
