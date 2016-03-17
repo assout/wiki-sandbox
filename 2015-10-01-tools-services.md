@@ -133,6 +133,10 @@ Categories: []
 
         pacman -Ss grep
 
+- インストール済みパッケージのリストアップ
+
+        pacman -Qqe
+
 - インストール
 
         pacman -S grep
@@ -187,19 +191,19 @@ Refs:
 
 ### Before (Default)
 
-| Commands      | tmux (Bash, Mintty) | Vim                   | Vrapper (Eclipse) | cVim (Crhome)     |
-|---------------|---------------------|-----------------------|-------------------|-------------------|
-| Cut           | n/a                 | `x`                   | `<C-x>`           | n/a               |
-| Copy          | `<C-b>[`, `<C-S-c>` | `y`                   | `<C-c>`           | n/a               |
-| Paste         | `<C-b>]`, `<C-S-v>` | `p`                   | `<C-v>`           | n/a               |
-| Tab open      | `<C-b>c`            | `:tabe[dit]`          | `:tabe[dit]`      | `<C-t>`           |
-| Tab move      | `<C-b>{p, n}`       | `g{t, T}`             | `g{t, T}`         | `g{t, T}`, `K, R` |
-| Pain split    | `<C-b>"`            | `<C-w>s`, `:s[plit]`  | -                 | n/a               |
-| Pain vsplit   | `<C-b>%`            | `<C-w>v`, `:v[split]` | -                 | n/a               |
-| Pain move     | `<C-b><AllowKey>`   | `<C-w>{h, j, k, l>`   | -                 | n/a               |
-| Pain close    | -                   | `<C-w>c`, `:clo[se]`  | `<C-F4>`          | `x`               |
-| Pain maximize | `<C-b>z`            | -                     | `<C-m>`           | `F11`             |
-| Shutdown      | -                   | `:qa[ll]`             | `<Alt-F4>`        | `<Alt-F4>`        |
+| Commands      | tmux (Bash, Mintty) | Vim                   | Vrapper (Eclipse) | cVim (Crhome)            |
+|---------------|---------------------|-----------------------|-------------------|--------------------------|
+| Cut           | n/a                 | `x`                   | `<C-x>`           | n/a                      |
+| Copy          | `<C-s>[`, `<C-S-c>` | `y`                   | `<C-c>`           | n/a                      |
+| Paste         | `<C-s>]`, `<C-S-v>` | `p`                   | `<C-v>`           | n/a                      |
+| Tab open      | `<M-t>`             | `:tabe[dit]`          | `:tabe[dit]`      | `<C-t>`                  |
+| Tab move      | `<M-{h, l}`         | `<M-{h, l}>`          | `<M-{h, l}>`      | `<M-{h, l}`,`<C-{h, l}>` |
+| Pain split    | `<C-s>p`            | `<C-w>s`, `:s[plit]`  | -                 | n/a                      |
+| Pain vsplit   | `<C-s>v`            | `<C-w>v`, `:v[split]` | -                 | n/a                      |
+| Pain move     | `<C-s><AllowKey>`   | `<C-w>{h, j, k, l>`   | -                 | n/a                      |
+| Pain close    | -                   | `<C-w>c`, `:clo[se]`  | `<C-F4>`          | `x`                      |
+| Pain maximize | `<C-s>m`            | `sm`                  | `sm`              | `F11`                    |
+| Shutdown      | -                   | `:qa[ll]`             | `<Alt-F4>`        | `<Alt-F4>`               |
 
 ### After
 

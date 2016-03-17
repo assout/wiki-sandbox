@@ -213,11 +213,13 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
     mingw-w64-x86_64-libnotify \
     mingw-w64-x86_64-nodejs \
     mingw-w64-x86_64-ruby \
+    msys2-launcher-git \
     p7zip \
     procps \
     python \
     python2 \
     rsync \
+    sshpass \
     tar \
     tmux \
     tree \
@@ -233,8 +235,7 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
 
             cmd //c "mklink /J D:\\mingw64 D:\\admin\\Tools\\msys64\\mingw64"
 
-- Note: `mingw-w64-x86_64-libnotify`は必要かわからんが`thyme`で使えるかも
-- Note: `mingw-w64-x86_64-gcc`は`fzf`のために入れてる
+- Note: `mingw-w64-x86_64-gcc`は`fzf`のために入れてる(結局`fzf`はうまく動いてないが)
 
 ##### Install with npm
 
@@ -277,11 +278,7 @@ Refs: [mintty-color-schemes/base16-tomorrow.minttyrc at master ・ oumu/mintty-c
 
 ##### Other Settings
 
-- [mintty をWindowsのタスクバーにグループ化する方法 - Qiita](http://qiita.com/mo12ino/items/b6f38278c6d187ecf819)
-    - リンク先:
-
-        %windir%\system32\cmd.exe /c "D:\admin\Tools\msys64\mingw64_shell.bat"
-
+- <https://sourceforge.net/p/msys2/mailman/message/34599465/>
     - 作業フォルダー:
 
         D:\admin
@@ -301,6 +298,7 @@ Refs: [mintty-color-schemes/base16-tomorrow.minttyrc at master ・ oumu/mintty-c
     - エクスプローラを開く
 
             start .
+            explorer .
 
 - SJISのファイルをgrepしたい場合、一時的に Options - Text - Character setをSJISに変更する
 - maven 3.3.3では$HOME/.m2でなく$USERPROFILE/.m2を見るみたいなので、settings.xmlはC:\Users\admin\.m2に配置する
@@ -392,16 +390,10 @@ ShellCheckをインストール
 
 ## Settings
 
-### IME
+### IME - プロパティ
 
-プロパティ
-
-- オートコレクト
-    - 全角/半角
-        - 英字、数字、記号 : 常に半角に変換 : TODO: やっぱやめる？
-
-Caution: 常に半角スペースにする設定はしない(デフォルトでShift + Spaceでできるため)
-Note: 無変換、変換キーの指定等はAutoHotKeyで実施する
+- Note: 常に半角スペースにする設定はしない(デフォルトでShift + Spaceでできるため)
+- Note: 無変換、変換キーの指定等はAutoHotKeyで実施する
 
 ### Keys
 
