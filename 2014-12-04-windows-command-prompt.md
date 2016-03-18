@@ -41,7 +41,7 @@ Categories: []
 - Eclipse                           : Refs: <2014-09-09-eclipse.md>
 - Everything Command-line Interface : [Downloads](http://www.voidtools.com/downloads/)
 - Everything Search Engine          : [Everything Search Engine](http://www.voidtools.com/)
-- GCViewer
+- GCViewer                          : [Releases · chewiebug/GCViewer · GitHub](https://github.com/chewiebug/GCViewer/releases)
 - GHC                               : For Cabal
 - Google Chrome                     : Refs: <2014-11-13-chrome.md>
 - Java Decompiler (JD-GUI)
@@ -58,7 +58,7 @@ Categories: []
 - WinShot
 - XZ Utils                          : For unarchive msys2 install file : <http://tukaani.org/xz/>
 - astah\* community
-- kSar
+- kSar                              : [ksar : a sar grapher 日本語情報トップページ - OSDN](https://osdn.jp/projects/sfnet_ksar/)
 - nkf                               : 文字コード変換 : [nkf.exe nkf32.dll Windows用の詳細情報 : Vector ソフトを探す！](http://www.vector.co.jp/soft/win95/util/se295331.html)
 - p                                 : pomodoro by bash. Refs: [GitHub - chrismdp/p: A simple yet powerful pomodoro tracker in pure Shell](https://github.com/chrismdp/p)
 - 侍
