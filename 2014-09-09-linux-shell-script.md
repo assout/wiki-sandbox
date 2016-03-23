@@ -447,6 +447,10 @@ Important:
 
             zip -r foo.zip bar
 
+        - 特定フォルダ、ファイルを除外
+
+                zip -r hoge.zip hoge -x \*txt\*
+
     - 解凍
 
             unzip archive.zip
@@ -587,6 +591,11 @@ Refs: [DigiLoog » Linuxの各圧縮コマンド実行速度と圧縮率を測�
     - ファイル名のみ表示
 
             diff -q foo bar
+
+    - 除外指定
+
+            diff -r --exclude="*.log" foo bar
+            diff -r --exclude="*.log" --exclude=".svn" foo bar
 
 - du - ディレクトリサイズ表示 :
 

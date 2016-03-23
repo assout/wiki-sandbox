@@ -194,6 +194,14 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
         - GitHubはログインパスワードでなく"Personal access token"じゃないとダメらしい  
           Refs: [\[Git\]\[GitHub\]GitHubにPushする際に認証失敗する DevAchieve](http://wada811.blogspot.com/2014/05/failed-to-push-to-github-over-https.html)
 
+    - /etc/gitconfigの設定
+
+            # Eclipse(EGit)から参照できるように以下にsystemのgitconfigを作成
+            D:\admin\Tools\msys64\etc\gitconfig
+            # Eclipseからも参照できるようにシンボリックリンクを作成 Caution: 逆方向のリンクにするとEclipse上おかしくなる
+            mkdir /d/etc
+            cmd //c "mklink D:\\etc\\gitconfig D:\\admin\\Tools\\msys64\\etc\\gitconfig" 2>&1 | nkf32.exe -w
+
 ##### Install with pacman
 
     update-core
