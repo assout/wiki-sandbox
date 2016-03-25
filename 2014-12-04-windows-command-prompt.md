@@ -214,6 +214,7 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
     expect \
     gcc \
     git \
+    lftp \
     make \
     man-pages-posix \
     mingw-w64-x86_64-connect \

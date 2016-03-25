@@ -191,44 +191,45 @@ Refs:
 
 ### Before (Default)
 
-| Commands      | tmux (Bash, Mintty) | Vim                   | Vrapper (Eclipse) | cVim (Crhome)            |
-|---------------|---------------------|-----------------------|-------------------|--------------------------|
-| Cut           | n/a                 | `x`                   | `<C-x>`           | n/a                      |
-| Copy          | `<C-s>[`, `<C-S-c>` | `y`                   | `<C-c>`           | n/a                      |
-| Paste         | `<C-s>]`, `<C-S-v>` | `p`                   | `<C-v>`           | n/a                      |
-| Tab open      | `<M-t>`             | `:tabe[dit]`          | `:tabe[dit]`      | `<C-t>`                  |
-| Tab move      | `<M-{h, l}`         | `<M-{h, l}>`          | `<M-{h, l}>`      | `<M-{h, l}`,`<C-{h, l}>` |
-| Pain split    | `<C-s>p`            | `<C-w>s`, `:s[plit]`  | -                 | n/a                      |
-| Pain vsplit   | `<C-s>v`            | `<C-w>v`, `:v[split]` | -                 | n/a                      |
-| Pain move     | `<C-s><AllowKey>`   | `<C-w>{h, j, k, l>`   | -                 | n/a                      |
-| Pain close    | -                   | `<C-w>c`, `:clo[se]`  | `<C-F4>`          | `x`                      |
-| Pain maximize | `<C-s>m`            | `sm`                  | `sm`              | `F11`                    |
-| Shutdown      | -                   | `:qa[ll]`             | `<Alt-F4>`        | `<Alt-F4>`               |
+| Commands      | Vim                   | Vrapper (Eclipse) | tmux (Gnome Terminal, Mintty) | cVim (Crhome)            |
+|---------------|-----------------------|-------------------|-------------------------------|--------------------------|
+| Cut           | `x`                   | `<C-x>`           | n/a                           | n/a                      |
+| Copy          | `y`                   | `<C-c>`           | `<C-s>[`, `<C-S-c>`           | n/a                      |
+| Paste         | `p`                   | `<C-v>`           | `<C-s>]`, `<C-S-v>`           | n/a                      |
+| Tab open      | `:tabe[dit]`          | `:tabe[dit]`      | `<M-t>`                       | `<C-t>`                  |
+| Tab move      | `<M-{h, l}>`          | `<M-{h, l}>`      | `<M-{h, l}`                   | `<M-{h, l}`,`<C-{h, l}>` |
+| Pane split    | `<C-w>s`, `:s[plit]`  | -                 | `<C-s>p`                      | n/a                      |
+| Pane vsplit   | `<C-w>v`, `:v[split]` | -                 | `<C-s>v`                      | n/a                      |
+| Pane move     | `<C-w>{h, j, k, l>`   | -                 | `<C-s><AllowKey>`             | n/a                      |
+| Pane close    | `<C-w>c`, `:clo[se]`  | `<C-F4>`          | -                             | `x`                      |
+| Pane maximize | `sm`                  | `sm`              | `<C-s>m`                      | `F11`                    |
+| Shutdown      | `:qa[ll]`             | `<Alt-F4>`        | -                             | `<Alt-F4>`               |
 
 ### After
 
-| Commands      | tmux (Gnome Terminal, Mintty) | Vim                   | Vrapper (Eclipse)       | cVim (Chrome)              |
-|---------------|-------------------------------|-----------------------|-------------------------|----------------------------|
-| Cut           | -                             | `x`                   | `x`                     | -                          |
-| Copy          | `<C-s>[`, `<C-S-c>`           | `y`                   | `y`                     | `y`                        |
-| Paste         | `<C-s>]`, `<C-S-v>`           | `p`                   | `p`                     | `p`                        |
-| Tab open      | `<M-t>`                       | `<M-t>`, `:tabe[dit]` | `-`                     | `<C-t>`                    |
-| Tab move      | `<M-{h, l}>`                  | `<M-{h, l}>`          | `<M-{h, l}>`            | `<M-{h, l}>`, `<C-{h, l}>` |
-| Tab close     | `<M-c>`                       | `<M-c>`               | `-`                     | `x`                        |
-| Pain split    | `<C-s>p`                      | `sp`                  | `sp`                    | -                          |
-| Pain vsplit   | `<C-s>v`                      | `sv`                  | `sv`                    | -                          |
-| Pain move     | `<C-s>{h, l, j, k}`           | `s{h, j, k, l}`       | `s{h, j, k, l}`         | n/a                        |
-| Pain close    | `<C-s>c`                      | `sc`                  | `sc`, `sx`, `bd[elete]` | `x`                        |
-| Pain maximize | `<C-s>m`                      | `sm`                  | `sm`                    | TODO:                       |
-| Pain size     | `<C-s>{<, >, -, +}`           | `<C-w>{<, >, -, +}`   | TODO:                    | TODO:                       |
-| Buffer delete | `<C-s>x`(kill session)        | `sx`, `:bd[elete]`    | `sc`, `sx`, `bd[elete]` | `x`                        |
-| Shutdown      | `<C-s>q`                      | `:qa[ll]`             | `:qa[ll]`               | `:qa[ll]`                  |
+| Commands      | Vim                 | Vrapper (Eclipse)   | tmux (Gnome Terminal, Mintty) | cVim (Chrome)              |
+|---------------|---------------------|---------------------|-------------------------------|----------------------------|
+| Cut           | `x`                 | As with Vim         | -                             | -                          |
+| Copy          | `y`                 | As with Vim         | `<C-s>[`, `<C-S-c>`           | `y`                        |
+| Paste         | `p`                 | As with Vim         | `<C-s>]`, `<C-S-v>`           | `p`                        |
+| Tab open      | `:tabe[dit]`        | -                   | `<M-t>`                       | `<C-t>`                    |
+| Tab move      | `gt, gT`            | `<C-{h, l}>`        | `<M-{h, l}>`                  | `<M-{h, l}>`, `<C-{h, l}>` |
+| Tab close     | `:tabc[lose]`       | `<C-q>`             | `<M-c>`                       | `x`                        |
+| Pane split    | `<C-w>s`            | As with Vim         | `<C-s>s`                      | -                          |
+| Pane vsplit   | `<C-w>v`            | As with Vim         | `<C-s>v`                      | -                          |
+| Pane move     | `<C-w>{h, j, k, l}` | As with Vim         | `<C-s>{h, l, j, k}`           | n/a                        |
+| Pane close    | `<C-w>c`            | As with Vim,`<C-q>` | `<C-s>c`                      | `x`                        |
+| Pane exit     | `<C-w>q`            | As with Vim,`<C-q>` | `<C-s>q`                      | `x`                        |
+| Pane maximize | `sm`                | As with Vim         | `<C-s>m`                      | `F11`                      |
+| Pane size     | `<C-w>{<, >, -, +}` | -                   | `<C-s>{<, >, -, +}`           | n/a                        |
+| Buffer delete | `:bd[elete]`        | As with Vim         | `<C-s>q`                      | `x`                        |
+| Shutdown      | `:qa[ll]`           | `<Alt-F4>`          | `<C-s>Q`(kill session)        | `:qa[ll]`, `<Alt-F4>`      |
 
 Hint/TODOs
 
+- 上記"Pane"はtmuxでいうPaneで、Vimでいうウィンドウにあたるもの
 - `<C-S-hoge>`のような3キー同時押しは、cVim のみで可能
 - `<C-S>hoge`のようなprefix -> キーという定義は、Vim, Vrapper, tmuxのみで可能
-- TODO: Pain sizeを統一したい(<C-w>hogeのvim基準で合わせたい)
 
 ## Tools color unity
 

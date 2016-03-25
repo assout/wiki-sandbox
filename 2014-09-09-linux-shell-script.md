@@ -371,6 +371,12 @@ Important:
 
             grep hoge .* *
 
+- 一致行の前後を表示する
+
+        -B, --before-context=NUM  print NUM lines of leading context
+        -A, --after-context=NUM   print NUM lines of trailing context
+        -C, --context=NUM         print NUM lines of output context
+
 ### Sed
 
 - 標準出力せず直接ファイルを置換する(GNU sed限定)
@@ -966,7 +972,7 @@ Refs: [DigiLoog » Linuxの各圧縮コマンド実行速度と圧縮率を測�
 - スクリプトファイルの場所を取得する
         - 実行されたシェルの場所(sourceコマンドなどで呼ばれた場合、呼び元が取得される)
 
-                script_dir=$(cd "$(dirname "$0")"; pwd)
+                script_dir=$(cd "$(dirname "$0")" || exit 1; pwd)
 
         - 常に実行シェルの場所(sourceコマンドなどで呼ばれた場合、呼び先が取得される)
 
