@@ -34,6 +34,7 @@ Categories: []
 
 ### List
 
+- ANSIFilter                        : [Downloads](http://www.andre-simon.de/zip/download.php)
 - AutoHotKey                        : msys2でのvim ime offに使用 : [AutoHotkey Downloads](https://autohotkey.com/download/)
 - C/Migemo for Windows              : For vim-migemo : [C/Migemo KaoriYa](http://www.kaoriya.net/software/cmigemo/)
 - Cabal                             : For ShellCheck
@@ -217,6 +218,7 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
     lftp \
     make \
     man-pages-posix \
+    mingw-w64-x86_64-ansicon-git \
     mingw-w64-x86_64-connect \
     mingw-w64-x86_64-gcc \
     mingw-w64-x86_64-libnotify \
