@@ -8,6 +8,7 @@ fi
 
 readonly HERE=$(cd "$(dirname "$0")" || exit 1; pwd)
 
+ln -fL "${HERE}/" ~/Dropbox/
 ln -fL "${HERE}/.mdlrc" ~/
 ln -fL "${HERE}/.mdlrc.style.rb" ~/
 
