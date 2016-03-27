@@ -5,12 +5,9 @@ if [ "${OSTYPE}" = msys ] ; then
   exit 1
 fi
 
-mkdir -p ~/Dropbox/
-cd ~/Dropbox
-git clone git@github.com:assout/memolist.git
-cd ~/Dropbox/memolist/
+readonly HERE=$(cd "$(dirname "$0")" || exit 1; pwd)
 
-ln -fL ~/.mdlrc
-ln -fL ~/.mdlrc.style.rb
-ln -fs ~/Dropbox/memolist/ ~/
+ln -fs "${HERE}/" ~/
+ln -fL "${HERE}/.mdlrc" ~/
+ln -fL "${HERE}/.mdlrc.style.rb" ~/
 
