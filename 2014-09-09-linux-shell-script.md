@@ -1134,6 +1134,8 @@ Refs: [shell のショートカットキー適当にまとめてみた。 Lonely
     Ctrl + qで解除
     Refs: [「Ctrl」＋「S」でキー入力が受け付けられなくなる - ITmedia エンタープライズ](http://www.itmedia.co.jp/help/tips/linux/l0612.html)
 
+- [6万ミリ秒でできるLinuxパフォーマンス分析 | Yakst](https://yakst.com/ja/posts/3601?platform=hootsuite)
+
 ### スペシャルファイル
 
 - nullデバイス
