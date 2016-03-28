@@ -965,6 +965,10 @@ Refs: [DigiLoog » Linuxの各圧縮コマンド実行速度と圧縮率を測�
 
         for filename in *.dmp; do mv $fliename ${filename%.dmp}.sql; done
 
+- find結果のファイル一括リネーム
+
+        find -name hogefuga | xargs rename hoge piyo
+
 - プロセスの起動時間を確認する
 
         ps -eo lstart,pid,args | grep hoge

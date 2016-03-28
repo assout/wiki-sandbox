@@ -192,7 +192,7 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
             password {github Personal access token}
             EOS
 
-        - GitHubはログインパスワードでなく"Personal access token"じゃないとダメらしい  
+        - GitHubはログインパスワードでなく"Personal access token"じゃないとダメらしい
           Refs: [\[Git\]\[GitHub\]GitHubにPushする際に認証失敗する DevAchieve](http://wada811.blogspot.com/2014/05/failed-to-push-to-github-over-https.html)
 
     - /etc/gitconfigの設定
@@ -262,6 +262,8 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
     npm install -g dockerfile_lint
     npm install -g jsonlint
     npm install -g js-yaml
+    npm install -g markdown-html
+    npm install -g markdown-to-slides
     npm install -g tldr
 
 ##### Install with gem
@@ -310,6 +312,10 @@ Refs: [mintty-color-schemes/base16-tomorrow.minttyrc at master ・ oumu/mintty-c
 
             start .
             explorer .
+
+    - URLも開ける
+
+            start http://google.co.jp
 
 - SJISのファイルをgrepしたい場合、一時的に Options - Text - Character setをSJISに変更する
 - maven 3.3.3では$HOME/.m2でなく$USERPROFILE/.m2を見るみたいなので、settings.xmlはC:\Users\admin\.m2に配置する
