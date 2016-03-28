@@ -402,6 +402,11 @@ Important:
 
         sed -e '3s/date/Date/g'
 
+- 指定した行番号のみ表示
+
+        ls -t | sed -n '2p'
+        ls -t | sed -n '2,5p'
+
 - ある文字を含む行を削除する
 
         cat input.file | sed '/abc/d'
