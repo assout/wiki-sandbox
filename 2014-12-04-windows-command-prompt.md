@@ -59,6 +59,7 @@ Categories: []
 - WinShot
 - XZ Utils                          : For unarchive msys2 install file : <http://tukaani.org/xz/>
 - astah\* community
+- ghq                               : [GitHub - motemen/ghq: Remote repository management made easy](https://github.com/motemen/ghq)
 - kSar                              : [ksar : a sar grapher 日本語情報トップページ - OSDN](https://osdn.jp/projects/sfnet_ksar/)
 - nkf                               : 文字コード変換 : [nkf.exe nkf32.dll Windows用の詳細情報 : Vector ソフトを探す！](http://www.vector.co.jp/soft/win95/util/se295331.html)
 - p                                 : pomodoro by bash. Refs: [GitHub - chrismdp/p: A simple yet powerful pomodoro tracker in pure Shell](https://github.com/chrismdp/p)
@@ -297,6 +298,10 @@ Refs: [mintty-color-schemes/base16-tomorrow.minttyrc at master ・ oumu/mintty-c
         D:\admin
 
 - [msys2での$HOMEとOpenSSHでのホームディレクトリの違い - Qiita](http://qiita.com/nana4gonta/items/622571c66bfe7f1c7150)
+
+- vimのundo file用のディレクトリ作成
+
+        mkdir -p ~/.vim/undo
 
 ##### Tips, Cautions
 
