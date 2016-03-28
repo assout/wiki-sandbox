@@ -54,12 +54,14 @@ Categories: []
 - Remote Mouse                      : For home.
 - ShellCheck
 - Tar for Windows                   : For unarchive msys2 install file : <http://gnuwin32.sourceforge.net/packages/gtar.htm>
+- TODO.TXT Command Line Interface   : [GitHub - ginatrapani/todo.txt-cli: A simple and extensible shell script for managing your todo.txt file.](https://github.com/ginatrapani/todo.txt-cli)
 - Vim(kaoriya)                      : Refs: <2014-09-30-vim.md> : [Vim ; KaoriYa](http://www.kaoriya.net/software/vim/)
 - WinSCP                            : Free SFTP, SCP and FTP client for Windows
 - WinShot
 - XZ Utils                          : For unarchive msys2 install file : <http://tukaani.org/xz/>
 - astah\* community
 - ghq                               : [GitHub - motemen/ghq: Remote repository management made easy](https://github.com/motemen/ghq)
+- hub                               : [GitHub - github/hub: hub helps you win at git.](https://github.com/github/hub)
 - kSar                              : [ksar : a sar grapher 日本語情報トップページ - OSDN](https://osdn.jp/projects/sfnet_ksar/)
 - nkf                               : 文字コード変換 : [nkf.exe nkf32.dll Windows用の詳細情報 : Vector ソフトを探す！](http://www.vector.co.jp/soft/win95/util/se295331.html)
 - p                                 : pomodoro by bash. Refs: [GitHub - chrismdp/p: A simple yet powerful pomodoro tracker in pure Shell](https://github.com/chrismdp/p)
@@ -303,6 +305,10 @@ Refs: [mintty-color-schemes/base16-tomorrow.minttyrc at master ・ oumu/mintty-c
 
         mkdir -p ~/.vim/undo
 
+- bash completion用のディレクトリ作成
+
+        mkdir -p /etc/bash_completion.d
+
 ##### Tips, Cautions
 
 - コマンドプロンプトを起動(別アプリとして)
@@ -409,6 +415,21 @@ ShellCheckをインストール
     - システム プロパティ
         - ファイル
             - プロジェクト保存時にバックアップファイルを作成する: unchecked
+
+#### TODO.sh
+
+Completion
+
+    cp todo_completion /etc/bash_completion.d/
+
+Add-on note
+
+    mkdir -p /usr/local/lib/todo.actions.d/
+    cd /usr/local/lib/todo.actions.d/
+    wget https://raw.githubusercontent.com/mgarrido/todo.txt-cli/note/todo.actions.d/archive
+    wget https://raw.githubusercontent.com/mgarrido/todo.txt-cli/note/todo.actions.d/del
+    wget https://raw.githubusercontent.com/mgarrido/todo.txt-cli/note/todo.actions.d/note
+    wget https://raw.githubusercontent.com/mgarrido/todo.txt-cli/note/todo.actions.d/rm
 
 ## Settings
 
