@@ -176,6 +176,7 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
 
         vim /etc/fstab
         noacl -> acl
+
     - Refs: [MSYS2と格闘 (2) - できないことはやりたくない](http://yaritakunai.hatenablog.com/entry/2014/12/09/202743)
     - Caution: ただ全ファイルがデフォルト777になってしまうっぽく出来ればやりたくない
 
@@ -230,6 +231,8 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
     mingw-w64-x86_64-nodejs \
     mingw-w64-x86_64-ruby \
     msys2-launcher-git \
+    patch \
+    patchutils \
     p7zip \
     procps \
     python \
