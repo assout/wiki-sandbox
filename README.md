@@ -12,19 +12,6 @@ cd memolist
 ./symlink.sh
 ```
 
-Windows (Caution: change repository git user config)
-
-```
-cd D:\admin\Documents
-git clone git@github.com:assout/memolist.git
-cd ./memolist
-
-# if use cmd,
-.\symlink.bat
-# or else if use msys
-cmd //c ".\symlink.bat"
-```
-
 ## References
 
 - [glidenote/memolist.vim · GitHub](https://github.com/glidenote/memolist.vim)
