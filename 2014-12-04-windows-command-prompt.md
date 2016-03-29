@@ -147,6 +147,7 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
 ##### Initial Settings
 
 - Task Bar - 作業フォルダ - `D:\admin`
+    - Property - 互換性 - 特権レベル: 管理者としてこのプログラムを実行する (シンボリックリンクを張るために必要)
 
 - Create bash_profile
 
@@ -165,10 +166,11 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
                 . /etc/bash_profile
         fi
 
-- Edit bat
+- Edit ini
 
-        vim ming64_shell.bat
-        start %WD%mintty -i /msys2.ico /bin/env CHERE_INVOKING=1 /usr/bin/bash --login %* -c "export CHERE_INVOKING=1 && tmux"
+        vim ming64.ini
+        MSYS=winsymlinks:nativestrict
+        CHERE_INVOKING=1
 
 - Edit fstab (パーミッションのため)
 
@@ -276,10 +278,18 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
 
 ##### Install other
 
+ghqで取得
+
+        ghq get https://github.com/assout/dotfiles/
+        ghq get https://github.com/assout/memolist/
+        ghq get https://github.com/assout/scripts/
+
+        ghq get https://github.com/chrismdp/p
+        ghq get https://github.com/icefox/git-hooks/
+
 - p
 
-        curl https://raw.githubusercontent.com/chrismdp/p/master/p > /usr/local/bin/
-        chmod +x /usr/local/bin/p
+        ln -sf $(cygpath $(ghq root))/github.com/chrismdp/p/p /usr/local/bin/
 
 ##### Options...
 
@@ -426,10 +436,15 @@ Add-on note
 
     mkdir -p /usr/local/lib/todo.actions.d/
     cd /usr/local/lib/todo.actions.d/
+
     wget https://raw.githubusercontent.com/mgarrido/todo.txt-cli/note/todo.actions.d/archive
     wget https://raw.githubusercontent.com/mgarrido/todo.txt-cli/note/todo.actions.d/del
     wget https://raw.githubusercontent.com/mgarrido/todo.txt-cli/note/todo.actions.d/note
     wget https://raw.githubusercontent.com/mgarrido/todo.txt-cli/note/todo.actions.d/rm
+
+    mkdir graph && cd $_
+    wget https://raw.githubusercontent.com/timpulver/todo.txt-graph/master/graph
+    wget https://raw.githubusercontent.com/timpulver/todo.txt-graph/master/graph.py
 
 ## Settings
 
