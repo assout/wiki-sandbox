@@ -167,6 +167,8 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
 
         mkdir /home && ln -sf ~/ /home/admin
 
+    Refs: [msys2での$HOMEとOpenSSHでのホームディレクトリの違い - Qiita](http://qiita.com/nana4gonta/items/622571c66bfe7f1c7150)
+
 - Workaround for git
     - http,httpsプロトコルの際のユーザID,パスワード省略
 
@@ -269,6 +271,7 @@ ghqで取得
 
         ghq look mgarrido/todo.txt-cli
         git checkout -b note origin/note
+
         ln -sf $(cygpath $(ghq root))/github.com/mgarrido/todo.txt-cli/todo.actions.d/{archive,del,note,rm} ~/.todo/todo.actions.d
         ln -sf $(cygpath $(ghq root))/github.com/timpulver/todo.txt-graph/ ~/.todo/todo.actions.d/graph
 
@@ -285,13 +288,9 @@ Refs: [mintty-color-schemes/base16-tomorrow.minttyrc at master ・ oumu/mintty-c
 
 ##### Other Settings
 
-- [msys2での$HOMEとOpenSSHでのホームディレクトリの違い - Qiita](http://qiita.com/nana4gonta/items/622571c66bfe7f1c7150)
-
 - vimのundo file用のディレクトリ作成
 
         mkdir -p ~/.cache/undo
-
-- ghqはbashrcでPATHとおしてもだめなのでOSの環境変数でPATH通す(ghq-update時に失敗する(xargsはシェル変数が引き継がれない？))
 
 ##### Tips, Cautions
 
@@ -312,9 +311,12 @@ Refs: [mintty-color-schemes/base16-tomorrow.minttyrc at master ・ oumu/mintty-c
 
             start http://google.co.jp
 
+- Windowsパス形式をUnix形式に変換できる
+
+        cygpath $(pwd)
+
 - SJISのファイルをgrepしたい場合、一時的に Options - Text - Character setをSJISに変更する
 - maven 3.3.3では$HOME/.m2でなく$USERPROFILE/.m2を見るみたいなので、settings.xmlはC:\Users\admin\.m2に配置する
-- `cygpath`で、Windowsパス形式をUnix形式に変換できる
 
 ###### 文字化け関連
 
@@ -356,10 +358,10 @@ Refs: [mintty-color-schemes/base16-tomorrow.minttyrc at master ・ oumu/mintty-c
 
 Preferences
 
-- Man pages : `D:\admin\Tools\msys32\usr\bin\man.exe`
+- Man pages : `D:\msys64\usr\bin\man.exe`
 - Shell Script
     - Interpreters
-        - Add... : bash.exe - D:\admin\Tools\msys32\usr\bin\bash.exe
+        - Add... : bash.exe - `D:\admin\msys64\usr\bin\bash.exe`
 
 #### ShellCheck
 
@@ -440,7 +442,7 @@ Add-on note
 - User Variables
 
         HOME=D:\admin
-        Path=D:\admin\Tools\apache-maven-3.3.9\bin;D:\admin\Tools\nkfwin\vc2005\win32(98,Me,NT,2000,XP,Vista,7)Windows-31J;D:\admin\Tools\msys64\mingw64\bin;D:\admin\Tools\msys64\usr\bin;D:\admin\Tools\xz-5.2.1-windows\bin_x86-64;D:\admin\Tools\tar-1.13-1-bin\bin
+        Path=%JAVA_HOME%\bin;C:\Users\admin\AppData\Roaming\cabal\bin;D:\msys64\usr\bin
         http_proxy={http_proxy}
         _JAVA_OPTIONS=-Dfile.encoding=UTF-8
 
@@ -450,15 +452,11 @@ Add-on note
     - Backup
     - Desktop
     - Development
-        - github
-            - dotfiles
-            - scripts
-        - gitlab
+        - {ghq management repos}
         - local
         - workspace
     - Documents
         - caputure
-        - memolist
         - misc
         - shortcuts
         - spell
@@ -475,13 +473,7 @@ Add-on note
             - utf-8
                 - {for migemo dict}
     - .ssh
-    - dotfiles(junction)
-
-            cmd //c "mklink /J D:\\admin\\dotfiles D:\\admin\\Development\\dotfiles"
-
-    - memolist(junction)
-
-            cmd //c "mklink /J D:\\admin\\memolist D:\\admin\\Documents\\memolist"
+    - memolist@
 
 以下のディレクトリを↑の場所に変更
 
