@@ -163,6 +163,10 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
     - Refs: [MSYS2と格闘 (2) - できないことはやりたくない](http://yaritakunai.hatenablog.com/entry/2014/12/09/202743)
     - Caution: ただ全ファイルがデフォルト777になってしまうっぽく出来ればやりたくない
 
+- Workaround for openssh
+
+        mkdir /home && ln -sf ~/ /home/admin
+
 - Workaround for git
     - http,httpsプロトコルの際のユーザID,パスワード省略
 
@@ -258,11 +262,15 @@ ghqで取得
 
         ghq get https://github.com/chrismdp/p
         ghq get https://github.com/icefox/git-hooks/
+        ghq get https://github.com/mgarrido/todo.txt-cli
+        ghq get https://github.com/timpulver/todo.txt-graph
 
-- p
+- todo.sh add-ons
 
-        mkdir -p /usr/local/bin
-        ln -sf $(cygpath $(ghq root))/github.com/chrismdp/p/p /usr/local/bin/
+        ghq look mgarrido/todo.txt-cli
+        git checkout -b note origin/note
+        ln -sf $(cygpath $(ghq root))/github.com/mgarrido/todo.txt-cli/todo.actions.d/{archive,del,note,rm} ~/.todo/todo.actions.d
+        ln -sf $(cygpath $(ghq root))/github.com/timpulver/todo.txt-graph/ ~/.todo/todo.actions.d/graph
 
 ##### Options...
 
@@ -283,9 +291,7 @@ Refs: [mintty-color-schemes/base16-tomorrow.minttyrc at master ・ oumu/mintty-c
 
         mkdir -p ~/.cache/undo
 
-- bash completion用のディレクトリ作成
-
-        mkdir -p /etc/bash_completion.d
+- ghqはbashrcでPATHとおしてもだめなのでOSの環境変数でPATH通す(ghq-update時に失敗する(xargsはシェル変数が引き継がれない？))
 
 ##### Tips, Cautions
 
@@ -398,7 +404,7 @@ ShellCheckをインストール
 
 Completion
 
-    cp todo_completion /etc/bash_completion.d/
+    source todo_completion
 
 Add-on note
 
