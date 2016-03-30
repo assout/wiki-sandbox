@@ -181,11 +181,8 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
 
     - /etc/gitconfigの設定
 
-            # Eclipse(EGit)から参照できるように以下にsystemのgitconfigを作成
-            D:\admin\Tools\msys64\etc\gitconfig
-            # Eclipseからも参照できるようにシンボリックリンクを作成 Caution: 逆方向のリンクにするとEclipse上おかしくなる
-            mkdir /d/etc
-            cmd //c "mklink D:\\etc\\gitconfig D:\\admin\\Tools\\msys64\\etc\\gitconfig" 2>&1 | nkf32.exe -w
+            # Eclipse(EGit)から参照できるように以下にsystemのgitconfigを作成。/etc/gitconfigが存在することが前提
+            ln -sf /etc /d/etc
 
 ##### Install with pacman
 
@@ -226,11 +223,6 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
 
 - Note: `xmllint`はデフォルトで入ってるっぽい
 - Note: `procps`は`pgrep`, `pkill`, `ps`, `watch`コマンドなどが入ってる
-- TODO: 現状npmの実行がエラーになる @2016-01-29
-    - -> 暫定対応
-
-            cmd //c "mklink /J D:\\mingw64 D:\\admin\\Tools\\msys64\\mingw64"
-
 - Note: `mingw-w64-x86_64-gcc`は`fzf`のために入れてる(結局`fzf`はうまく動いてないが)
 
 ##### Install with npm
@@ -289,7 +281,7 @@ Refs: [mintty-color-schemes/base16-tomorrow.minttyrc at master ・ oumu/mintty-c
 
 - vimのundo file用のディレクトリ作成
 
-        mkdir -p ~/.vim/undo
+        mkdir -p ~/.cache/undo
 
 - bash completion用のディレクトリ作成
 
