@@ -42,7 +42,7 @@ Categories: []
 - Eclipse                           : Refs: <2014-09-09-eclipse.md>
 - Everything Command-line Interface : [Downloads](http://www.voidtools.com/downloads/)
 - Everything Search Engine          : [Everything Search Engine](http://www.voidtools.com/)
-- GCViewer                          : [Releases · chewiebug/GCViewer · GitHub](https://github.com/chewiebug/GCViewer/releases)
+- GCViewer                          : [Releases ・ chewiebug/GCViewer ・ GitHub](https://github.com/chewiebug/GCViewer/releases)
 - GHC                               : For Cabal
 - Google Chrome                     : Refs: <2014-11-13-chrome.md>
 - Java Decompiler (JD-GUI)
@@ -149,23 +149,6 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
 - Task Bar - 作業フォルダ - `D:\admin`
     - Property - 互換性 - 特権レベル: 管理者としてこのプログラムを実行する (シンボリックリンクを張るために必要)
 
-- Create bash_profile
-
-        touch ~/.bash_profile
-
-        if [ -e ~/.inputrc ]; then
-                export INPUTRC=~/.inputrc
-        else
-                export INPUTRC=/etc/inputrc
-        fi
-        if [ -e ~/.bashrc ]; then
-                . ~/.bashrc
-        elif [ -e ~/.bash_profile ]; then
-                . ~/.bash_profile
-        elif [ -e /etc/bash_profile ]; then
-                . /etc/bash_profile
-        fi
-
 - Edit ini
 
         vim ming64.ini
@@ -179,11 +162,6 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
 
     - Refs: [MSYS2と格闘 (2) - できないことはやりたくない](http://yaritakunai.hatenablog.com/entry/2014/12/09/202743)
     - Caution: ただ全ファイルがデフォルト777になってしまうっぽく出来ればやりたくない
-
-- Workaround for openssh
-
-        mkdir /home
-        cmd //c "mklink /D D:\\admin\\Tools\\msys64\\home\\admin D:\\admin" 2>&1 | nkf32.exe -w
 
 - Workaround for git
     - http,httpsプロトコルの際のユーザID,パスワード省略
@@ -230,7 +208,6 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
     mingw-w64-x86_64-libnotify \
     mingw-w64-x86_64-nodejs \
     mingw-w64-x86_64-ruby \
-    msys2-launcher-git \
     patch \
     patchutils \
     p7zip \
@@ -260,7 +237,7 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
 
 プロキシ設定
 
-/c/Users/admin/.npmrcを作成
+${HOME}/.npmrcを作成
 
     proxy={proxy url}
     registry=http://registry.npmjs.org/
@@ -292,6 +269,7 @@ ghqで取得
 
 - p
 
+        mkdir -p /usr/local/bin
         ln -sf $(cygpath $(ghq root))/github.com/chrismdp/p/p /usr/local/bin/
 
 ##### Options...
@@ -306,11 +284,6 @@ Refs: [Hybrid color settings for the Cygwin mintty terminal. $ cat .minttyrc-hyb
 Refs: [mintty-color-schemes/base16-tomorrow.minttyrc at master ・ oumu/mintty-color-schemes ・ GitHub](https://github.com/oumu/mintty-color-schemes/blob/master/base16-mintty/base16-tomorrow.minttyrc)
 
 ##### Other Settings
-
-- <https://sourceforge.net/p/msys2/mailman/message/34599465/>
-    - 作業フォルダー:
-
-        D:\admin
 
 - [msys2での$HOMEとOpenSSHでのホームディレクトリの違い - Qiita](http://qiita.com/nana4gonta/items/622571c66bfe7f1c7150)
 
