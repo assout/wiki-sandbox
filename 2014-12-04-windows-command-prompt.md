@@ -220,6 +220,7 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
     rsync \
     sshpass \
     tar \
+    tig \
     tmux \
     tree \
     unzip
