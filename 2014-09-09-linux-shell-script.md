@@ -847,6 +847,10 @@ Refs: [DigiLoog » Linuxの各圧縮コマンド実行速度と圧縮率を測�
 
             find パス -name "name" | xargs --no-run-if-empty rm
 
+    - xargsで、引数を任意の場所に埋め込む
+
+            cat list.txt | xargs -IXXXX echo aXXXXa
+
 ### Seldom used commands
 
 - bc - 複雑な計算する(電卓として使う) :
