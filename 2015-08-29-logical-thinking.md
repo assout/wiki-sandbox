@@ -32,6 +32,16 @@ Categories: []
 
 Refs: [人事パーソンのための実践！ビジネスフレームワーク - 第7回 良い目標は「SMARTな目標」～適切な目標設定が確実な成果を生む～｜人事のための課題解決サイト｜jin-jour（ジンジュール）](https://www.rosei.jp/jinjour/article.php?entry_no=57288)
 
+## ストーリーボード
+
+資料の全体像をストリーボードとしてフロー図にまとめると良い
+以下の2種類にわけれる。
+
+- why+what型
+- what+how型
+
+Refs: [そのプレゼン資料、論理破綻していませんか？「ストーリーボード」で再チェック 素晴らしい報告書・提案書の練習：［構成・文章化］STEP2-2：PRESIDENT Online - プレジデント](http://president.jp/articles/-/17619?display=b)
+
 ## Refs
 
 - [ビジネスで活用できる問題解決のためのフレームワークまとめ - NAVER まとめ](http://matome.naver.jp/odai/2140905307385143301?page=2)
