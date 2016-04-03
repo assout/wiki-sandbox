@@ -8,7 +8,7 @@ install:
 before_script:
   - cp .mdlrc .mdlrc.style.rb ~
 script:
-  - mdl *.md
+  # - mdl *.md
 after_success:
   - codecov
 
