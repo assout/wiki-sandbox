@@ -3,7 +3,7 @@ language: python
 sudo: false
 
 before_install:
-  - pip install --user codecov
+  - pip install codecov
 install:
   - gem install mdl
 # before_script:
