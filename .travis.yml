@@ -1,16 +1,10 @@
-# language: ruby
-language: python
+language: ruby
 sudo: false
 
-before_install:
-  - pip install codecov
 install:
   - gem install mdl
-# before_script:
-#   - cp .mdlrc .mdlrc.style.rb ~
+before_script:
+  - cp .mdlrc .mdlrc.style.rb ~
 script:
-  # - mdl README.md
-  - coverage run tests.py
-after_success:
-  - codecov
+  - mdl *.md
 
