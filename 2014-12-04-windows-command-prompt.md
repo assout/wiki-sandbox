@@ -265,15 +265,18 @@ ghqで取得
 
         ghq get https://github.com/chrismdp/p
         ghq get https://github.com/icefox/git-hooks/
-        ghq get https://github.com/mgarrido/todo.txt-cli
+        # ghq get https://github.com/mgarrido/todo.txt-cli
+        ghq get https://github.com/assout/todo.txt-cli
         ghq get https://github.com/timpulver/todo.txt-graph
 
 - todo.sh add-ons
 
-        ghq look mgarrido/todo.txt-cli
+        # ghq look mgarrido/todo.txt-cli
+        ghq look assout/todo.txt-cli
         git checkout -b note origin/note
 
-        ln -sf $(cygpath $(ghq root))/github.com/mgarrido/todo.txt-cli/todo.actions.d/{archive,del,note,rm} ~/.todo/todo.actions.d
+        # ln -sf $(cygpath $(ghq root))/github.com/mgarrido/todo.txt-cli/todo.actions.d/{archive,del,note,rm} ~/.todo/todo.actions.d
+        ln -sf $(cygpath $(ghq root))/github.com/assout/todo.txt-cli/todo.actions.d/{archive,del,note,rm} ~/.todo/todo.actions.d
         ln -sf $(cygpath $(ghq root))/github.com/timpulver/todo.txt-graph/ ~/.todo/todo.actions.d/graph
 
 ##### Options...

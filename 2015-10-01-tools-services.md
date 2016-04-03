@@ -99,13 +99,6 @@ Categories: []
 - Bash
     - p: Linux, msys2で同じように使える。tmux連携できる。chromeはだるい。
 
-## Git hook management
-
-- Overcommit            : Star 1164: [GitHub - brigade/overcommit: A fully configurable and extendable Git hook manager](https://github.com/brigade/overcommit/)
-- pre-commit by Yelp    : Star 774 : [pre-commit by Yelp](http://pre-commit.com/)
-- git-hooks (Meyer)     : Star 661 : [Meta Magic: Managing project, user, and global git hooks](http://benjamin-meyer.blogspot.jp/2010/06/managing-project-user-and-global-git.html)
-- git-hooks (git-hooks) : Star 121 : [Git-hooks by git-hooks](http : //git-hooks.github.io/git-hooks/)
-
 ## Other tools
 
 ### Ctags
