@@ -2,7 +2,7 @@ language: ruby
 sudo: false
 
 before_install:
-  - pip install --user codecov
+  - pip install --user codecov && codecov
 install:
   - gem install mdl
 before_script:
