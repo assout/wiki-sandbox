@@ -275,9 +275,10 @@ ghqで取得
         ghq look assout/todo.txt-cli
         git checkout -b note origin/note
 
-        # ln -sf $(cygpath $(ghq root))/github.com/mgarrido/todo.txt-cli/todo.actions.d/{archive,del,note,rm} ~/.todo/todo.actions.d
-        ln -sf $(cygpath $(ghq root))/github.com/assout/todo.txt-cli/todo.actions.d/{archive,del,note,rm} ~/.todo/todo.actions.d
-        ln -sf $(cygpath $(ghq root))/github.com/timpulver/todo.txt-graph/ ~/.todo/todo.actions.d/graph
+        mkdir -p ~/.todo.actions.d
+        # ln -sf $(cygpath $(ghq root))/github.com/mgarrido/todo.txt-cli/todo.actions.d/{archive,del,note,rm} ~/.todo.actions.d
+        ln -sf $(cygpath $(ghq root))/github.com/assout/todo.txt-cli/todo.actions.d/{archive,del,note,rm} ~/.todo.actions.d
+        ln -sf $(cygpath $(ghq root))/github.com/timpulver/todo.txt-graph/ ~/.todo.actions.d/graph
 
 ##### Options...
 
@@ -405,26 +406,6 @@ ShellCheckをインストール
     - システム プロパティ
         - ファイル
             - プロジェクト保存時にバックアップファイルを作成する: unchecked
-
-#### TODO.sh
-
-Completion
-
-    source todo_completion
-
-Add-on note
-
-    mkdir -p /usr/local/lib/todo.actions.d/
-    cd /usr/local/lib/todo.actions.d/
-
-    wget https://raw.githubusercontent.com/mgarrido/todo.txt-cli/note/todo.actions.d/archive
-    wget https://raw.githubusercontent.com/mgarrido/todo.txt-cli/note/todo.actions.d/del
-    wget https://raw.githubusercontent.com/mgarrido/todo.txt-cli/note/todo.actions.d/note
-    wget https://raw.githubusercontent.com/mgarrido/todo.txt-cli/note/todo.actions.d/rm
-
-    mkdir graph && cd $_
-    wget https://raw.githubusercontent.com/timpulver/todo.txt-graph/master/graph
-    wget https://raw.githubusercontent.com/timpulver/todo.txt-graph/master/graph.py
 
 ## Settings
 
