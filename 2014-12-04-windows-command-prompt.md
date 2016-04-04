@@ -208,6 +208,7 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
     mingw-w64-x86_64-ansicon-git \
     mingw-w64-x86_64-connect \
     mingw-w64-x86_64-gcc \
+    mingw-w64-x86_64-go \
     mingw-w64-x86_64-libnotify \
     mingw-w64-x86_64-nodejs \
     mingw-w64-x86_64-ruby \
@@ -255,7 +256,7 @@ ${HOME}/.npmrcを作成
     gem install mdl
     gem install yaml-lint
 
-##### Install other
+##### Install with ghq
 
 ghqで取得
 
@@ -279,6 +280,10 @@ ghqで取得
         # ln -sf $(cygpath $(ghq root))/github.com/mgarrido/todo.txt-cli/todo.actions.d/{archive,del,note,rm} ~/.todo.actions.d
         ln -sf $(cygpath $(ghq root))/github.com/assout/todo.txt-cli/todo.actions.d/{archive,del,note,rm} ~/.todo.actions.d
         ln -sf $(cygpath $(ghq root))/github.com/timpulver/todo.txt-graph/ ~/.todo.actions.d/graph
+
+##### Install with go
+
+    go get github.com/yuroyoro/gommit-m
 
 ##### Options...
 
