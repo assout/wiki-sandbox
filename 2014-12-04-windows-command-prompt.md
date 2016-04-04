@@ -96,15 +96,15 @@ Caution:
 ### On Task bar
 
 1. MSYS2 MINGW64 Shell
+1. Explore
 1. Google Chrome
 1. Internet Explorer
-1. Explore
 1. Outlook
-1. PowerPoint
 1. Excel
 1. Word
-1. Eclipse
+1. PowerPoint
 1. GVim
+1. Eclipse
 
 ### On Task Notice
 
@@ -263,12 +263,26 @@ ghqで取得
         ghq get https://github.com/assout/dotfiles/
         ghq get https://github.com/assout/memolist/
         ghq get https://github.com/assout/scripts/
+        ghq get https://github.com/assout/todo.txt-cli # TODO: mgarrido版からforkしてる
 
         ghq get https://github.com/chrismdp/p
         ghq get https://github.com/icefox/git-hooks/
-        # ghq get https://github.com/mgarrido/todo.txt-cli
-        ghq get https://github.com/assout/todo.txt-cli
         ghq get https://github.com/timpulver/todo.txt-graph
+        ghq get https://github.com/iwata/git-now
+        ghq get https://github.com/dwyl/english-words
+
+- install dict
+
+        mkdir -p /usr/share/dict/
+        ln -sf $(cygpath $(ghq root))/github.com/dwyl/english-words/words.txt /usr/share/dict/words
+
+- get submodules
+
+        ghq look iwata/git-now
+        sed -i.bk "s|git:|https:|" .gitmodules
+        git submodule init
+        git submodule update
+        make install
 
 - todo.sh add-ons
 
@@ -277,8 +291,7 @@ ghqで取得
         git checkout -b note origin/note
 
         mkdir -p ~/.todo.actions.d
-        # ln -sf $(cygpath $(ghq root))/github.com/mgarrido/todo.txt-cli/todo.actions.d/{archive,del,note,rm} ~/.todo.actions.d
-        ln -sf $(cygpath $(ghq root))/github.com/assout/todo.txt-cli/todo.actions.d/{archive,del,note,rm} ~/.todo.actions.d
+        ln -sf $(cygpath $(ghq root))/github.com/assout/todo.txt-cli/todo.actions.d/{archive,del,note,rm} ~/.todo.actions.d # TODO: mgarrido版からforkしてる
         ln -sf $(cygpath $(ghq root))/github.com/timpulver/todo.txt-graph/ ~/.todo.actions.d/graph
 
 ##### Install with go
