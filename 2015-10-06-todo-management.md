@@ -23,6 +23,7 @@ List
 - Mid - Important * Hard      : 重要だが難しい。歯を食いしばりながらやる。
 - Low - Unimportant * Easy    : 重要じゃないが簡単。まあやればよい。
 - Lowest - Unimportant * Hard : 重要じゃないのに難しい。基本塩漬けでもいいくらい。
+- Impossible                  : 着手したけど問題あってめど見えない奴。
 - Pending                     : わけあって中断中のもの、外部要因で止まっているもの。
 - Continuation                : 継続的なタスク。
 - Idea                        : 思いついたアプリ構想とか。

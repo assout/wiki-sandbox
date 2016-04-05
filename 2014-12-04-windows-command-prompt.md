@@ -268,21 +268,12 @@ ghqで取得
         ghq get https://github.com/chrismdp/p
         ghq get https://github.com/icefox/git-hooks/
         ghq get https://github.com/timpulver/todo.txt-graph
-        ghq get https://github.com/iwata/git-now
         ghq get https://github.com/dwyl/english-words
 
 - install dict
 
         mkdir -p /usr/share/dict/
         ln -sf $(cygpath $(ghq root))/github.com/dwyl/english-words/words.txt /usr/share/dict/words
-
-- get submodules
-
-        ghq look iwata/git-now
-        sed -i.bk "s|git:|https:|" .gitmodules
-        git submodule init
-        git submodule update
-        make install
 
 - todo.sh add-ons
 
