@@ -258,7 +258,7 @@ ${HOME}/.npmrcを作成
 
 ##### Install with ghq
 
-ghqで取得
+- ghqで取得
 
         ghq get https://github.com/assout/dotfiles/
         ghq get https://github.com/assout/memolist/
@@ -266,9 +266,10 @@ ghqで取得
         ghq get https://github.com/assout/todo.txt-cli # TODO: mgarrido版からforkしてる
 
         ghq get https://github.com/chrismdp/p
+        ghq get https://github.com/dwyl/english-words
+        ghq get https://github.com/github/hub
         ghq get https://github.com/icefox/git-hooks/
         ghq get https://github.com/timpulver/todo.txt-graph
-        ghq get https://github.com/dwyl/english-words
 
 - install dict
 
