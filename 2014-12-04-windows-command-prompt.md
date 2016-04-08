@@ -192,8 +192,7 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
 
 ##### Install with pacman
 
-    update-core
-    pacman -Su
+    pacman -Syu
 
     pacman -S \
     bc \
@@ -244,17 +243,19 @@ ${HOME}/.npmrcを作成
 
 インストール
 
-    npm install -g dockerfile_lint
-    npm install -g jsonlint
-    npm install -g js-yaml
-    npm install -g markdown-html
-    npm install -g markdown-to-slides
-    npm install -g tldr
+    npm install -g \
+    dockerfile_lint \
+    jsonlint \
+    js-yaml \
+    markdown-html \
+    markdown-to-slides \
+    tldr \
 
 ##### Install with gem
 
-    gem install mdl
-    gem install yaml-lint
+    gem install \
+    mdl \
+    yaml-lint \
 
 ##### Install with ghq
 
