@@ -177,8 +177,8 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
             login {gitlab user id}
             password {gitlab password}
 
-            machine {github host name}
-            login {github user id}
+            machine github.com
+            login assout
             password {github Personal access token}
             EOS
 
@@ -302,12 +302,6 @@ Refs: [Hybrid color settings for the Cygwin mintty terminal. $ cat .minttyrc-hyb
 参考 - tomorrow (256色じゃなさそうなので使わない)
 Refs: [mintty-color-schemes/base16-tomorrow.minttyrc at master ・ oumu/mintty-color-schemes ・ GitHub](https://github.com/oumu/mintty-color-schemes/blob/master/base16-mintty/base16-tomorrow.minttyrc)
 
-##### Other Settings
-
-- vimのundo file用のディレクトリ作成
-
-        mkdir -p ~/.cache/undo
-
 ##### Tips, Cautions
 
 - コマンドプロンプトを起動(別アプリとして)
@@ -356,6 +350,15 @@ Refs: [mintty-color-schemes/base16-tomorrow.minttyrc at master ・ oumu/mintty-c
     Refs: [mavenで文字化けを解消するための備忘録 - 備忘録のようなもの](http://d.hatena.ne.jp/black-vinegar/touch/20120211/p1)
 
 #### Vim
+
+- vimのundo file用のディレクトリ作成
+
+        mkdir -p ~/.cache/undo
+
+- vim-plug
+
+        curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+        vim -c "PlugInstall"
 
 - 翻訳用辞書をローカルに保存
     - ファイル取得
