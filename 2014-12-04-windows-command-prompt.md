@@ -265,6 +265,7 @@ ${HOME}/.npmrcを作成
         ghq get https://github.com/assout/memolist/
         ghq get https://github.com/assout/scripts/
         ghq get https://github.com/assout/todo.txt-note
+        ghq get https://github.com/assout/todo.txt-p
 
         ghq get https://github.com/chrismdp/p
         ghq get https://github.com/dwyl/english-words
@@ -282,7 +283,8 @@ ${HOME}/.npmrcを作成
         ghq look assout/todo.txt-note
 
         mkdir -p ~/.todo.actions.d
-        ln -sf $(cygpath $(ghq root))/github.com/assout/todo.txt-note/note ~/.todo.actions.d
+        ln -sf $(cygpath $(ghq root))/github.com/assout/todo.txt-note/note ~/.todo.actions.d/
+        ln -sf $(cygpath $(ghq root))/github.com/assout/todo.txt-p/p ~/.todo.actions.d/
         ln -sf $(cygpath $(ghq root))/github.com/timpulver/todo.txt-graph/ ~/.todo.actions.d/graph
 
 ##### Install with go
