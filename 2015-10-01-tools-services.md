@@ -54,6 +54,10 @@ Categories: []
 
 ### ShellCheck
 
+- Directive
+
+        # shellcheck disable=SC2059
+
 - SC2034
     - -> for文とかではdummyとして`_`を使う
 
