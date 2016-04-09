@@ -264,7 +264,7 @@ ${HOME}/.npmrcを作成
         ghq get https://github.com/assout/dotfiles/
         ghq get https://github.com/assout/memolist/
         ghq get https://github.com/assout/scripts/
-        ghq get https://github.com/assout/todo.txt-cli # TODO: mgarrido版からforkしてる
+        ghq get https://github.com/assout/todo.txt-note
 
         ghq get https://github.com/chrismdp/p
         ghq get https://github.com/dwyl/english-words
@@ -279,12 +279,10 @@ ${HOME}/.npmrcを作成
 
 - todo.sh add-ons
 
-        # ghq look mgarrido/todo.txt-cli
-        ghq look assout/todo.txt-cli
-        git checkout -b note origin/note
+        ghq look assout/todo.txt-note
 
         mkdir -p ~/.todo.actions.d
-        ln -sf $(cygpath $(ghq root))/github.com/assout/todo.txt-cli/todo.actions.d/{archive,del,note,rm} ~/.todo.actions.d # TODO: mgarrido版からforkしてる
+        ln -sf $(cygpath $(ghq root))/github.com/assout/todo.txt-note/note ~/.todo.actions.d
         ln -sf $(cygpath $(ghq root))/github.com/timpulver/todo.txt-graph/ ~/.todo.actions.d/graph
 
 ##### Install with go
