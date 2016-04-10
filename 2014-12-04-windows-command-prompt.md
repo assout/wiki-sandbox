@@ -72,6 +72,13 @@ Caution:
 - エクセルアドインは Refs: <2014-09-18-microsoft-excel.md>
 - MSYS2内で利用するものは Refs: <# MSYS2>
 
+#### Installing
+
+- TODO.TXT Command Line Interface
+
+         curl -L https://github.com/ginatrapani/todo.txt-cli/releases/download/v2.10/todo.txt_cli-2.10.tar.gz | tar zx -C ~/Tools/
+         chmod +x ~/Tools/todo.txt_cli-2.10/todo.sh
+
 #### Rare, Deprecated
 
 - Apache JMeter
@@ -225,6 +232,7 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
     tree \
     unzip
     vim \
+    wget \
     winpty \
     zip \
 
