@@ -79,6 +79,10 @@ Caution:
          curl -L https://github.com/ginatrapani/todo.txt-cli/releases/download/v2.10/todo.txt_cli-2.10.tar.gz | tar zx -C ~/Tools/
          chmod +x ~/Tools/todo.txt_cli-2.10/todo.sh
 
+- gibo
+
+         curl --create-dirs -Lo /usr/local/bin/gibo https://raw.github.com/simonwhitaker/gibo/master/gibo
+
 #### Rare, Deprecated
 
 - Apache JMeter
