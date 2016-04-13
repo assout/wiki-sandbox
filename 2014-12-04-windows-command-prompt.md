@@ -56,6 +56,7 @@ Categories: []
 - Tar for Windows                   : For unarchive msys2 install file : <http://gnuwin32.sourceforge.net/packages/gtar.htm>
 - TODO.TXT Command Line Interface   : [GitHub - ginatrapani/todo.txt-cli: A simple and extensible shell script for managing your todo.txt file.](https://github.com/ginatrapani/todo.txt-cli)
 - Vim(kaoriya)                      : Refs: <2014-09-30-vim.md> : [Vim ; KaoriYa](http://www.kaoriya.net/software/vim/)
+- WinMerge                          : 基本vimdiff使うがexcelの差分とか見れたはず
 - WinSCP                            : Free SFTP, SCP and FTP client for Windows
 - WinShot
 - XZ Utils                          : For unarchive msys2 install file : <http://tukaani.org/xz/>

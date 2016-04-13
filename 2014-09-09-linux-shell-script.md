@@ -679,6 +679,11 @@ Refs: [DigiLoog » Linuxの各圧縮コマンド実行速度と圧縮率を測�
 
         tail -f foo bar
 
+    - lessで行折り返さない
+
+        less -S hoge
+        # or lessで起動後-S
+
 - ln - (シンボリック)リンクを貼る
         - シンボリックリンク
 
