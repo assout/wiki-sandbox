@@ -136,6 +136,10 @@ Categories: []
 
         =VLOOKUP($B3,データシート!$A$2:$AO$1000,MATCH(C1,データシート!1:1,),FALSE)
 
+- シート名を取得
+
+        =RIGHT(CELL("filename",A2),LEN(CELL("filename",A2))-FIND("]",CELL("filename",A2)))
+
 ## Useful Feature
 
 - ホーム
