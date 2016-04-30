@@ -83,6 +83,10 @@ Caution:
 - gibo
 
          curl --create-dirs -Lo /usr/local/bin/gibo https://raw.github.com/simonwhitaker/gibo/master/gibo
+- hub
+
+        wget -P /tmp https://github.com/github/hub/releases/download/v2.2.3/hub-windows-amd64-2.2.3.zip
+        unzip -d ~/Tools/hub /tmp/hub-windows-amd64-2.2.3.zip
 
 #### Rare, Deprecated
 
@@ -102,7 +106,8 @@ Caution:
 
 ### On Startup
 
-- AutoHotKey
+- AutoHotKey (ahkファイルを置かないとダメかも)
+- Everything
 - WinShot
 
 ### On Task bar
@@ -133,6 +138,8 @@ Caution:
 #### AutoHotKey
 
 Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey](http://rcmdnk.github.io/blog/2013/08/04/computer-windows-autohotkey/)
+
+- プロパティ- 互換性 - 管理者としてこのプログラムを実行する
 
 #### Everything Command-line Interface
 
@@ -221,7 +228,9 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
     mingw-w64-x86_64-gcc \
     mingw-w64-x86_64-go \
     mingw-w64-x86_64-libnotify \
+    mingw-w64-x86_64-make \
     mingw-w64-x86_64-nodejs \
+    mingw-w64-x86_64-python3-pip
     mingw-w64-x86_64-ruby \
     patch \
     patchutils \
