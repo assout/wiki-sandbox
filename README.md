@@ -4,8 +4,6 @@ memolist
 
 ## How to install
 
-食べれる。
-
 Linux
 
 ```
