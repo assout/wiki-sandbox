@@ -174,6 +174,11 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
         MSYS=winsymlinks:nativestrict
         CHERE_INVOKING=1
 
+        vim /etc/pacman.conf
+        # 32bit用のリポジトリは無効にする
+        # [mingw32]
+        # Include = /etc/pacman.d/mirrorlist.mingw32
+
 - Edit fstab (パーミッションのため)
 
         vim /etc/fstab
