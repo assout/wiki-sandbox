@@ -173,6 +173,7 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
         vim ming64.ini
         MSYS=winsymlinks:nativestrict
         CHERE_INVOKING=1
+        MSYS2_PATH_TYPE=inherit
 
         vim /etc/pacman.conf
         # 32bit用のリポジトリは無効にする
