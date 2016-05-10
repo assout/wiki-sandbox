@@ -53,8 +53,8 @@ Categories: []
 - `Rapid Environment Editor`          : editor for environment : [Rapid Environment Editor](http://www.rapidee.com/ja/about)
 - `Remote Mouse`                      : For home.
 - `ShellCheck`
-- `Tar for Windows`                   : For unarchive msys2 install file : <http://gnuwin32.sourceforge.net/packages/gtar.htm>
 - `TODO.TXT Command Line Interface`   : [GitHub - ginatrapani/todo.txt-cli: A simple and extensible shell script for managing your todo.txt file.](https://github.com/ginatrapani/todo.txt-cli)
+- `Tar for Windows`                   : For unarchive msys2 install file : <http://gnuwin32.sourceforge.net/packages/gtar.htm>
 - `Vim(kaoriya)`                      : Refs: <2014-09-30-vim.md> : [Vim ; KaoriYa](http://www.kaoriya.net/software/vim/)
 - `WinMerge`                          : 基本vimdiff使うがexcelの差分とか見れたはず
 - `WinSCP`                            : Free SFTP, SCP and FTP client for Windows
@@ -66,6 +66,7 @@ Categories: []
 - `kSar`                              : [ksar : a sar grapher 日本語情報トップページ - OSDN](https://osdn.jp/projects/sfnet_ksar/)
 - `nkf`                               : 文字コード変換 : [nkf.exe nkf32.dll Windows用の詳細情報 : Vector ソフトを探す！](http://www.vector.co.jp/soft/win95/util/se295331.html)
 - `p`                                 : pomodoro by bash. Refs: [GitHub - chrismdp/p: A simple yet powerful pomodoro tracker in pure Shell](https://github.com/chrismdp/p)
+- `peco`                              : [GitHub - peco/peco: Simplistic interactive filtering tool](https://github.com/peco/peco)
 - `侍`
 
 Caution:
@@ -87,6 +88,8 @@ Caution:
 
         wget -P /tmp https://github.com/github/hub/releases/download/v2.2.3/hub-windows-amd64-2.2.3.zip
         unzip -d ~/Tools/hub /tmp/hub-windows-amd64-2.2.3.zip
+
+- `peco` : TODO 後で書く
 
 #### Rare, Deprecated
 
