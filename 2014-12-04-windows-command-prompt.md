@@ -52,6 +52,7 @@ Categories: []
 - `PlantUML`                          : TODO: 未確認 TODO: Graphvizもいりそう
 - `Rapid Environment Editor`          : editor for environment : [Rapid Environment Editor](http://www.rapidee.com/ja/about)
 - `Remote Mouse`                      : For home.
+- `ScreenToGif`                       : [ScreenToGif - Home](https://screentogif.codeplex.com/)
 - `ShellCheck`
 - `TODO.TXT Command Line Interface`   : [GitHub - ginatrapani/todo.txt-cli: A simple and extensible shell script for managing your todo.txt file.](https://github.com/ginatrapani/todo.txt-cli)
 - `Tar for Windows`                   : For unarchive msys2 install file : <http://gnuwin32.sourceforge.net/packages/gtar.htm>
