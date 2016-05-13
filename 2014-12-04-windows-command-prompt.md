@@ -302,7 +302,6 @@ ${HOME}/.npmrcを作成
         ghq get https://github.com/chrismdp/p
         ghq get https://github.com/dwyl/english-words
         ghq get https://github.com/github/hub
-        ghq get https://github.com/icefox/git-hooks/
         ghq get https://github.com/timpulver/todo.txt-graph
 
 - install dict
