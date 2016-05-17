@@ -305,6 +305,12 @@ ${HOME}/.npmrcを作成
         ghq get https://github.com/icefox/git-hooks/
         ghq get https://github.com/timpulver/todo.txt-graph
 
+- git hook用設定
+    - コミット禁止文字列ファイルの作成
+
+            touch ~/.git_prohibited_words
+            vi ~/.git_prohibited_words
+
 - install dict
 
         mkdir -p /usr/share/dict/
@@ -322,6 +328,8 @@ ${HOME}/.npmrcを作成
 ##### Install with go
 
     go get github.com/yuroyoro/gommit-m
+
+##### Others
 
 ##### Options...
 
