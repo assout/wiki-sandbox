@@ -250,6 +250,7 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
     python2 \
     rsync \
     sshpass \
+    subversion \
     tar \
     tig \
     tmux \
