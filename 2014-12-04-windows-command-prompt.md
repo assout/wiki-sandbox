@@ -90,6 +90,11 @@ Caution:
         wget -P /tmp https://github.com/github/hub/releases/download/v2.2.3/hub-windows-amd64-2.2.3.zip
         unzip -d ~/Tools/hub /tmp/hub-windows-amd64-2.2.3.zip
 
+- `seq2gif`
+
+        wget -P /tmp https://github.com/saitoha/seq2gif/releases/download/v0.10.3/seq2gif-windows-0.10.3.zip
+        unzip -d ~/Tools/seq2gif /tmp/seq2gif-windows-0.10.3.zip
+
 - `peco` : TODO 後で書く
 
 #### Rare, Deprecated
@@ -254,6 +259,7 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
     tig \
     tmux \
     tree \
+    ttyrec \
     unzip
     vim \
     wget \
