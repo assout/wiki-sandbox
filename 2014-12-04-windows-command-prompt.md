@@ -255,6 +255,7 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
     python2 \
     rsync \
     sshpass \
+    subversion \
     tar \
     tig \
     tmux \
@@ -310,6 +311,12 @@ ${HOME}/.npmrcを作成
         ghq get https://github.com/github/hub
         ghq get https://github.com/timpulver/todo.txt-graph
 
+- git hook用設定
+    - コミット禁止文字列ファイルの作成
+
+            touch ~/.git_prohibited_words
+            vi ~/.git_prohibited_words
+
 - install dict
 
         mkdir -p /usr/share/dict/
@@ -327,6 +334,8 @@ ${HOME}/.npmrcを作成
 ##### Install with go
 
     go get github.com/yuroyoro/gommit-m
+
+##### Others
 
 ##### Options...
 
@@ -457,6 +466,8 @@ ShellCheckをインストール
     - システム プロパティ
         - ファイル
             - プロジェクト保存時にバックアップファイルを作成する: unchecked
+        - 更新確認
+            - 起動時に更新確認を行う: unchecked
 
 ## Settings
 

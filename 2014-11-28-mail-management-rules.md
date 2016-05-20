@@ -8,6 +8,13 @@ Categories: []
 
 ---
 
+## Outlook
+
+### 分類項目
+
+- オレンジ : 自社関係
+- 黄色 : プロジェクト関係
+
 ## Gxxxmax
 
 ### Settings
