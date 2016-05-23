@@ -20,3 +20,4 @@ cd memolist
 ## TODOs
 
 - ある程度各ファイル内の構成を統一する（e.g. Description -> Settings -> Tipsとか）
+
