@@ -284,6 +284,8 @@ ${HOME}/.npmrcを作成
 
     npm install -g \
     dockerfile_lint \
+    eslint \
+    eslint-config-google \
     jsonlint \
     js-yaml \
     markdown-html \
