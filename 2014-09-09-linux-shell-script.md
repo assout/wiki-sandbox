@@ -469,12 +469,17 @@ Important:
 
         - 内容確認
 
-            unzip -l file
+                unzip -l file
 
         - 特定のファイルのみ解凍
 
-            unzip file.zip [files ...]
-            unzip file.zip */*.log
+                unzip file.zip [files ...]
+                unzip file.zip */*.log
+
+        - 複数解凍
+
+                # Note: *のエスケープが必要
+                unzip \*.zip
 
 - pigz - マルチコアで圧縮
     - 圧縮
