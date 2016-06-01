@@ -34,41 +34,41 @@ Categories: []
 
 ### List
 
-- `ANSIFilter`                        : [Downloads](http://www.andre-simon.de/zip/download.php)
-- `AutoHotKey`                        : msys2でのvim ime offに使用 : [AutoHotkey Downloads](https://autohotkey.com/download/)
-- `C/Migemo for Windows`              : For vim-migemo : [C/Migemo KaoriYa](http://www.kaoriya.net/software/cmigemo/)
-- `Cabal`                             : For ShellCheck
-- `Ctrl2cap`                          : キーボード配置変更(Caps LockをCtrlにする) : [Ctrl2cap](https://technet.microsoft.com/ja-jp/sysinternals/bb897578.aspx)
-- `Eclipse`                           : Refs: <2014-09-09-eclipse.md>
-- `Everything Command-line Interface` : [Downloads](http://www.voidtools.com/downloads/)
-- `Everything Search Engine`          : [Everything Search Engine](http://www.voidtools.com/)
-- `GCViewer`                          : [Releases ・ chewiebug/GCViewer ・ GitHub](https://github.com/chewiebug/GCViewer/releases)
-- `GHC`                               : For Cabal
-- `Google Chrome`                     : Refs: <2014-11-13-chrome.md>
-- `Java Decompiler (JD-GUI)`
-- `MSYS2`                             : <http://sourceforge.net/p/msys2/wiki/MSYS2%20installation/>, <http://sourceforge.net/projects/msys2/files/Base/x86_64/>
-- `Microsoft Lync`
-- `Pandoc`                            : markdown - textile 変換 等。
-- `PlantUML`                          : TODO: 未確認 TODO: Graphvizもいりそう
-- `Rapid Environment Editor`          : editor for environment : [Rapid Environment Editor](http://www.rapidee.com/ja/about)
-- `Remote Mouse`                      : For home.
-- `ScreenToGif`                       : [ScreenToGif - Home](https://screentogif.codeplex.com/)
-- `ShellCheck`
-- `TODO.TXT Command Line Interface`   : [GitHub - ginatrapani/todo.txt-cli: A simple and extensible shell script for managing your todo.txt file.](https://github.com/ginatrapani/todo.txt-cli)
-- `Tar for Windows`                   : For unarchive msys2 install file : <http://gnuwin32.sourceforge.net/packages/gtar.htm>
-- `Vim(kaoriya)`                      : Refs: <2014-09-30-vim.md> : [Vim ; KaoriYa](http://www.kaoriya.net/software/vim/)
-- `WinMerge`                          : 基本vimdiff使うがexcelの差分とか見れたはず
-- `WinSCP`                            : Free SFTP, SCP and FTP client for Windows
-- `WinShot`
-- `XZ Utils`                          : For unarchive msys2 install file : <http://tukaani.org/xz/>
-- `astah\* community`
-- `ghq`                               : [GitHub - motemen/ghq: Remote repository management made easy](https://github.com/motemen/ghq)
-- `hub`                               : [GitHub - github/hub: hub helps you win at git.](https://github.com/github/hub)
-- `kSar`                              : [ksar : a sar grapher 日本語情報トップページ - OSDN](https://osdn.jp/projects/sfnet_ksar/)
-- `nkf`                               : 文字コード変換 : [nkf.exe nkf32.dll Windows用の詳細情報 : Vector ソフトを探す！](http://www.vector.co.jp/soft/win95/util/se295331.html)
-- `p`                                 : pomodoro by bash. Refs: [GitHub - chrismdp/p: A simple yet powerful pomodoro tracker in pure Shell](https://github.com/chrismdp/p)
-- `peco`                              : [GitHub - peco/peco: Simplistic interactive filtering tool](https://github.com/peco/peco)
-- `侍`
+- _ANSIFilter_                        : [Downloads](http://www.andre-simon.de/zip/download.php)
+- _AutoHotKey_                        : msys2でのvim ime offに使用 : [AutoHotkey Downloads](https://autohotkey.com/download/)
+- _C/Migemo for Windows_              : For vim-migemo : [C/Migemo KaoriYa](http://www.kaoriya.net/software/cmigemo/)
+- _Cabal_                             : For ShellCheck
+- _Ctrl2cap_                          : キーボード配置変更(Caps LockをCtrlにする) : [Ctrl2cap](https://technet.microsoft.com/ja-jp/sysinternals/bb897578.aspx)
+- _Eclipse_                           : Refs: <2014-09-09-eclipse.md>
+- _Everything Command-line Interface_ : [Downloads](http://www.voidtools.com/downloads/)
+- _Everything Search Engine_          : [Everything Search Engine](http://www.voidtools.com/)
+- _GCViewer_                          : [Releases ・ chewiebug/GCViewer ・ GitHub](https://github.com/chewiebug/GCViewer/releases)
+- _GHC_                               : For Cabal
+- _Google Chrome_                     : Refs: <2014-11-13-chrome.md>
+- _Java Decompiler (JD-GUI)_
+- _MSYS2_                             : <http://sourceforge.net/p/msys2/wiki/MSYS2%20installation/>, <http://sourceforge.net/projects/msys2/files/Base/x86_64/>
+- _Microsoft Lync_
+- _Pandoc_                            : markdown - textile 変換 等。
+- _PlantUML_                          : TODO: 未確認 TODO: Graphvizもいりそう
+- _Rapid Environment Editor_          : editor for environment : [Rapid Environment Editor](http://www.rapidee.com/ja/about)
+- _Remote Mouse_                      : For home.
+- _ScreenToGif_                       : [ScreenToGif - Home](https://screentogif.codeplex.com/)
+- _ShellCheck_
+- _TODO.TXT Command Line Interface_   : [GitHub - ginatrapani/todo.txt-cli: A simple and extensible shell script for managing your todo.txt file.](https://github.com/ginatrapani/todo.txt-cli)
+- _Tar for Windows_                   : For unarchive msys2 install file : <http://gnuwin32.sourceforge.net/packages/gtar.htm>
+- _Vim(kaoriya)_                      : Refs: <2014-09-30-vim.md> : [Vim ; KaoriYa](http://www.kaoriya.net/software/vim/)
+- _WinMerge_                          : 基本vimdiff使うがexcelの差分とか見れたはず
+- _WinSCP_                            : Free SFTP, SCP and FTP client for Windows
+- _WinShot_
+- _XZ Utils_                          : For unarchive msys2 install file : <http://tukaani.org/xz/>
+- _astah\* community_
+- _ghq_                               : [GitHub - motemen/ghq: Remote repository management made easy](https://github.com/motemen/ghq)
+- _hub_                               : [GitHub - github/hub: hub helps you win at git.](https://github.com/github/hub)
+- _kSar_                              : [ksar : a sar grapher 日本語情報トップページ - OSDN](https://osdn.jp/projects/sfnet_ksar/)
+- _nkf_                               : 文字コード変換 : [nkf.exe nkf32.dll Windows用の詳細情報 : Vector ソフトを探す！](http://www.vector.co.jp/soft/win95/util/se295331.html)
+- _p_                                 : pomodoro by bash. Refs: [GitHub - chrismdp/p: A simple yet powerful pomodoro tracker in pure Shell](https://github.com/chrismdp/p)
+- _peco_                              : [GitHub - peco/peco: Simplistic interactive filtering tool](https://github.com/peco/peco)
+- _侍_
 
 Caution:
 
@@ -77,70 +77,70 @@ Caution:
 
 #### Installing
 
-- `TODO.TXT Command Line Interface`
+- _TODO.TXT Command Line Interface_
 
          curl -L https://github.com/ginatrapani/todo.txt-cli/releases/download/v2.10/todo.txt_cli-2.10.tar.gz | tar zx -C ~/Tools/
          chmod +x ~/Tools/todo.txt_cli-2.10/todo.sh
 
-- `gibo`
+- _gibo_
 
          curl --create-dirs -Lo /usr/local/bin/gibo https://raw.github.com/simonwhitaker/gibo/master/gibo
-- `hub`
+- _hub_
 
         wget -P /tmp https://github.com/github/hub/releases/download/v2.2.3/hub-windows-amd64-2.2.3.zip
         unzip -d ~/Tools/hub /tmp/hub-windows-amd64-2.2.3.zip
 
-- `seq2gif`
+- _seq2gif_
 
         wget -P /tmp https://github.com/saitoha/seq2gif/releases/download/v0.10.3/seq2gif-windows-0.10.3.zip
         unzip -d ~/Tools/seq2gif /tmp/seq2gif-windows-0.10.3.zip
 
-- `peco` : TODO 後で書く
+- _peco_ : TODO 後で書く
 
 #### Rare, Deprecated
 
-- `Apache JMeter`
-- `Apache Maven`
-- `Apache Tomcat`
-- `CarotDAV`                       : WebDav client. For Gxxxxmax Collaboration
-- `Chat & Messenger`               : IP Messengerの高機能版。\* 使用者同士が表示されるので場合によっては使わない。Slackに以降!
-- `DF`                             : 基本diff使うが。フォルダ比較、バイナリ比較時に使う
-- `DropCompres`                    : 一括unzipなどで使用。基本MSYS2で行うがたまに使う
-- `FileSum`                        : 基本MSYS2(du,df)を使う
-- `Flexible Renamer`               : 基本MSYS2(rename,mv)を使う
-- `Git for Windows (Portable Git)` : 基本MSYS2を使うが初回cloneできないことがあるためこっちのgit-cmd.exe使う Refs: [Releases ・ git-for-windows/git ・ GitHub](https://github.com/git-for-windows/git/releases)
-- `SQL Developer`
-- `SizeOf`                         : Java インスタンスのメモリサイズ計測 Refs: [いー ドット ぷりんとすたっくとれーす : Javaのインスタンスが使っているメモリサイズをみたい](http : //edotprintstacktrace.blogspot.jp/2007/04/java.html)
-- `TeraTerm`                       : 基本MSYS2 (ssh)を使う
+- _Apache JMeter_
+- _Apache Maven_
+- _Apache Tomcat_
+- _CarotDAV_                       : WebDav client. For Gxxxxmax Collaboration
+- _Chat & Messenger_               : IP Messengerの高機能版。\* 使用者同士が表示されるので場合によっては使わない。Slackに以降!
+- _DF_                             : 基本diff使うが。フォルダ比較、バイナリ比較時に使う
+- _DropCompres_                    : 一括unzipなどで使用。基本MSYS2で行うがたまに使う
+- _FileSum_                        : 基本MSYS2(du,df)を使う
+- _Flexible Renamer_               : 基本MSYS2(rename,mv)を使う
+- _Git for Windows (Portable Git)_ : 基本MSYS2を使うが初回cloneできないことがあるためこっちのgit-cmd.exe使う Refs: [Releases ・ git-for-windows/git ・ GitHub](https://github.com/git-for-windows/git/releases)
+- _SQL Developer_
+- _SizeOf_                         : Java インスタンスのメモリサイズ計測 Refs: [いー ドット ぷりんとすたっくとれーす : Javaのインスタンスが使っているメモリサイズをみたい](http : //edotprintstacktrace.blogspot.jp/2007/04/java.html)
+- _TeraTerm_                       : 基本MSYS2 (ssh)を使う
 
 ### On Startup
 
-- `AutoHotKey` (ahkファイルを置かないとダメかも)
-- `Everything`
-- `WinShot`
+- _AutoHotKey_ (ahkファイルを置かないとダメかも)
+- _Everything_
+- _WinShot_
 
 ### On Task bar
 
-1. `MSYS2 MINGW64 Shell`
-1. `Explore`
-1. `Google Chrome`
-1. `Internet Explorer`
-1. `Outlook`
-1. `Excel`
-1. `Word`
-1. `PowerPoint`
-1. `GVim`
-1. `Eclipse`
+1. _MSYS2 MINGW64 Shell_
+1. _Explore_
+1. _Google Chrome_
+1. _Internet Explorer_
+1. _Outlook_
+1. _Excel_
+1. _Word_
+1. _PowerPoint_
+1. _GVim_
+1. _Eclipse_
 
 ### On Task Notice
 
 以下に対し"アイコンと通知を表示"を選択
 
-- `AutoHotKey`
-- `Everything Search Engine`
-- `Microsoft Lync`
-- `Microsoft Outlook`
-- `WinShot`
+- _AutoHotKey_
+- _Everything Search Engine_
+- _Microsoft Lync_
+- _Microsoft Outlook_
+- _WinShot_
 
 ### Details
 
