@@ -224,6 +224,10 @@ Refs: [Vimを使う上でのIME(日本語入力)の取り扱い with AutoHotKey]
             # Eclipse(EGit)から参照できるように以下にsystemのgitconfigを作成。/etc/gitconfigが存在することが前提
             ln -sf /etc /d/etc
 
+- hostsをwindowsと共用する(二重管理が嫌なため。またsshが/etc/hostsのほう見ないっポイ)
+
+        ln -s /c/Windows/System32/drivers/etc/hosts /etc/hosts
+
 ##### Install with pacman
 
     pacman -Syu
