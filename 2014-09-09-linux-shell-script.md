@@ -687,7 +687,7 @@ Refs: [DigiLoog » Linuxの各圧縮コマンド実行速度と圧縮率を測�
     - lessで行折り返さない
 
         less -S hoge
-        # or lessで起動後-S
+        <pre># or lessで起動後-S</pre>
 
 - ln - (シンボリック)リンクを貼る
         - シンボリックリンク
