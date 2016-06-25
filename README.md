@@ -1,4 +1,4 @@
 # memolist
 memolist
 
-[wiki](Home)
+[wiki](https://github.com/assout/memolist/wiki)
