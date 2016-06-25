@@ -1,3 +1,0 @@
-style "#{Dir.home}/.mdlrc.style.rb"
-
-# vim:set filetype=ruby:
